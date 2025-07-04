@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <title>My Web Page</title>
+    </head>
+
+    <style>
+        label{
+            font-size: 40px;
+        }
+        input[type="file"] {
+            width: 500px;
+            height: 500px;
+
+            font-size: 40px;
+
+            background-color: lightblue;
+
+            border-radius: 50px;
+            border-color: black;
+            border: 100px;
+        }
+        input[type="file"]::file-selector-button {
+            width: 500px;
+            height: 500px;
+
+            font-size: 40px;
+
+            background-color: lightblue;
+
+            border-radius: 50px;
+            border-color: black;
+            border: 100px;
+        }
+        button{
+            width: 500px;
+            height: 500px;
+
+            font-size: 40px;
+
+            background-color: lightcoral;
+
+            border-radius: 50px;
+            border-color: black;
+            border: 100px;
+        }
+        img{
+            width: 50%;
+            height: auto;
+        }
+
+        .color-box {
+            width: 40px;
+            height: 40px;
+            display: inline-block;
+            background-color: #ccc;
+            position: absolute;
+            padding-left: 20px;
+            padding-top: 20px;
+        }
+    </style>
+
+    <body>
+        <h1>Hello World!</h1>
+        <p>This is a simple HTML page served by NodeJS Express</p>
+
+        <form>
+            <label for="imageUpload">Upload an image (JPEG or PNG):</label>
+
+            </br>
+
+            <input type="file" id="fileSelector" name="fileSelector" accept=".jpeg, .jpg, .png">
+
+            <button type="button" id="buttonSubmit" name="buttonSubmit">SEND!</button>
+        </form>
+
+        <div>
+            <label id="labelDownloadStatus">Download Status: </label> 
+            <div id="colorboxDownloadStatus" class="color-box" style="background-color: blue"></div>
+
+            </br>
+
+            <label id="labelConnectionStatus">Connection Status: </label> 
+            <div id="colorboxConnectionStatus" class="color-box" style="background-color: blue"></div>
+        </div>
+
+        </br>
+
+        <div>
+            <label id="labelImage">No Image Selected!</label> 
+            </br>
+            <img id="image" src="#">
+        </div>
+    </body>
+
+    <script>
+        // Display Preview Image
+        document.getElementById("fileSelector").addEventListener('change', async (event) => {
+            
+            document.getElementById("colorboxDownloadStatus").style = "background-color: red";
+
+            const selectedFile = document.getElementById("fileSelector").files[0];
+                const fileName = selectedFile.name;
+                const fileType = selectedFile.type;
+
+            document.getElementById("labelImage").innerHTML = fileName;
+
+            const reader = new FileReader();
+            reader.onload = function(event){
+                document.getElementById("image").src = event.target.result;
+                document.getElementById("image").style.display = 'block';
+            };
+            reader.readAsDataURL(selectedFile);
+        });
+
+        // Send Image over HTTP
+        document.getElementById("buttonSubmit").addEventListener('click', async (event) => {
+
+            document.getElementById("colorboxDownloadStatus").style = "background-color: red";
+            
+            const selectedFile = document.getElementById("fileSelector").files[0];
+                const fileName = selectedFile.name;
+                const fileType = selectedFile.type;
+
+            const formData = new FormData();
+
+            formData.append(fileName, selectedFile);
+
+            const response = await fetch('/upload', {
+                method: "POST",
+                body: formData
+            });
+
+            if(response.ok)
+                document.getElementById("colorboxDownloadStatus").style = "background-color: green";
+        });
+
+        async function update(){
+            const response = await fetch('/alive', {
+                method: "GET",
+            });
+
+            if(response.ok){
+                document.getElementById("colorboxConnectionStatus").style = "background-color: green";
+            }
+            else
+                document.getElementById("colorboxConnectionStatus").style = "background-color: red";
+        }
+
+        // Update every second
+        window.setInterval(update, 1000);
+    </script>
+</html>

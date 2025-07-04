@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <title>My Web Page</title>
+    </head>
+
+    <style>
+        input[type="file"] {
+            width: 75%;
+            height: 75%;
+        }
+        input[type="file"]::file-selector-button {
+            width: 75%;
+            height: 75%;
+        }
+    </style>
+
+    <body>
+        <h1>Hello, World!</h1>
+        <p>This is a simple HTML page served by NodeJS Express</p>
+
+        <form action="/image" method="post" enctype="multipart/form-data">
+            <label for="imageUpload">Upload an image (JPEG, PNG, or HEIC):</label>
+            <input type="file" id="imageUpload" name="imageUpload" accept=".jpeg, .jpg, .png" height="1000">
+            <input type="submit" value="Submit">
+        </form>
+
+        <a href="other.html">link</a>
+    </body>
+
+    <script>
+        document.getElementById("imageUpload").addEventListener('click', () => {
+            fetch()
+        });
+    </script>
+</html>
