@@ -24,7 +24,7 @@
 #include "util/mouse.hpp"
 
 #include <content_manager.hpp>
-#include <system_manager.hpp>
+#include <system.hpp>
 
 #include "util/helpers/qthelper.hpp"
 #include "util/utility.hpp"

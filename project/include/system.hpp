@@ -86,7 +86,7 @@ namespace system{
         std::string minute = std::to_string(QDateTime::currentDateTime().time().minute());
         std::string second = std::to_string(QDateTime::currentDateTime().time().second());
 
-        return year + "-" + month + "-" + day + "___" + hour + "-" + minute + "-" + second; 
+        return year + "-" + month + "-" + day + "_" + hour + "-" + minute + "-" + second; 
     }
 
 }; // namespace system
