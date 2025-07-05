@@ -20,6 +20,13 @@ class Logger{
             return is_file_open();
         }
 
+        void log(std::string text){
+            if(!is_file_open())
+                return;
+
+            
+        }
+
         bool is_file_open(){
             return log_file.is_open();
         }
