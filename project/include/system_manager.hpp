@@ -33,64 +33,62 @@
 
 using namespace std;
 
-class SystemManager{
+namespace system{
 
-    public:
+    static std::string get_ip_address(){
 
-        static std::string get_ip_address(){
+        ifaddrs* interfaces;
+        ifaddrs* iface;
 
-            ifaddrs* interfaces;
-            ifaddrs* iface;
+        getifaddrs(&interfaces);
 
-            getifaddrs(&interfaces);
+        for (iface = interfaces; iface != NULL; iface = iface->ifa_next) {
 
-            for (iface = interfaces; iface != NULL; iface = iface->ifa_next) {
-
-                if (!iface->ifa_addr) 
-                    continue;
-                
-                // if it is IP4
-                if (iface->ifa_addr->sa_family == AF_INET) {
-                    
-                    in_addr* ip = &((sockaddr_in*)iface->ifa_addr)->sin_addr;
-                    char* adapter_name = iface->ifa_name;
-                    char ip_chars[INET_ADDRSTRLEN];
-
-                    inet_ntop(AF_INET, ip, ip_chars, sizeof(ip_chars));
-
-                    std::string ip_string = ip_chars;
-
-                    if(strings::starts_with(ip_string, "192"))
-                        return ip_string;
-                }
-            }
+            if (!iface->ifa_addr) 
+                continue;
             
-            if (interfaces!=NULL) 
-                freeifaddrs(interfaces);
+            // if it is IP4
+            if (iface->ifa_addr->sa_family == AF_INET) {
+                
+                in_addr* ip = &((sockaddr_in*)iface->ifa_addr)->sin_addr;
+                char* adapter_name = iface->ifa_name;
+                char ip_chars[INET_ADDRSTRLEN];
 
-            return NULL;
+                inet_ntop(AF_INET, ip, ip_chars, sizeof(ip_chars));
+
+                std::string ip_string = ip_chars;
+
+                if(strings::starts_with(ip_string, "192"))
+                    return ip_string;
+            }
         }
+        
+        if (interfaces!=NULL) 
+            freeifaddrs(interfaces);
 
-        static QDateTime get_qdatetime(){
-            return QDateTime::currentDateTime();
-        }
+        return NULL;
+    }
 
-        static string get_date_time_words(){
-            return QDateTime::currentDateTime().toString().toStdString();
-        }
+    static QDateTime get_qdatetime(){
+        return QDateTime::currentDateTime();
+    }
 
-        static string get_date_time_numbers(){
-            std::string day = std::to_string(QDateTime::currentDateTime().date().day());
-            std::string month = std::to_string(QDateTime::currentDateTime().date().month());
-            std::string year = std::to_string(QDateTime::currentDateTime().date().year());
+    static string get_date_time_words(){
+        return QDateTime::currentDateTime().toString().toStdString();
+    }
 
-            std::string hour = std::to_string(QDateTime::currentDateTime().time().hour());
-            std::string minute = std::to_string(QDateTime::currentDateTime().time().minute());
-            std::string second = std::to_string(QDateTime::currentDateTime().time().second());
+    static string get_date_time_numbers(){
+        std::string day = std::to_string(QDateTime::currentDateTime().date().day());
+        std::string month = std::to_string(QDateTime::currentDateTime().date().month());
+        std::string year = std::to_string(QDateTime::currentDateTime().date().year());
 
-            return year + "-" + month + "-" + day + "___" + hour + "-" + minute + "-" + second; 
-        }
+        std::string hour = std::to_string(QDateTime::currentDateTime().time().hour());
+        std::string minute = std::to_string(QDateTime::currentDateTime().time().minute());
+        std::string second = std::to_string(QDateTime::currentDateTime().time().second());
 
-}; // class SystemManager
+        return year + "-" + month + "-" + day + "___" + hour + "-" + minute + "-" + second; 
+    }
+
+}; // namespace system
 
 #endif // SYSTEM_MANAGER_HPP
