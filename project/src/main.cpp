@@ -25,22 +25,34 @@
 #include <netinet/in.h> 
 #include <string.h> 
 #include <arpa/inet.h>
+#include <fstream>
 
 #include "widget.hpp"
 #include "window.hpp"
 
 int main(int argc, char* argv[]) {
     // Code to be executed
-    QApplication app(argc, argv);
+    // QApplication app(argc, argv);
 
-    Window window;
+    // Window window;
 
-    window.resize(1600, 800);
-    window.show();
+    // window.resize(1600, 800);
+    // window.show();
 
-    app.exec();
+    // app.exec();
 
-    window.join();
+    // window.join();
+
+    std::ofstream outputFile("../logs/bob.log");
+
+    if(outputFile.is_open()){
+        std::cout << "hello" << std::endl;
+        outputFile << "Hello World!" << std::endl;
+    }
+    else{
+        std::cout << "world" << std::endl;
+        return 1;
+    }
 
     return 0;
 }

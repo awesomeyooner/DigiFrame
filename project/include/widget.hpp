@@ -79,8 +79,8 @@ class Widget : public QWidget{
         void initialize(){
             sidebar.add_entry(
                 [this](QPainter* painter){
-                    string ip_address = system::get_ip_address();
-                    string datetime = system::get_date_time_numbers();
+                    string ip_address = sys::get_ip_address();
+                    string datetime = sys::get_date_time_numbers();
 
                     painter->setFont(QFont("Arial", 24, QFont::Bold));
                     painter->setPen(Qt::yellow);

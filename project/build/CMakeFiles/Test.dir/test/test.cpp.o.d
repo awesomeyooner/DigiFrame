@@ -1,5 +1,5 @@
 CMakeFiles/Test.dir/test/test.cpp.o: \
- /home/dev/Documents/GitHub/Projects/C++/Digital\ Pictureframe/project/test/test.cpp \
+ /home/dev/Documents/GitHub/DigiFrame/project/test/test.cpp \
  /usr/include/stdc-predef.h /home/dev/anaconda3/include/gtest/gtest.h \
  /usr/include/c++/11/cstddef \
  /usr/include/x86_64-linux-gnu/c++/11/bits/c++config.h \
@@ -267,7 +267,7 @@ CMakeFiles/Test.dir/test/test.cpp.o: \
  /home/dev/anaconda3/include/gtest/gtest_prod.h \
  /home/dev/anaconda3/include/gtest/gtest-typed-test.h \
  /home/dev/anaconda3/include/gtest/gtest_pred_impl.h \
- /home/dev/Documents/GitHub/Projects/C++/Digital\ Pictureframe/project/include/math/math_helper.hpp \
+ /home/dev/Documents/GitHub/DigiFrame/project/include/math/math_helper.hpp \
  /usr/include/c++/11/cmath /usr/include/math.h \
  /usr/include/x86_64-linux-gnu/bits/math-vector.h \
  /usr/include/x86_64-linux-gnu/bits/libm-simd-decl-stubs.h \

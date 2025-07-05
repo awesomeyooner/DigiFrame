@@ -400,6 +400,11 @@ CMakeFiles/Main.dir/src/main.cpp.o: ../src/main.cpp \
   /usr/include/x86_64-linux-gnu/bits/netdb.h \
   /usr/include/arpa/inet.h \
   /usr/include/ifaddrs.h \
+  /usr/include/c++/11/fstream \
+  /usr/include/c++/11/bits/codecvt.h \
+  /usr/include/x86_64-linux-gnu/c++/11/bits/basic_file.h \
+  /usr/include/x86_64-linux-gnu/c++/11/bits/c++io.h \
+  /usr/include/c++/11/bits/fstream.tcc \
   ../include/widget.hpp \
   /usr/include/x86_64-linux-gnu/qt5/QtWidgets/QWidget \
   /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qwidget.h \
@@ -442,7 +447,6 @@ CMakeFiles/Main.dir/src/main.cpp.o: ../src/main.cpp \
   /usr/include/x86_64-linux-gnu/c++/11/bits/time_members.h \
   /usr/include/x86_64-linux-gnu/c++/11/bits/messages_members.h \
   /usr/include/libintl.h \
-  /usr/include/c++/11/bits/codecvt.h \
   /usr/include/c++/11/bits/locale_facets_nonio.tcc \
   /usr/include/c++/11/bits/locale_conv.h \
   /usr/include/c++/11/iomanip \
@@ -487,13 +491,9 @@ CMakeFiles/Main.dir/src/main.cpp.o: ../src/main.cpp \
   ../include/math/vector2d.hpp \
   ../include/math/point2d.hpp \
   ../include/content_manager.hpp \
-  ../include/system_manager.hpp \
+  ../include/system.hpp \
   ../include/util/utility.hpp \
   ../include/util/helpers/qthelper.hpp \
-  /usr/include/c++/11/fstream \
-  /usr/include/x86_64-linux-gnu/c++/11/bits/basic_file.h \
-  /usr/include/x86_64-linux-gnu/c++/11/bits/c++io.h \
-  /usr/include/c++/11/bits/fstream.tcc \
   ../include/util/helpers/qthelper.hpp \
   ../include/sidebar.hpp \
   ../include/window.hpp \
@@ -2126,12 +2126,6 @@ CMakeFiles/Main.dir/src/main.cpp.o: ../src/main.cpp \
 
 /usr/include/boost/asio/detail/config.hpp:
 
-/usr/include/x86_64-linux-gnu/c++/11/bits/c++io.h:
-
-/usr/include/boost/numeric/conversion/udt_builtin_mixture_enum.hpp:
-
-/usr/include/c++/11/fstream:
-
 ../include/content_manager.hpp:
 
 /usr/include/boost/smart_ptr/bad_weak_ptr.hpp:
@@ -2206,10 +2200,6 @@ CMakeFiles/Main.dir/src/main.cpp.o: ../src/main.cpp \
 
 /usr/include/x86_64-linux-gnu/qt5/QtCore/QSize:
 
-/usr/include/x86_64-linux-gnu/c++/11/bits/basic_file.h:
-
-/usr/include/x86_64-linux-gnu/qt5/QtCore/QRect:
-
 /usr/include/boost/date_time/posix_time/posix_time_config.hpp:
 
 /usr/include/x86_64-linux-gnu/qt5/QtGui/qscreen.h:
@@ -2237,6 +2227,16 @@ CMakeFiles/Main.dir/src/main.cpp.o: ../src/main.cpp \
 /usr/include/boost/config/compiler/gcc.hpp:
 
 /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qtwidgets-config.h:
+
+/usr/include/x86_64-linux-gnu/c++/11/bits/c++io.h:
+
+/usr/include/x86_64-linux-gnu/qt5/QtCore/QRect:
+
+/usr/include/x86_64-linux-gnu/c++/11/bits/basic_file.h:
+
+/usr/include/boost/numeric/conversion/udt_builtin_mixture_enum.hpp:
+
+/usr/include/c++/11/fstream:
 
 /usr/include/boost/function/function_template.hpp:
 
@@ -2359,6 +2359,12 @@ CMakeFiles/Main.dir/src/main.cpp.o: ../src/main.cpp \
 /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qmainwindow.h:
 
 /usr/include/boost/asio/require.hpp:
+
+../include/system.hpp:
+
+/usr/include/boost/type_traits/is_function.hpp:
+
+/usr/include/boost/smart_ptr/detail/sp_thread_sleep.hpp:
 
 /usr/include/x86_64-linux-gnu/qt5/QtGui/qpixmap.h:
 
@@ -3260,10 +3266,6 @@ CMakeFiles/Main.dir/src/main.cpp.o: ../src/main.cpp \
 
 /usr/include/boost/config/detail/suffix.hpp:
 
-../include/system_manager.hpp:
-
-/usr/include/boost/numeric/conversion/converter.hpp:
-
 /usr/include/c++/11/cstddef:
 
 /usr/include/boost/asio/traits/query_member.hpp:
@@ -4072,10 +4074,6 @@ CMakeFiles/Main.dir/src/main.cpp.o: ../src/main.cpp \
 
 /usr/include/boost/mpl/aux_/config/integral.hpp:
 
-/usr/include/boost/type_traits/is_function.hpp:
-
-/usr/include/boost/smart_ptr/detail/sp_thread_sleep.hpp:
-
 /usr/include/x86_64-linux-gnu/bits/iscanonical.h:
 
 /usr/include/boost/smart_ptr/detail/local_sp_deleter.hpp:
@@ -4161,6 +4159,8 @@ CMakeFiles/Main.dir/src/main.cpp.o: ../src/main.cpp \
 /usr/include/boost/mpl/eval_if.hpp:
 
 /usr/include/boost/type.hpp:
+
+/usr/include/boost/numeric/conversion/converter.hpp:
 
 /usr/include/boost/mpl/aux_/config/pp_counter.hpp:
 

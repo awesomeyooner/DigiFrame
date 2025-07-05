@@ -223,7 +223,7 @@ class Server{
 
                         std::string image_data = body_string.substr(image_start, image_end - image_start);
                         
-                        std::string image_name = "image_" + system::get_date_time_numbers() + ".png";
+                        std::string image_name = "image_" + sys::get_date_time_numbers() + ".png";
                         std::ofstream file("../assets/images/" + image_name, std::ios::binary);
                         file.write(&body[image_start], image_end - image_start);
 

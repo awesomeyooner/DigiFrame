@@ -1,5 +1,5 @@
-if(EXISTS "/home/dev/Documents/GitHub/Projects/C++/Digital Pictureframe/project/build/Test[1]_tests.cmake")
-  include("/home/dev/Documents/GitHub/Projects/C++/Digital Pictureframe/project/build/Test[1]_tests.cmake")
+if(EXISTS "/home/dev/Documents/GitHub/DigiFrame/project/build/Test[1]_tests.cmake")
+  include("/home/dev/Documents/GitHub/DigiFrame/project/build/Test[1]_tests.cmake")
 else()
   add_test(Test_NOT_BUILT Test_NOT_BUILT)
 endif()
