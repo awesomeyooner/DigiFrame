@@ -28,6 +28,7 @@
 #include <sstream>
 
 #include "util/utility.hpp"
+#include "util/helpers/logger.hpp"
 
 using namespace boost::asio;
 using namespace boost::asio::ip;
@@ -56,23 +57,8 @@ class Server{
             acceptor.accept(socket);
 
             //run handle_client asyncronously
-            handle_client(std::move(socket));
-            // std::thread(&Server::handle_client, this, std::move(socket)).detach();
-        }
-
-        void debug_buffer(boost::asio::streambuf& buf) {
-            auto bufs = buf.data();
-            std::string data(boost::asio::buffers_begin(bufs), boost::asio::buffers_end(bufs));
-            std::cerr << "==== BUFFER CONTENTS ====\n";
-            std::cerr << "Size: " << data.size() << " bytes\n";
-            std::cerr << "Content: ";
-            for (char c : data) {
-                if (c == '\r') std::cerr << "\\r";
-                else if (c == '\n') std::cerr << "\\n";
-                else if (std::isprint(c)) std::cerr << c;
-                else std::cerr << '?';
-            }
-            std::cerr << "\n==== END BUFFER ====\n";
+            // handle_client(std::move(socket));
+            std::thread(&Server::handle_client, this, std::move(socket)).detach();
         }
 
         void handle_client(tcp::socket socket){
@@ -86,8 +72,6 @@ class Server{
                 std::istringstream iss(request_line);
                 std::string method, path, protocol;
                 iss >> method >> path >> protocol;
-
-                // std::cerr << "[DEBUG] Starting header reading...\n";
 
                 // Read the Header
                 std::string header_buffer;
@@ -125,10 +109,10 @@ class Server{
 
                 // Print everything in the map
                 for(const auto& pair : headers){
-                    std::cerr << "[DEBUG] Header Map: " << pair.first << ": " << pair.second << "\n";
+                    Logger::debug("Header Map: " + pair.first + ": " + pair.second);
                 }
 
-                std::cerr << "\n";
+                Logger::debug("");
 
                 // std::cerr << "[DEBUG] Unpretty Header: " << header_line << "\n";
                 // std::cerr << "[DEBUG] End of header reading...\n";
@@ -174,9 +158,7 @@ class Server{
                             error_code
                         );
                         if (error_code || bytes_read != remaining_bytes) {
-                            std::cerr << "Failed to read full body: "
-                                    << (error_code ? error_code.message() : "incomplete read") 
-                                    << "\n";
+                            Logger::error("Failed to read full body: " + (error_code ? error_code.message() : "incomplete read"));
                             send_response(&socket, ResponseType::INTERNAL_ERROR);
                             return;
                         }
@@ -203,7 +185,7 @@ class Server{
 
                         if(header_end == std::string::npos){
                             send_response(&socket, ResponseType::INTERNAL_ERROR);
-                            std::cerr << "[ERROR] header end error" << "\n";
+                            Logger::error("header end error");
                             return;
                         }
 
@@ -213,7 +195,7 @@ class Server{
 
                         if(image_end == std::string::npos){
                             send_response(&socket, ResponseType::INTERNAL_ERROR);
-                            std::cerr << "[ERROR] image end error" << "\n";
+                            Logger::error("image end error");
                             return;
                         }
 
@@ -228,7 +210,7 @@ class Server{
                         file.write(&body[image_start], image_end - image_start);
 
                         send_response(&socket, ResponseType::OK);
-                        util::log("DEBUG", "", "Image Downloaded");
+                        Logger::info("Image Downloaded");
 
                         Widget::check_images();
                         
@@ -240,8 +222,7 @@ class Server{
                 
             }
             catch(std::exception& e){
-                qDebug() << e.what();
-                std::cerr << "Exception: " << e.what() << std::endl;
+                Logger::error(e.what());
             }
         }
 

@@ -1,5 +1,5 @@
-#ifndef SYSTEM_MANAGER_HPP
-#define SYSTEM_MANAGER_HPP
+#ifndef SYSTEM_HPP
+#define SYSTEM_HPP
 
 #include <QtWidgets/QWidget>
 #include <QPainter>
@@ -77,14 +77,21 @@ namespace sys{
         return QDateTime::currentDateTime().toString().toStdString();
     }
 
-    static string get_date_time_numbers(std::string unit_seperator = "-", std::string gap = "___"){
-        std::string day = std::to_string(QDateTime::currentDateTime().date().day());
-        std::string month = std::to_string(QDateTime::currentDateTime().date().month());
-        std::string year = std::to_string(QDateTime::currentDateTime().date().year());
+    static string get_date_time_numbers(std::string unit_seperator = "-", std::string gap = "___", bool with_millis = false){
 
-        std::string hour = std::to_string(QDateTime::currentDateTime().time().hour());
-        std::string minute = std::to_string(QDateTime::currentDateTime().time().minute());
-        std::string second = std::to_string(QDateTime::currentDateTime().time().second());
+        QDateTime datetime = QDateTime::currentDateTime();
+
+        std::string day = std::to_string(datetime.date().day());
+        std::string month = std::to_string(datetime.date().month());
+        std::string year = std::to_string(datetime.date().year());
+
+        std::string hour = std::to_string(datetime.time().hour());
+        std::string minute = std::to_string(datetime.time().minute());
+        std::string second = std::to_string(datetime.time().second());
+        std::string millis = std::to_string(datetime.time().msec());
+
+        if(with_millis)
+            second += "." + millis;
 
         return 
             year + 
@@ -97,9 +104,9 @@ namespace sys{
             unit_seperator + 
             minute + 
             unit_seperator + 
-            second; 
+            second;
     }
 
 }; // namespace system
 
-#endif // SYSTEM_MANAGER_HPP
+#endif // SYSTEM_HPP

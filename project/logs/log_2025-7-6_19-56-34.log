@@ -1,0 +1,1891 @@
+2025:7:6 19:56:34.263 [INFO] Program Started!
+2025:7:6 19:56:40.983 [DEBUG] Header Map: accept-language:  en-US,en;q=0.9
+2025:7:6 19:56:40.984 [DEBUG] Header Map: host:  localhost:8080
+2025:7:6 19:56:40.984 [DEBUG] Header Map: connection:  keep-alive
+2025:7:6 19:56:40.984 [DEBUG] Header Map: dnt:  1
+2025:7:6 19:56:40.984 [DEBUG] Header Map: sec-ch-ua-platform:  "Linux"
+2025:7:6 19:56:40.984 [DEBUG] Header Map: sec-fetch-site:  same-origin
+2025:7:6 19:56:40.984 [DEBUG] Header Map: user-agent:  Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36
+2025:7:6 19:56:40.984 [DEBUG] Header Map: sec-ch-ua:  "Not)A;Brand";v="8", "Chromium";v="138", "Google Chrome";v="138"
+2025:7:6 19:56:40.984 [DEBUG] Header Map: sec-ch-ua-mobile:  ?0
+2025:7:6 19:56:40.984 [DEBUG] Header Map: accept-encoding:  gzip, deflate, br, zstd
+2025:7:6 19:56:40.984 [DEBUG] Header Map: accept:  */*
+2025:7:6 19:56:40.984 [DEBUG] Header Map: sec-fetch-mode:  cors
+2025:7:6 19:56:40.984 [DEBUG] Header Map: sec-fetch-dest:  empty
+2025:7:6 19:56:40.984 [DEBUG] Header Map: referer:  http://localhost:8080/
+2025:7:6 19:56:40.984 [DEBUG] 
+2025:7:6 19:56:42.21 [DEBUG] Header Map: accept-language:  en-US,en;q=0.9
+2025:7:6 19:56:42.21 [DEBUG] Header Map: host:  localhost:8080
+2025:7:6 19:56:42.21 [DEBUG] Header Map: connection:  keep-alive
+2025:7:6 19:56:42.21 [DEBUG] Header Map: dnt:  1
+2025:7:6 19:56:42.21 [DEBUG] Header Map: sec-ch-ua-platform:  "Linux"
+2025:7:6 19:56:42.21 [DEBUG] Header Map: sec-fetch-site:  same-origin
+2025:7:6 19:56:42.21 [DEBUG] Header Map: user-agent:  Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36
+2025:7:6 19:56:42.21 [DEBUG] Header Map: sec-ch-ua:  "Not)A;Brand";v="8", "Chromium";v="138", "Google Chrome";v="138"
+2025:7:6 19:56:42.21 [DEBUG] Header Map: sec-ch-ua-mobile:  ?0
+2025:7:6 19:56:42.21 [DEBUG] Header Map: accept-encoding:  gzip, deflate, br, zstd
+2025:7:6 19:56:42.21 [DEBUG] Header Map: accept:  */*
+2025:7:6 19:56:42.21 [DEBUG] Header Map: sec-fetch-mode:  cors
+2025:7:6 19:56:42.21 [DEBUG] Header Map: sec-fetch-dest:  empty
+2025:7:6 19:56:42.22 [DEBUG] Header Map: referer:  http://localhost:8080/
+2025:7:6 19:56:42.22 [DEBUG] 
+2025:7:6 19:56:43.21 [DEBUG] Header Map: accept-language:  en-US,en;q=0.9
+2025:7:6 19:56:43.21 [DEBUG] Header Map: host:  localhost:8080
+2025:7:6 19:56:43.21 [DEBUG] Header Map: connection:  keep-alive
+2025:7:6 19:56:43.21 [DEBUG] Header Map: dnt:  1
+2025:7:6 19:56:43.21 [DEBUG] Header Map: sec-ch-ua-platform:  "Linux"
+2025:7:6 19:56:43.21 [DEBUG] Header Map: sec-fetch-site:  same-origin
+2025:7:6 19:56:43.21 [DEBUG] Header Map: user-agent:  Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36
+2025:7:6 19:56:43.21 [DEBUG] Header Map: sec-ch-ua:  "Not)A;Brand";v="8", "Chromium";v="138", "Google Chrome";v="138"
+2025:7:6 19:56:43.22 [DEBUG] Header Map: sec-ch-ua-mobile:  ?0
+2025:7:6 19:56:43.22 [DEBUG] Header Map: accept-encoding:  gzip, deflate, br, zstd
+2025:7:6 19:56:43.22 [DEBUG] Header Map: accept:  */*
+2025:7:6 19:56:43.22 [DEBUG] Header Map: sec-fetch-mode:  cors
+2025:7:6 19:56:43.22 [DEBUG] Header Map: sec-fetch-dest:  empty
+2025:7:6 19:56:43.22 [DEBUG] Header Map: referer:  http://localhost:8080/
+2025:7:6 19:56:43.22 [DEBUG] 
+2025:7:6 19:56:44.21 [DEBUG] Header Map: accept-language:  en-US,en;q=0.9
+2025:7:6 19:56:44.21 [DEBUG] Header Map: host:  localhost:8080
+2025:7:6 19:56:44.21 [DEBUG] Header Map: connection:  keep-alive
+2025:7:6 19:56:44.21 [DEBUG] Header Map: dnt:  1
+2025:7:6 19:56:44.21 [DEBUG] Header Map: sec-ch-ua-platform:  "Linux"
+2025:7:6 19:56:44.22 [DEBUG] Header Map: sec-fetch-site:  same-origin
+2025:7:6 19:56:44.22 [DEBUG] Header Map: user-agent:  Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36
+2025:7:6 19:56:44.22 [DEBUG] Header Map: sec-ch-ua:  "Not)A;Brand";v="8", "Chromium";v="138", "Google Chrome";v="138"
+2025:7:6 19:56:44.22 [DEBUG] Header Map: sec-ch-ua-mobile:  ?0
+2025:7:6 19:56:44.22 [DEBUG] Header Map: accept-encoding:  gzip, deflate, br, zstd
+2025:7:6 19:56:44.22 [DEBUG] Header Map: accept:  */*
+2025:7:6 19:56:44.22 [DEBUG] Header Map: sec-fetch-mode:  cors
+2025:7:6 19:56:44.22 [DEBUG] Header Map: sec-fetch-dest:  empty
+2025:7:6 19:56:44.22 [DEBUG] Header Map: referer:  http://localhost:8080/
+2025:7:6 19:56:44.22 [DEBUG] 
+2025:7:6 19:56:45.22 [DEBUG] Header Map: accept-language:  en-US,en;q=0.9
+2025:7:6 19:56:45.23 [DEBUG] Header Map: host:  localhost:8080
+2025:7:6 19:56:45.23 [DEBUG] Header Map: connection:  keep-alive
+2025:7:6 19:56:45.23 [DEBUG] Header Map: dnt:  1
+2025:7:6 19:56:45.23 [DEBUG] Header Map: sec-ch-ua-platform:  "Linux"
+2025:7:6 19:56:45.23 [DEBUG] Header Map: sec-fetch-site:  same-origin
+2025:7:6 19:56:45.23 [DEBUG] Header Map: user-agent:  Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36
+2025:7:6 19:56:45.23 [DEBUG] Header Map: sec-ch-ua:  "Not)A;Brand";v="8", "Chromium";v="138", "Google Chrome";v="138"
+2025:7:6 19:56:45.23 [DEBUG] Header Map: sec-ch-ua-mobile:  ?0
+2025:7:6 19:56:45.23 [DEBUG] Header Map: accept-encoding:  gzip, deflate, br, zstd
+2025:7:6 19:56:45.23 [DEBUG] Header Map: accept:  */*
+2025:7:6 19:56:45.23 [DEBUG] Header Map: sec-fetch-mode:  cors
+2025:7:6 19:56:45.23 [DEBUG] Header Map: sec-fetch-dest:  empty
+2025:7:6 19:56:45.23 [DEBUG] Header Map: referer:  http://localhost:8080/
+2025:7:6 19:56:45.23 [DEBUG] 
+2025:7:6 19:56:46.719 [DEBUG] Header Map: accept-language:  en-US,en;q=0.9
+2025:7:6 19:56:46.719 [DEBUG] Header Map: host:  localhost:8080
+2025:7:6 19:56:46.719 [DEBUG] Header Map: connection:  keep-alive
+2025:7:6 19:56:46.719 [DEBUG] Header Map: dnt:  1
+2025:7:6 19:56:46.719 [DEBUG] Header Map: sec-ch-ua-platform:  "Linux"
+2025:7:6 19:56:46.719 [DEBUG] Header Map: sec-fetch-site:  same-origin
+2025:7:6 19:56:46.719 [DEBUG] Header Map: user-agent:  Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36
+2025:7:6 19:56:46.719 [DEBUG] Header Map: sec-ch-ua:  "Not)A;Brand";v="8", "Chromium";v="138", "Google Chrome";v="138"
+2025:7:6 19:56:46.719 [DEBUG] Header Map: sec-ch-ua-mobile:  ?0
+2025:7:6 19:56:46.719 [DEBUG] Header Map: accept-encoding:  gzip, deflate, br, zstd
+2025:7:6 19:56:46.719 [DEBUG] Header Map: accept:  */*
+2025:7:6 19:56:46.719 [DEBUG] Header Map: sec-fetch-mode:  cors
+2025:7:6 19:56:46.719 [DEBUG] Header Map: sec-fetch-dest:  empty
+2025:7:6 19:56:46.719 [DEBUG] Header Map: referer:  http://localhost:8080/
+2025:7:6 19:56:46.719 [DEBUG] 
+2025:7:6 19:56:47.718 [DEBUG] Header Map: accept-language:  en-US,en;q=0.9
+2025:7:6 19:56:47.718 [DEBUG] Header Map: host:  localhost:8080
+2025:7:6 19:56:47.718 [DEBUG] Header Map: connection:  keep-alive
+2025:7:6 19:56:47.718 [DEBUG] Header Map: dnt:  1
+2025:7:6 19:56:47.718 [DEBUG] Header Map: sec-ch-ua-platform:  "Linux"
+2025:7:6 19:56:47.718 [DEBUG] Header Map: sec-fetch-site:  same-origin
+2025:7:6 19:56:47.718 [DEBUG] Header Map: user-agent:  Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36
+2025:7:6 19:56:47.718 [DEBUG] Header Map: sec-ch-ua:  "Not)A;Brand";v="8", "Chromium";v="138", "Google Chrome";v="138"
+2025:7:6 19:56:47.718 [DEBUG] Header Map: sec-ch-ua-mobile:  ?0
+2025:7:6 19:56:47.718 [DEBUG] Header Map: accept-encoding:  gzip, deflate, br, zstd
+2025:7:6 19:56:47.718 [DEBUG] Header Map: accept:  */*
+2025:7:6 19:56:47.718 [DEBUG] Header Map: sec-fetch-mode:  cors
+2025:7:6 19:56:47.718 [DEBUG] Header Map: sec-fetch-dest:  empty
+2025:7:6 19:56:47.718 [DEBUG] Header Map: referer:  http://localhost:8080/
+2025:7:6 19:56:47.718 [DEBUG] 
+2025:7:6 19:56:48.717 [DEBUG] Header Map: accept-language:  en-US,en;q=0.9
+2025:7:6 19:56:48.717 [DEBUG] Header Map: host:  localhost:8080
+2025:7:6 19:56:48.717 [DEBUG] Header Map: connection:  keep-alive
+2025:7:6 19:56:48.718 [DEBUG] Header Map: dnt:  1
+2025:7:6 19:56:48.718 [DEBUG] Header Map: sec-ch-ua-platform:  "Linux"
+2025:7:6 19:56:48.718 [DEBUG] Header Map: sec-fetch-site:  same-origin
+2025:7:6 19:56:48.718 [DEBUG] Header Map: user-agent:  Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36
+2025:7:6 19:56:48.718 [DEBUG] Header Map: sec-ch-ua:  "Not)A;Brand";v="8", "Chromium";v="138", "Google Chrome";v="138"
+2025:7:6 19:56:48.718 [DEBUG] Header Map: sec-ch-ua-mobile:  ?0
+2025:7:6 19:56:48.718 [DEBUG] Header Map: accept-encoding:  gzip, deflate, br, zstd
+2025:7:6 19:56:48.718 [DEBUG] Header Map: accept:  */*
+2025:7:6 19:56:48.718 [DEBUG] Header Map: sec-fetch-mode:  cors
+2025:7:6 19:56:48.718 [DEBUG] Header Map: sec-fetch-dest:  empty
+2025:7:6 19:56:48.718 [DEBUG] Header Map: referer:  http://localhost:8080/
+2025:7:6 19:56:48.718 [DEBUG] 
+2025:7:6 19:56:49.717 [DEBUG] Header Map: accept-language:  en-US,en;q=0.9
+2025:7:6 19:56:49.717 [DEBUG] Header Map: host:  localhost:8080
+2025:7:6 19:56:49.717 [DEBUG] Header Map: connection:  keep-alive
+2025:7:6 19:56:49.717 [DEBUG] Header Map: dnt:  1
+2025:7:6 19:56:49.717 [DEBUG] Header Map: sec-ch-ua-platform:  "Linux"
+2025:7:6 19:56:49.717 [DEBUG] Header Map: sec-fetch-site:  same-origin
+2025:7:6 19:56:49.717 [DEBUG] Header Map: user-agent:  Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36
+2025:7:6 19:56:49.717 [DEBUG] Header Map: sec-ch-ua:  "Not)A;Brand";v="8", "Chromium";v="138", "Google Chrome";v="138"
+2025:7:6 19:56:49.717 [DEBUG] Header Map: sec-ch-ua-mobile:  ?0
+2025:7:6 19:56:49.717 [DEBUG] Header Map: accept-encoding:  gzip, deflate, br, zstd
+2025:7:6 19:56:49.717 [DEBUG] Header Map: accept:  */*
+2025:7:6 19:56:49.717 [DEBUG] Header Map: sec-fetch-mode:  cors
+2025:7:6 19:56:49.717 [DEBUG] Header Map: sec-fetch-dest:  empty
+2025:7:6 19:56:49.717 [DEBUG] Header Map: referer:  http://localhost:8080/
+2025:7:6 19:56:49.717 [DEBUG] 
+2025:7:6 19:56:50.719 [DEBUG] Header Map: accept-language:  en-US,en;q=0.9
+2025:7:6 19:56:50.719 [DEBUG] Header Map: host:  localhost:8080
+2025:7:6 19:56:50.719 [DEBUG] Header Map: connection:  keep-alive
+2025:7:6 19:56:50.719 [DEBUG] Header Map: dnt:  1
+2025:7:6 19:56:50.719 [DEBUG] Header Map: sec-ch-ua-platform:  "Linux"
+2025:7:6 19:56:50.719 [DEBUG] Header Map: sec-fetch-site:  same-origin
+2025:7:6 19:56:50.719 [DEBUG] Header Map: user-agent:  Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36
+2025:7:6 19:56:50.719 [DEBUG] Header Map: sec-ch-ua:  "Not)A;Brand";v="8", "Chromium";v="138", "Google Chrome";v="138"
+2025:7:6 19:56:50.719 [DEBUG] Header Map: sec-ch-ua-mobile:  ?0
+2025:7:6 19:56:50.719 [DEBUG] Header Map: accept-encoding:  gzip, deflate, br, zstd
+2025:7:6 19:56:50.719 [DEBUG] Header Map: accept:  */*
+2025:7:6 19:56:50.719 [DEBUG] Header Map: sec-fetch-mode:  cors
+2025:7:6 19:56:50.719 [DEBUG] Header Map: sec-fetch-dest:  empty
+2025:7:6 19:56:50.719 [DEBUG] Header Map: referer:  http://localhost:8080/
+2025:7:6 19:56:50.719 [DEBUG] 
+2025:7:6 19:56:51.717 [DEBUG] Header Map: accept-language:  en-US,en;q=0.9
+2025:7:6 19:56:51.717 [DEBUG] Header Map: host:  localhost:8080
+2025:7:6 19:56:51.717 [DEBUG] Header Map: connection:  keep-alive
+2025:7:6 19:56:51.717 [DEBUG] Header Map: dnt:  1
+2025:7:6 19:56:51.717 [DEBUG] Header Map: sec-ch-ua-platform:  "Linux"
+2025:7:6 19:56:51.717 [DEBUG] Header Map: sec-fetch-site:  same-origin
+2025:7:6 19:56:51.717 [DEBUG] Header Map: user-agent:  Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36
+2025:7:6 19:56:51.717 [DEBUG] Header Map: sec-ch-ua:  "Not)A;Brand";v="8", "Chromium";v="138", "Google Chrome";v="138"
+2025:7:6 19:56:51.717 [DEBUG] Header Map: sec-ch-ua-mobile:  ?0
+2025:7:6 19:56:51.717 [DEBUG] Header Map: accept-encoding:  gzip, deflate, br, zstd
+2025:7:6 19:56:51.717 [DEBUG] Header Map: accept:  */*
+2025:7:6 19:56:51.717 [DEBUG] Header Map: sec-fetch-mode:  cors
+2025:7:6 19:56:51.717 [DEBUG] Header Map: sec-fetch-dest:  empty
+2025:7:6 19:56:51.717 [DEBUG] Header Map: referer:  http://localhost:8080/
+2025:7:6 19:56:51.717 [DEBUG] 
+2025:7:6 19:56:52.717 [DEBUG] Header Map: accept-language:  en-US,en;q=0.9
+2025:7:6 19:56:52.717 [DEBUG] Header Map: host:  localhost:8080
+2025:7:6 19:56:52.717 [DEBUG] Header Map: connection:  keep-alive
+2025:7:6 19:56:52.717 [DEBUG] Header Map: dnt:  1
+2025:7:6 19:56:52.717 [DEBUG] Header Map: sec-ch-ua-platform:  "Linux"
+2025:7:6 19:56:52.717 [DEBUG] Header Map: sec-fetch-site:  same-origin
+2025:7:6 19:56:52.717 [DEBUG] Header Map: user-agent:  Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36
+2025:7:6 19:56:52.717 [DEBUG] Header Map: sec-ch-ua:  "Not)A;Brand";v="8", "Chromium";v="138", "Google Chrome";v="138"
+2025:7:6 19:56:52.717 [DEBUG] Header Map: sec-ch-ua-mobile:  ?0
+2025:7:6 19:56:52.717 [DEBUG] Header Map: accept-encoding:  gzip, deflate, br, zstd
+2025:7:6 19:56:52.717 [DEBUG] Header Map: accept:  */*
+2025:7:6 19:56:52.717 [DEBUG] Header Map: sec-fetch-mode:  cors
+2025:7:6 19:56:52.717 [DEBUG] Header Map: sec-fetch-dest:  empty
+2025:7:6 19:56:52.717 [DEBUG] Header Map: referer:  http://localhost:8080/
+2025:7:6 19:56:52.717 [DEBUG] 
+2025:7:6 19:56:53.717 [DEBUG] Header Map: accept-language:  en-US,en;q=0.9
+2025:7:6 19:56:53.717 [DEBUG] Header Map: host:  localhost:8080
+2025:7:6 19:56:53.717 [DEBUG] Header Map: connection:  keep-alive
+2025:7:6 19:56:53.717 [DEBUG] Header Map: dnt:  1
+2025:7:6 19:56:53.717 [DEBUG] Header Map: sec-ch-ua-platform:  "Linux"
+2025:7:6 19:56:53.717 [DEBUG] Header Map: sec-fetch-site:  same-origin
+2025:7:6 19:56:53.718 [DEBUG] Header Map: user-agent:  Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36
+2025:7:6 19:56:53.718 [DEBUG] Header Map: sec-ch-ua:  "Not)A;Brand";v="8", "Chromium";v="138", "Google Chrome";v="138"
+2025:7:6 19:56:53.718 [DEBUG] Header Map: sec-ch-ua-mobile:  ?0
+2025:7:6 19:56:53.718 [DEBUG] Header Map: accept-encoding:  gzip, deflate, br, zstd
+2025:7:6 19:56:53.718 [DEBUG] Header Map: accept:  */*
+2025:7:6 19:56:53.718 [DEBUG] Header Map: sec-fetch-mode:  cors
+2025:7:6 19:56:53.718 [DEBUG] Header Map: sec-fetch-dest:  empty
+2025:7:6 19:56:53.718 [DEBUG] Header Map: referer:  http://localhost:8080/
+2025:7:6 19:56:53.718 [DEBUG] 
+2025:7:6 19:56:54.717 [DEBUG] Header Map: accept-language:  en-US,en;q=0.9
+2025:7:6 19:56:54.717 [DEBUG] Header Map: host:  localhost:8080
+2025:7:6 19:56:54.717 [DEBUG] Header Map: connection:  keep-alive
+2025:7:6 19:56:54.717 [DEBUG] Header Map: dnt:  1
+2025:7:6 19:56:54.717 [DEBUG] Header Map: sec-ch-ua-platform:  "Linux"
+2025:7:6 19:56:54.717 [DEBUG] Header Map: sec-fetch-site:  same-origin
+2025:7:6 19:56:54.717 [DEBUG] Header Map: user-agent:  Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36
+2025:7:6 19:56:54.717 [DEBUG] Header Map: sec-ch-ua:  "Not)A;Brand";v="8", "Chromium";v="138", "Google Chrome";v="138"
+2025:7:6 19:56:54.717 [DEBUG] Header Map: sec-ch-ua-mobile:  ?0
+2025:7:6 19:56:54.717 [DEBUG] Header Map: accept-encoding:  gzip, deflate, br, zstd
+2025:7:6 19:56:54.717 [DEBUG] Header Map: accept:  */*
+2025:7:6 19:56:54.717 [DEBUG] Header Map: sec-fetch-mode:  cors
+2025:7:6 19:56:54.717 [DEBUG] Header Map: sec-fetch-dest:  empty
+2025:7:6 19:56:54.717 [DEBUG] Header Map: referer:  http://localhost:8080/
+2025:7:6 19:56:54.717 [DEBUG] 
+2025:7:6 19:56:55.718 [DEBUG] Header Map: accept-language:  en-US,en;q=0.9
+2025:7:6 19:56:55.718 [DEBUG] Header Map: host:  localhost:8080
+2025:7:6 19:56:55.718 [DEBUG] Header Map: connection:  keep-alive
+2025:7:6 19:56:55.718 [DEBUG] Header Map: dnt:  1
+2025:7:6 19:56:55.718 [DEBUG] Header Map: sec-ch-ua-platform:  "Linux"
+2025:7:6 19:56:55.718 [DEBUG] Header Map: sec-fetch-site:  same-origin
+2025:7:6 19:56:55.718 [DEBUG] Header Map: user-agent:  Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36
+2025:7:6 19:56:55.718 [DEBUG] Header Map: sec-ch-ua:  "Not)A;Brand";v="8", "Chromium";v="138", "Google Chrome";v="138"
+2025:7:6 19:56:55.718 [DEBUG] Header Map: sec-ch-ua-mobile:  ?0
+2025:7:6 19:56:55.718 [DEBUG] Header Map: accept-encoding:  gzip, deflate, br, zstd
+2025:7:6 19:56:55.718 [DEBUG] Header Map: accept:  */*
+2025:7:6 19:56:55.718 [DEBUG] Header Map: sec-fetch-mode:  cors
+2025:7:6 19:56:55.718 [DEBUG] Header Map: sec-fetch-dest:  empty
+2025:7:6 19:56:55.718 [DEBUG] Header Map: referer:  http://localhost:8080/
+2025:7:6 19:56:55.718 [DEBUG] 
+2025:7:6 19:56:56.717 [DEBUG] Header Map: accept-language:  en-US,en;q=0.9
+2025:7:6 19:56:56.717 [DEBUG] Header Map: host:  localhost:8080
+2025:7:6 19:56:56.717 [DEBUG] Header Map: connection:  keep-alive
+2025:7:6 19:56:56.717 [DEBUG] Header Map: dnt:  1
+2025:7:6 19:56:56.717 [DEBUG] Header Map: sec-ch-ua-platform:  "Linux"
+2025:7:6 19:56:56.717 [DEBUG] Header Map: sec-fetch-site:  same-origin
+2025:7:6 19:56:56.717 [DEBUG] Header Map: user-agent:  Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36
+2025:7:6 19:56:56.717 [DEBUG] Header Map: sec-ch-ua:  "Not)A;Brand";v="8", "Chromium";v="138", "Google Chrome";v="138"
+2025:7:6 19:56:56.717 [DEBUG] Header Map: sec-ch-ua-mobile:  ?0
+2025:7:6 19:56:56.717 [DEBUG] Header Map: accept-encoding:  gzip, deflate, br, zstd
+2025:7:6 19:56:56.717 [DEBUG] Header Map: accept:  */*
+2025:7:6 19:56:56.717 [DEBUG] Header Map: sec-fetch-mode:  cors
+2025:7:6 19:56:56.717 [DEBUG] Header Map: sec-fetch-dest:  empty
+2025:7:6 19:56:56.718 [DEBUG] Header Map: referer:  http://localhost:8080/
+2025:7:6 19:56:56.718 [DEBUG] 
+2025:7:6 19:56:57.717 [DEBUG] Header Map: accept-language:  en-US,en;q=0.9
+2025:7:6 19:56:57.717 [DEBUG] Header Map: host:  localhost:8080
+2025:7:6 19:56:57.717 [DEBUG] Header Map: connection:  keep-alive
+2025:7:6 19:56:57.717 [DEBUG] Header Map: dnt:  1
+2025:7:6 19:56:57.717 [DEBUG] Header Map: sec-ch-ua-platform:  "Linux"
+2025:7:6 19:56:57.717 [DEBUG] Header Map: sec-fetch-site:  same-origin
+2025:7:6 19:56:57.717 [DEBUG] Header Map: user-agent:  Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36
+2025:7:6 19:56:57.717 [DEBUG] Header Map: sec-ch-ua:  "Not)A;Brand";v="8", "Chromium";v="138", "Google Chrome";v="138"
+2025:7:6 19:56:57.717 [DEBUG] Header Map: sec-ch-ua-mobile:  ?0
+2025:7:6 19:56:57.717 [DEBUG] Header Map: accept-encoding:  gzip, deflate, br, zstd
+2025:7:6 19:56:57.717 [DEBUG] Header Map: accept:  */*
+2025:7:6 19:56:57.717 [DEBUG] Header Map: sec-fetch-mode:  cors
+2025:7:6 19:56:57.717 [DEBUG] Header Map: sec-fetch-dest:  empty
+2025:7:6 19:56:57.717 [DEBUG] Header Map: referer:  http://localhost:8080/
+2025:7:6 19:56:57.717 [DEBUG] 
+2025:7:6 19:56:58.718 [DEBUG] Header Map: accept-language:  en-US,en;q=0.9
+2025:7:6 19:56:58.718 [DEBUG] Header Map: host:  localhost:8080
+2025:7:6 19:56:58.718 [DEBUG] Header Map: connection:  keep-alive
+2025:7:6 19:56:58.718 [DEBUG] Header Map: dnt:  1
+2025:7:6 19:56:58.718 [DEBUG] Header Map: sec-ch-ua-platform:  "Linux"
+2025:7:6 19:56:58.718 [DEBUG] Header Map: sec-fetch-site:  same-origin
+2025:7:6 19:56:58.718 [DEBUG] Header Map: user-agent:  Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36
+2025:7:6 19:56:58.718 [DEBUG] Header Map: sec-ch-ua:  "Not)A;Brand";v="8", "Chromium";v="138", "Google Chrome";v="138"
+2025:7:6 19:56:58.718 [DEBUG] Header Map: sec-ch-ua-mobile:  ?0
+2025:7:6 19:56:58.718 [DEBUG] Header Map: accept-encoding:  gzip, deflate, br, zstd
+2025:7:6 19:56:58.718 [DEBUG] Header Map: accept:  */*
+2025:7:6 19:56:58.718 [DEBUG] Header Map: sec-fetch-mode:  cors
+2025:7:6 19:56:58.718 [DEBUG] Header Map: sec-fetch-dest:  empty
+2025:7:6 19:56:58.718 [DEBUG] Header Map: referer:  http://localhost:8080/
+2025:7:6 19:56:58.718 [DEBUG] 
+2025:7:6 19:56:59.717 [DEBUG] Header Map: accept-language:  en-US,en;q=0.9
+2025:7:6 19:56:59.717 [DEBUG] Header Map: host:  localhost:8080
+2025:7:6 19:56:59.718 [DEBUG] Header Map: connection:  keep-alive
+2025:7:6 19:56:59.718 [DEBUG] Header Map: dnt:  1
+2025:7:6 19:56:59.718 [DEBUG] Header Map: sec-ch-ua-platform:  "Linux"
+2025:7:6 19:56:59.718 [DEBUG] Header Map: sec-fetch-site:  same-origin
+2025:7:6 19:56:59.718 [DEBUG] Header Map: user-agent:  Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36
+2025:7:6 19:56:59.718 [DEBUG] Header Map: sec-ch-ua:  "Not)A;Brand";v="8", "Chromium";v="138", "Google Chrome";v="138"
+2025:7:6 19:56:59.718 [DEBUG] Header Map: sec-ch-ua-mobile:  ?0
+2025:7:6 19:56:59.718 [DEBUG] Header Map: accept-encoding:  gzip, deflate, br, zstd
+2025:7:6 19:56:59.718 [DEBUG] Header Map: accept:  */*
+2025:7:6 19:56:59.718 [DEBUG] Header Map: sec-fetch-mode:  cors
+2025:7:6 19:56:59.718 [DEBUG] Header Map: sec-fetch-dest:  empty
+2025:7:6 19:56:59.718 [DEBUG] Header Map: referer:  http://localhost:8080/
+2025:7:6 19:56:59.718 [DEBUG] 
+2025:7:6 19:57:0.718 [DEBUG] Header Map: accept-language:  en-US,en;q=0.9
+2025:7:6 19:57:0.719 [DEBUG] Header Map: host:  localhost:8080
+2025:7:6 19:57:0.719 [DEBUG] Header Map: connection:  keep-alive
+2025:7:6 19:57:0.719 [DEBUG] Header Map: dnt:  1
+2025:7:6 19:57:0.719 [DEBUG] Header Map: sec-ch-ua-platform:  "Linux"
+2025:7:6 19:57:0.719 [DEBUG] Header Map: sec-fetch-site:  same-origin
+2025:7:6 19:57:0.719 [DEBUG] Header Map: user-agent:  Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36
+2025:7:6 19:57:0.719 [DEBUG] Header Map: sec-ch-ua:  "Not)A;Brand";v="8", "Chromium";v="138", "Google Chrome";v="138"
+2025:7:6 19:57:0.719 [DEBUG] Header Map: sec-ch-ua-mobile:  ?0
+2025:7:6 19:57:0.719 [DEBUG] Header Map: accept-encoding:  gzip, deflate, br, zstd
+2025:7:6 19:57:0.719 [DEBUG] Header Map: accept:  */*
+2025:7:6 19:57:0.719 [DEBUG] Header Map: sec-fetch-mode:  cors
+2025:7:6 19:57:0.719 [DEBUG] Header Map: sec-fetch-dest:  empty
+2025:7:6 19:57:0.719 [DEBUG] Header Map: referer:  http://localhost:8080/
+2025:7:6 19:57:0.719 [DEBUG] 
+2025:7:6 19:57:1.717 [DEBUG] Header Map: accept-language:  en-US,en;q=0.9
+2025:7:6 19:57:1.718 [DEBUG] Header Map: host:  localhost:8080
+2025:7:6 19:57:1.718 [DEBUG] Header Map: connection:  keep-alive
+2025:7:6 19:57:1.718 [DEBUG] Header Map: dnt:  1
+2025:7:6 19:57:1.718 [DEBUG] Header Map: sec-ch-ua-platform:  "Linux"
+2025:7:6 19:57:1.718 [DEBUG] Header Map: sec-fetch-site:  same-origin
+2025:7:6 19:57:1.718 [DEBUG] Header Map: user-agent:  Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36
+2025:7:6 19:57:1.718 [DEBUG] Header Map: sec-ch-ua:  "Not)A;Brand";v="8", "Chromium";v="138", "Google Chrome";v="138"
+2025:7:6 19:57:1.718 [DEBUG] Header Map: sec-ch-ua-mobile:  ?0
+2025:7:6 19:57:1.718 [DEBUG] Header Map: accept-encoding:  gzip, deflate, br, zstd
+2025:7:6 19:57:1.718 [DEBUG] Header Map: accept:  */*
+2025:7:6 19:57:1.718 [DEBUG] Header Map: sec-fetch-mode:  cors
+2025:7:6 19:57:1.718 [DEBUG] Header Map: sec-fetch-dest:  empty
+2025:7:6 19:57:1.718 [DEBUG] Header Map: referer:  http://localhost:8080/
+2025:7:6 19:57:1.718 [DEBUG] 
+2025:7:6 19:57:2.717 [DEBUG] Header Map: accept-language:  en-US,en;q=0.9
+2025:7:6 19:57:2.717 [DEBUG] Header Map: host:  localhost:8080
+2025:7:6 19:57:2.717 [DEBUG] Header Map: connection:  keep-alive
+2025:7:6 19:57:2.717 [DEBUG] Header Map: dnt:  1
+2025:7:6 19:57:2.717 [DEBUG] Header Map: sec-ch-ua-platform:  "Linux"
+2025:7:6 19:57:2.717 [DEBUG] Header Map: sec-fetch-site:  same-origin
+2025:7:6 19:57:2.717 [DEBUG] Header Map: user-agent:  Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36
+2025:7:6 19:57:2.717 [DEBUG] Header Map: sec-ch-ua:  "Not)A;Brand";v="8", "Chromium";v="138", "Google Chrome";v="138"
+2025:7:6 19:57:2.717 [DEBUG] Header Map: sec-ch-ua-mobile:  ?0
+2025:7:6 19:57:2.718 [DEBUG] Header Map: accept-encoding:  gzip, deflate, br, zstd
+2025:7:6 19:57:2.718 [DEBUG] Header Map: accept:  */*
+2025:7:6 19:57:2.718 [DEBUG] Header Map: sec-fetch-mode:  cors
+2025:7:6 19:57:2.718 [DEBUG] Header Map: sec-fetch-dest:  empty
+2025:7:6 19:57:2.718 [DEBUG] Header Map: referer:  http://localhost:8080/
+2025:7:6 19:57:2.718 [DEBUG] 
+2025:7:6 19:57:3.717 [DEBUG] Header Map: accept-language:  en-US,en;q=0.9
+2025:7:6 19:57:3.717 [DEBUG] Header Map: host:  localhost:8080
+2025:7:6 19:57:3.717 [DEBUG] Header Map: connection:  keep-alive
+2025:7:6 19:57:3.717 [DEBUG] Header Map: dnt:  1
+2025:7:6 19:57:3.717 [DEBUG] Header Map: sec-ch-ua-platform:  "Linux"
+2025:7:6 19:57:3.717 [DEBUG] Header Map: sec-fetch-site:  same-origin
+2025:7:6 19:57:3.717 [DEBUG] Header Map: user-agent:  Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36
+2025:7:6 19:57:3.717 [DEBUG] Header Map: sec-ch-ua:  "Not)A;Brand";v="8", "Chromium";v="138", "Google Chrome";v="138"
+2025:7:6 19:57:3.717 [DEBUG] Header Map: sec-ch-ua-mobile:  ?0
+2025:7:6 19:57:3.717 [DEBUG] Header Map: accept-encoding:  gzip, deflate, br, zstd
+2025:7:6 19:57:3.717 [DEBUG] Header Map: accept:  */*
+2025:7:6 19:57:3.717 [DEBUG] Header Map: sec-fetch-mode:  cors
+2025:7:6 19:57:3.717 [DEBUG] Header Map: sec-fetch-dest:  empty
+2025:7:6 19:57:3.717 [DEBUG] Header Map: referer:  http://localhost:8080/
+2025:7:6 19:57:3.717 [DEBUG] 
+2025:7:6 19:57:4.717 [DEBUG] Header Map: accept-language:  en-US,en;q=0.9
+2025:7:6 19:57:4.718 [DEBUG] Header Map: host:  localhost:8080
+2025:7:6 19:57:4.718 [DEBUG] Header Map: connection:  keep-alive
+2025:7:6 19:57:4.718 [DEBUG] Header Map: dnt:  1
+2025:7:6 19:57:4.718 [DEBUG] Header Map: sec-ch-ua-platform:  "Linux"
+2025:7:6 19:57:4.718 [DEBUG] Header Map: sec-fetch-site:  same-origin
+2025:7:6 19:57:4.718 [DEBUG] Header Map: user-agent:  Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36
+2025:7:6 19:57:4.718 [DEBUG] Header Map: sec-ch-ua:  "Not)A;Brand";v="8", "Chromium";v="138", "Google Chrome";v="138"
+2025:7:6 19:57:4.718 [DEBUG] Header Map: sec-ch-ua-mobile:  ?0
+2025:7:6 19:57:4.718 [DEBUG] Header Map: accept-encoding:  gzip, deflate, br, zstd
+2025:7:6 19:57:4.718 [DEBUG] Header Map: accept:  */*
+2025:7:6 19:57:4.718 [DEBUG] Header Map: sec-fetch-mode:  cors
+2025:7:6 19:57:4.718 [DEBUG] Header Map: sec-fetch-dest:  empty
+2025:7:6 19:57:4.718 [DEBUG] Header Map: referer:  http://localhost:8080/
+2025:7:6 19:57:4.718 [DEBUG] 
+2025:7:6 19:57:5.718 [DEBUG] Header Map: accept-language:  en-US,en;q=0.9
+2025:7:6 19:57:5.718 [DEBUG] Header Map: host:  localhost:8080
+2025:7:6 19:57:5.718 [DEBUG] Header Map: connection:  keep-alive
+2025:7:6 19:57:5.718 [DEBUG] Header Map: dnt:  1
+2025:7:6 19:57:5.718 [DEBUG] Header Map: sec-ch-ua-platform:  "Linux"
+2025:7:6 19:57:5.718 [DEBUG] Header Map: sec-fetch-site:  same-origin
+2025:7:6 19:57:5.718 [DEBUG] Header Map: user-agent:  Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36
+2025:7:6 19:57:5.718 [DEBUG] Header Map: sec-ch-ua:  "Not)A;Brand";v="8", "Chromium";v="138", "Google Chrome";v="138"
+2025:7:6 19:57:5.718 [DEBUG] Header Map: sec-ch-ua-mobile:  ?0
+2025:7:6 19:57:5.718 [DEBUG] Header Map: accept-encoding:  gzip, deflate, br, zstd
+2025:7:6 19:57:5.718 [DEBUG] Header Map: accept:  */*
+2025:7:6 19:57:5.718 [DEBUG] Header Map: sec-fetch-mode:  cors
+2025:7:6 19:57:5.718 [DEBUG] Header Map: sec-fetch-dest:  empty
+2025:7:6 19:57:5.718 [DEBUG] Header Map: referer:  http://localhost:8080/
+2025:7:6 19:57:5.718 [DEBUG] 
+2025:7:6 19:57:6.717 [DEBUG] Header Map: accept-language:  en-US,en;q=0.9
+2025:7:6 19:57:6.717 [DEBUG] Header Map: host:  localhost:8080
+2025:7:6 19:57:6.717 [DEBUG] Header Map: connection:  keep-alive
+2025:7:6 19:57:6.717 [DEBUG] Header Map: dnt:  1
+2025:7:6 19:57:6.717 [DEBUG] Header Map: sec-ch-ua-platform:  "Linux"
+2025:7:6 19:57:6.717 [DEBUG] Header Map: sec-fetch-site:  same-origin
+2025:7:6 19:57:6.717 [DEBUG] Header Map: user-agent:  Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36
+2025:7:6 19:57:6.717 [DEBUG] Header Map: sec-ch-ua:  "Not)A;Brand";v="8", "Chromium";v="138", "Google Chrome";v="138"
+2025:7:6 19:57:6.717 [DEBUG] Header Map: sec-ch-ua-mobile:  ?0
+2025:7:6 19:57:6.717 [DEBUG] Header Map: accept-encoding:  gzip, deflate, br, zstd
+2025:7:6 19:57:6.717 [DEBUG] Header Map: accept:  */*
+2025:7:6 19:57:6.717 [DEBUG] Header Map: sec-fetch-mode:  cors
+2025:7:6 19:57:6.718 [DEBUG] Header Map: sec-fetch-dest:  empty
+2025:7:6 19:57:6.718 [DEBUG] Header Map: referer:  http://localhost:8080/
+2025:7:6 19:57:6.718 [DEBUG] 
+2025:7:6 19:57:7.718 [DEBUG] Header Map: accept-language:  en-US,en;q=0.9
+2025:7:6 19:57:7.718 [DEBUG] Header Map: host:  localhost:8080
+2025:7:6 19:57:7.718 [DEBUG] Header Map: connection:  keep-alive
+2025:7:6 19:57:7.718 [DEBUG] Header Map: dnt:  1
+2025:7:6 19:57:7.718 [DEBUG] Header Map: sec-ch-ua-platform:  "Linux"
+2025:7:6 19:57:7.718 [DEBUG] Header Map: sec-fetch-site:  same-origin
+2025:7:6 19:57:7.718 [DEBUG] Header Map: user-agent:  Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36
+2025:7:6 19:57:7.718 [DEBUG] Header Map: sec-ch-ua:  "Not)A;Brand";v="8", "Chromium";v="138", "Google Chrome";v="138"
+2025:7:6 19:57:7.718 [DEBUG] Header Map: sec-ch-ua-mobile:  ?0
+2025:7:6 19:57:7.718 [DEBUG] Header Map: accept-encoding:  gzip, deflate, br, zstd
+2025:7:6 19:57:7.718 [DEBUG] Header Map: accept:  */*
+2025:7:6 19:57:7.718 [DEBUG] Header Map: sec-fetch-mode:  cors
+2025:7:6 19:57:7.718 [DEBUG] Header Map: sec-fetch-dest:  empty
+2025:7:6 19:57:7.718 [DEBUG] Header Map: referer:  http://localhost:8080/
+2025:7:6 19:57:7.718 [DEBUG] 
+2025:7:6 19:57:8.717 [DEBUG] Header Map: accept-language:  en-US,en;q=0.9
+2025:7:6 19:57:8.717 [DEBUG] Header Map: host:  localhost:8080
+2025:7:6 19:57:8.717 [DEBUG] Header Map: connection:  keep-alive
+2025:7:6 19:57:8.717 [DEBUG] Header Map: dnt:  1
+2025:7:6 19:57:8.717 [DEBUG] Header Map: sec-ch-ua-platform:  "Linux"
+2025:7:6 19:57:8.717 [DEBUG] Header Map: sec-fetch-site:  same-origin
+2025:7:6 19:57:8.717 [DEBUG] Header Map: user-agent:  Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36
+2025:7:6 19:57:8.717 [DEBUG] Header Map: sec-ch-ua:  "Not)A;Brand";v="8", "Chromium";v="138", "Google Chrome";v="138"
+2025:7:6 19:57:8.717 [DEBUG] Header Map: sec-ch-ua-mobile:  ?0
+2025:7:6 19:57:8.717 [DEBUG] Header Map: accept-encoding:  gzip, deflate, br, zstd
+2025:7:6 19:57:8.717 [DEBUG] Header Map: accept:  */*
+2025:7:6 19:57:8.717 [DEBUG] Header Map: sec-fetch-mode:  cors
+2025:7:6 19:57:8.717 [DEBUG] Header Map: sec-fetch-dest:  empty
+2025:7:6 19:57:8.717 [DEBUG] Header Map: referer:  http://localhost:8080/
+2025:7:6 19:57:8.718 [DEBUG] 
+2025:7:6 19:57:9.717 [DEBUG] Header Map: accept-language:  en-US,en;q=0.9
+2025:7:6 19:57:9.717 [DEBUG] Header Map: host:  localhost:8080
+2025:7:6 19:57:9.717 [DEBUG] Header Map: connection:  keep-alive
+2025:7:6 19:57:9.717 [DEBUG] Header Map: dnt:  1
+2025:7:6 19:57:9.717 [DEBUG] Header Map: sec-ch-ua-platform:  "Linux"
+2025:7:6 19:57:9.717 [DEBUG] Header Map: sec-fetch-site:  same-origin
+2025:7:6 19:57:9.717 [DEBUG] Header Map: user-agent:  Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36
+2025:7:6 19:57:9.717 [DEBUG] Header Map: sec-ch-ua:  "Not)A;Brand";v="8", "Chromium";v="138", "Google Chrome";v="138"
+2025:7:6 19:57:9.717 [DEBUG] Header Map: sec-ch-ua-mobile:  ?0
+2025:7:6 19:57:9.717 [DEBUG] Header Map: accept-encoding:  gzip, deflate, br, zstd
+2025:7:6 19:57:9.717 [DEBUG] Header Map: accept:  */*
+2025:7:6 19:57:9.717 [DEBUG] Header Map: sec-fetch-mode:  cors
+2025:7:6 19:57:9.717 [DEBUG] Header Map: sec-fetch-dest:  empty
+2025:7:6 19:57:9.717 [DEBUG] Header Map: referer:  http://localhost:8080/
+2025:7:6 19:57:9.717 [DEBUG] 
+2025:7:6 19:57:10.717 [DEBUG] Header Map: accept-language:  en-US,en;q=0.9
+2025:7:6 19:57:10.718 [DEBUG] Header Map: host:  localhost:8080
+2025:7:6 19:57:10.718 [DEBUG] Header Map: connection:  keep-alive
+2025:7:6 19:57:10.718 [DEBUG] Header Map: dnt:  1
+2025:7:6 19:57:10.718 [DEBUG] Header Map: sec-ch-ua-platform:  "Linux"
+2025:7:6 19:57:10.718 [DEBUG] Header Map: sec-fetch-site:  same-origin
+2025:7:6 19:57:10.718 [DEBUG] Header Map: user-agent:  Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36
+2025:7:6 19:57:10.718 [DEBUG] Header Map: sec-ch-ua:  "Not)A;Brand";v="8", "Chromium";v="138", "Google Chrome";v="138"
+2025:7:6 19:57:10.718 [DEBUG] Header Map: sec-ch-ua-mobile:  ?0
+2025:7:6 19:57:10.718 [DEBUG] Header Map: accept-encoding:  gzip, deflate, br, zstd
+2025:7:6 19:57:10.718 [DEBUG] Header Map: accept:  */*
+2025:7:6 19:57:10.718 [DEBUG] Header Map: sec-fetch-mode:  cors
+2025:7:6 19:57:10.718 [DEBUG] Header Map: sec-fetch-dest:  empty
+2025:7:6 19:57:10.718 [DEBUG] Header Map: referer:  http://localhost:8080/
+2025:7:6 19:57:10.718 [DEBUG] 
+2025:7:6 19:57:11.717 [DEBUG] Header Map: accept-language:  en-US,en;q=0.9
+2025:7:6 19:57:11.717 [DEBUG] Header Map: host:  localhost:8080
+2025:7:6 19:57:11.717 [DEBUG] Header Map: connection:  keep-alive
+2025:7:6 19:57:11.717 [DEBUG] Header Map: dnt:  1
+2025:7:6 19:57:11.717 [DEBUG] Header Map: sec-ch-ua-platform:  "Linux"
+2025:7:6 19:57:11.717 [DEBUG] Header Map: sec-fetch-site:  same-origin
+2025:7:6 19:57:11.717 [DEBUG] Header Map: user-agent:  Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36
+2025:7:6 19:57:11.717 [DEBUG] Header Map: sec-ch-ua:  "Not)A;Brand";v="8", "Chromium";v="138", "Google Chrome";v="138"
+2025:7:6 19:57:11.717 [DEBUG] Header Map: sec-ch-ua-mobile:  ?0
+2025:7:6 19:57:11.717 [DEBUG] Header Map: accept-encoding:  gzip, deflate, br, zstd
+2025:7:6 19:57:11.717 [DEBUG] Header Map: accept:  */*
+2025:7:6 19:57:11.717 [DEBUG] Header Map: sec-fetch-mode:  cors
+2025:7:6 19:57:11.718 [DEBUG] Header Map: sec-fetch-dest:  empty
+2025:7:6 19:57:11.718 [DEBUG] Header Map: referer:  http://localhost:8080/
+2025:7:6 19:57:11.718 [DEBUG] 
+2025:7:6 19:57:12.718 [DEBUG] Header Map: accept-language:  en-US,en;q=0.9
+2025:7:6 19:57:12.718 [DEBUG] Header Map: host:  localhost:8080
+2025:7:6 19:57:12.718 [DEBUG] Header Map: connection:  keep-alive
+2025:7:6 19:57:12.718 [DEBUG] Header Map: dnt:  1
+2025:7:6 19:57:12.718 [DEBUG] Header Map: sec-ch-ua-platform:  "Linux"
+2025:7:6 19:57:12.718 [DEBUG] Header Map: sec-fetch-site:  same-origin
+2025:7:6 19:57:12.718 [DEBUG] Header Map: user-agent:  Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36
+2025:7:6 19:57:12.718 [DEBUG] Header Map: sec-ch-ua:  "Not)A;Brand";v="8", "Chromium";v="138", "Google Chrome";v="138"
+2025:7:6 19:57:12.718 [DEBUG] Header Map: sec-ch-ua-mobile:  ?0
+2025:7:6 19:57:12.718 [DEBUG] Header Map: accept-encoding:  gzip, deflate, br, zstd
+2025:7:6 19:57:12.718 [DEBUG] Header Map: accept:  */*
+2025:7:6 19:57:12.718 [DEBUG] Header Map: sec-fetch-mode:  cors
+2025:7:6 19:57:12.718 [DEBUG] Header Map: sec-fetch-dest:  empty
+2025:7:6 19:57:12.718 [DEBUG] Header Map: referer:  http://localhost:8080/
+2025:7:6 19:57:12.718 [DEBUG] 
+2025:7:6 19:57:13.717 [DEBUG] Header Map: accept-language:  en-US,en;q=0.9
+2025:7:6 19:57:13.723 [DEBUG] Header Map: host:  localhost:8080
+2025:7:6 19:57:13.723 [DEBUG] Header Map: connection:  keep-alive
+2025:7:6 19:57:13.723 [DEBUG] Header Map: dnt:  1
+2025:7:6 19:57:13.723 [DEBUG] Header Map: sec-ch-ua-platform:  "Linux"
+2025:7:6 19:57:13.723 [DEBUG] Header Map: sec-fetch-site:  same-origin
+2025:7:6 19:57:13.723 [DEBUG] Header Map: user-agent:  Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36
+2025:7:6 19:57:13.723 [DEBUG] Header Map: sec-ch-ua:  "Not)A;Brand";v="8", "Chromium";v="138", "Google Chrome";v="138"
+2025:7:6 19:57:13.723 [DEBUG] Header Map: sec-ch-ua-mobile:  ?0
+2025:7:6 19:57:13.723 [DEBUG] Header Map: accept-encoding:  gzip, deflate, br, zstd
+2025:7:6 19:57:13.723 [DEBUG] Header Map: accept:  */*
+2025:7:6 19:57:13.723 [DEBUG] Header Map: sec-fetch-mode:  cors
+2025:7:6 19:57:13.723 [DEBUG] Header Map: sec-fetch-dest:  empty
+2025:7:6 19:57:13.723 [DEBUG] Header Map: referer:  http://localhost:8080/
+2025:7:6 19:57:13.723 [DEBUG] 
+2025:7:6 19:57:14.717 [DEBUG] Header Map: accept-language:  en-US,en;q=0.9
+2025:7:6 19:57:14.717 [DEBUG] Header Map: host:  localhost:8080
+2025:7:6 19:57:14.717 [DEBUG] Header Map: connection:  keep-alive
+2025:7:6 19:57:14.717 [DEBUG] Header Map: dnt:  1
+2025:7:6 19:57:14.717 [DEBUG] Header Map: sec-ch-ua-platform:  "Linux"
+2025:7:6 19:57:14.717 [DEBUG] Header Map: sec-fetch-site:  same-origin
+2025:7:6 19:57:14.717 [DEBUG] Header Map: user-agent:  Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36
+2025:7:6 19:57:14.717 [DEBUG] Header Map: sec-ch-ua:  "Not)A;Brand";v="8", "Chromium";v="138", "Google Chrome";v="138"
+2025:7:6 19:57:14.717 [DEBUG] Header Map: sec-ch-ua-mobile:  ?0
+2025:7:6 19:57:14.717 [DEBUG] Header Map: accept-encoding:  gzip, deflate, br, zstd
+2025:7:6 19:57:14.717 [DEBUG] Header Map: accept:  */*
+2025:7:6 19:57:14.717 [DEBUG] Header Map: sec-fetch-mode:  cors
+2025:7:6 19:57:14.717 [DEBUG] Header Map: sec-fetch-dest:  empty
+2025:7:6 19:57:14.717 [DEBUG] Header Map: referer:  http://localhost:8080/
+2025:7:6 19:57:14.717 [DEBUG] 
+2025:7:6 19:57:15.717 [DEBUG] Header Map: accept-language:  en-US,en;q=0.9
+2025:7:6 19:57:15.717 [DEBUG] Header Map: host:  localhost:8080
+2025:7:6 19:57:15.717 [DEBUG] Header Map: connection:  keep-alive
+2025:7:6 19:57:15.717 [DEBUG] Header Map: dnt:  1
+2025:7:6 19:57:15.717 [DEBUG] Header Map: sec-ch-ua-platform:  "Linux"
+2025:7:6 19:57:15.717 [DEBUG] Header Map: sec-fetch-site:  same-origin
+2025:7:6 19:57:15.717 [DEBUG] Header Map: user-agent:  Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36
+2025:7:6 19:57:15.717 [DEBUG] Header Map: sec-ch-ua:  "Not)A;Brand";v="8", "Chromium";v="138", "Google Chrome";v="138"
+2025:7:6 19:57:15.717 [DEBUG] Header Map: sec-ch-ua-mobile:  ?0
+2025:7:6 19:57:15.717 [DEBUG] Header Map: accept-encoding:  gzip, deflate, br, zstd
+2025:7:6 19:57:15.717 [DEBUG] Header Map: accept:  */*
+2025:7:6 19:57:15.717 [DEBUG] Header Map: sec-fetch-mode:  cors
+2025:7:6 19:57:15.717 [DEBUG] Header Map: sec-fetch-dest:  empty
+2025:7:6 19:57:15.717 [DEBUG] Header Map: referer:  http://localhost:8080/
+2025:7:6 19:57:15.717 [DEBUG] 
+2025:7:6 19:57:16.717 [DEBUG] Header Map: accept-language:  en-US,en;q=0.9
+2025:7:6 19:57:16.717 [DEBUG] Header Map: host:  localhost:8080
+2025:7:6 19:57:16.717 [DEBUG] Header Map: connection:  keep-alive
+2025:7:6 19:57:16.717 [DEBUG] Header Map: dnt:  1
+2025:7:6 19:57:16.717 [DEBUG] Header Map: sec-ch-ua-platform:  "Linux"
+2025:7:6 19:57:16.717 [DEBUG] Header Map: sec-fetch-site:  same-origin
+2025:7:6 19:57:16.717 [DEBUG] Header Map: user-agent:  Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36
+2025:7:6 19:57:16.717 [DEBUG] Header Map: sec-ch-ua:  "Not)A;Brand";v="8", "Chromium";v="138", "Google Chrome";v="138"
+2025:7:6 19:57:16.717 [DEBUG] Header Map: sec-ch-ua-mobile:  ?0
+2025:7:6 19:57:16.717 [DEBUG] Header Map: accept-encoding:  gzip, deflate, br, zstd
+2025:7:6 19:57:16.718 [DEBUG] Header Map: accept:  */*
+2025:7:6 19:57:16.718 [DEBUG] Header Map: sec-fetch-mode:  cors
+2025:7:6 19:57:16.718 [DEBUG] Header Map: sec-fetch-dest:  empty
+2025:7:6 19:57:16.718 [DEBUG] Header Map: referer:  http://localhost:8080/
+2025:7:6 19:57:16.718 [DEBUG] 
+2025:7:6 19:57:17.717 [DEBUG] Header Map: accept-language:  en-US,en;q=0.9
+2025:7:6 19:57:17.717 [DEBUG] Header Map: host:  localhost:8080
+2025:7:6 19:57:17.717 [DEBUG] Header Map: connection:  keep-alive
+2025:7:6 19:57:17.717 [DEBUG] Header Map: dnt:  1
+2025:7:6 19:57:17.717 [DEBUG] Header Map: sec-ch-ua-platform:  "Linux"
+2025:7:6 19:57:17.717 [DEBUG] Header Map: sec-fetch-site:  same-origin
+2025:7:6 19:57:17.717 [DEBUG] Header Map: user-agent:  Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36
+2025:7:6 19:57:17.717 [DEBUG] Header Map: sec-ch-ua:  "Not)A;Brand";v="8", "Chromium";v="138", "Google Chrome";v="138"
+2025:7:6 19:57:17.717 [DEBUG] Header Map: sec-ch-ua-mobile:  ?0
+2025:7:6 19:57:17.717 [DEBUG] Header Map: accept-encoding:  gzip, deflate, br, zstd
+2025:7:6 19:57:17.717 [DEBUG] Header Map: accept:  */*
+2025:7:6 19:57:17.717 [DEBUG] Header Map: sec-fetch-mode:  cors
+2025:7:6 19:57:17.717 [DEBUG] Header Map: sec-fetch-dest:  empty
+2025:7:6 19:57:17.717 [DEBUG] Header Map: referer:  http://localhost:8080/
+2025:7:6 19:57:17.717 [DEBUG] 
+2025:7:6 19:57:18.717 [DEBUG] Header Map: accept-language:  en-US,en;q=0.9
+2025:7:6 19:57:18.717 [DEBUG] Header Map: host:  localhost:8080
+2025:7:6 19:57:18.717 [DEBUG] Header Map: connection:  keep-alive
+2025:7:6 19:57:18.718 [DEBUG] Header Map: dnt:  1
+2025:7:6 19:57:18.718 [DEBUG] Header Map: sec-ch-ua-platform:  "Linux"
+2025:7:6 19:57:18.718 [DEBUG] Header Map: sec-fetch-site:  same-origin
+2025:7:6 19:57:18.718 [DEBUG] Header Map: user-agent:  Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36
+2025:7:6 19:57:18.718 [DEBUG] Header Map: sec-ch-ua:  "Not)A;Brand";v="8", "Chromium";v="138", "Google Chrome";v="138"
+2025:7:6 19:57:18.718 [DEBUG] Header Map: sec-ch-ua-mobile:  ?0
+2025:7:6 19:57:18.718 [DEBUG] Header Map: accept-encoding:  gzip, deflate, br, zstd
+2025:7:6 19:57:18.718 [DEBUG] Header Map: accept:  */*
+2025:7:6 19:57:18.718 [DEBUG] Header Map: sec-fetch-mode:  cors
+2025:7:6 19:57:18.718 [DEBUG] Header Map: sec-fetch-dest:  empty
+2025:7:6 19:57:18.718 [DEBUG] Header Map: referer:  http://localhost:8080/
+2025:7:6 19:57:18.718 [DEBUG] 
+2025:7:6 19:57:19.717 [DEBUG] Header Map: accept-language:  en-US,en;q=0.9
+2025:7:6 19:57:19.717 [DEBUG] Header Map: host:  localhost:8080
+2025:7:6 19:57:19.717 [DEBUG] Header Map: connection:  keep-alive
+2025:7:6 19:57:19.717 [DEBUG] Header Map: dnt:  1
+2025:7:6 19:57:19.717 [DEBUG] Header Map: sec-ch-ua-platform:  "Linux"
+2025:7:6 19:57:19.717 [DEBUG] Header Map: sec-fetch-site:  same-origin
+2025:7:6 19:57:19.717 [DEBUG] Header Map: user-agent:  Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36
+2025:7:6 19:57:19.717 [DEBUG] Header Map: sec-ch-ua:  "Not)A;Brand";v="8", "Chromium";v="138", "Google Chrome";v="138"
+2025:7:6 19:57:19.717 [DEBUG] Header Map: sec-ch-ua-mobile:  ?0
+2025:7:6 19:57:19.718 [DEBUG] Header Map: accept-encoding:  gzip, deflate, br, zstd
+2025:7:6 19:57:19.718 [DEBUG] Header Map: accept:  */*
+2025:7:6 19:57:19.718 [DEBUG] Header Map: sec-fetch-mode:  cors
+2025:7:6 19:57:19.718 [DEBUG] Header Map: sec-fetch-dest:  empty
+2025:7:6 19:57:19.718 [DEBUG] Header Map: referer:  http://localhost:8080/
+2025:7:6 19:57:19.718 [DEBUG] 
+2025:7:6 19:57:20.720 [DEBUG] Header Map: accept-language:  en-US,en;q=0.9
+2025:7:6 19:57:20.720 [DEBUG] Header Map: host:  localhost:8080
+2025:7:6 19:57:20.720 [DEBUG] Header Map: connection:  keep-alive
+2025:7:6 19:57:20.720 [DEBUG] Header Map: dnt:  1
+2025:7:6 19:57:20.720 [DEBUG] Header Map: sec-ch-ua-platform:  "Linux"
+2025:7:6 19:57:20.720 [DEBUG] Header Map: sec-fetch-site:  same-origin
+2025:7:6 19:57:20.720 [DEBUG] Header Map: user-agent:  Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36
+2025:7:6 19:57:20.720 [DEBUG] Header Map: sec-ch-ua:  "Not)A;Brand";v="8", "Chromium";v="138", "Google Chrome";v="138"
+2025:7:6 19:57:20.720 [DEBUG] Header Map: sec-ch-ua-mobile:  ?0
+2025:7:6 19:57:20.720 [DEBUG] Header Map: accept-encoding:  gzip, deflate, br, zstd
+2025:7:6 19:57:20.720 [DEBUG] Header Map: accept:  */*
+2025:7:6 19:57:20.720 [DEBUG] Header Map: sec-fetch-mode:  cors
+2025:7:6 19:57:20.720 [DEBUG] Header Map: sec-fetch-dest:  empty
+2025:7:6 19:57:20.720 [DEBUG] Header Map: referer:  http://localhost:8080/
+2025:7:6 19:57:20.720 [DEBUG] 
+2025:7:6 19:57:21.718 [DEBUG] Header Map: accept-language:  en-US,en;q=0.9
+2025:7:6 19:57:21.719 [DEBUG] Header Map: host:  localhost:8080
+2025:7:6 19:57:21.719 [DEBUG] Header Map: connection:  keep-alive
+2025:7:6 19:57:21.719 [DEBUG] Header Map: dnt:  1
+2025:7:6 19:57:21.719 [DEBUG] Header Map: sec-ch-ua-platform:  "Linux"
+2025:7:6 19:57:21.719 [DEBUG] Header Map: sec-fetch-site:  same-origin
+2025:7:6 19:57:21.719 [DEBUG] Header Map: user-agent:  Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36
+2025:7:6 19:57:21.719 [DEBUG] Header Map: sec-ch-ua:  "Not)A;Brand";v="8", "Chromium";v="138", "Google Chrome";v="138"
+2025:7:6 19:57:21.719 [DEBUG] Header Map: sec-ch-ua-mobile:  ?0
+2025:7:6 19:57:21.719 [DEBUG] Header Map: accept-encoding:  gzip, deflate, br, zstd
+2025:7:6 19:57:21.719 [DEBUG] Header Map: accept:  */*
+2025:7:6 19:57:21.719 [DEBUG] Header Map: sec-fetch-mode:  cors
+2025:7:6 19:57:21.719 [DEBUG] Header Map: sec-fetch-dest:  empty
+2025:7:6 19:57:21.719 [DEBUG] Header Map: referer:  http://localhost:8080/
+2025:7:6 19:57:21.719 [DEBUG] 
+2025:7:6 19:57:22.717 [DEBUG] Header Map: accept-language:  en-US,en;q=0.9
+2025:7:6 19:57:22.717 [DEBUG] Header Map: host:  localhost:8080
+2025:7:6 19:57:22.717 [DEBUG] Header Map: connection:  keep-alive
+2025:7:6 19:57:22.717 [DEBUG] Header Map: dnt:  1
+2025:7:6 19:57:22.717 [DEBUG] Header Map: sec-ch-ua-platform:  "Linux"
+2025:7:6 19:57:22.717 [DEBUG] Header Map: sec-fetch-site:  same-origin
+2025:7:6 19:57:22.717 [DEBUG] Header Map: user-agent:  Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36
+2025:7:6 19:57:22.717 [DEBUG] Header Map: sec-ch-ua:  "Not)A;Brand";v="8", "Chromium";v="138", "Google Chrome";v="138"
+2025:7:6 19:57:22.717 [DEBUG] Header Map: sec-ch-ua-mobile:  ?0
+2025:7:6 19:57:22.717 [DEBUG] Header Map: accept-encoding:  gzip, deflate, br, zstd
+2025:7:6 19:57:22.717 [DEBUG] Header Map: accept:  */*
+2025:7:6 19:57:22.717 [DEBUG] Header Map: sec-fetch-mode:  cors
+2025:7:6 19:57:22.717 [DEBUG] Header Map: sec-fetch-dest:  empty
+2025:7:6 19:57:22.717 [DEBUG] Header Map: referer:  http://localhost:8080/
+2025:7:6 19:57:22.717 [DEBUG] 
+2025:7:6 19:57:23.717 [DEBUG] Header Map: accept-language:  en-US,en;q=0.9
+2025:7:6 19:57:23.717 [DEBUG] Header Map: host:  localhost:8080
+2025:7:6 19:57:23.717 [DEBUG] Header Map: connection:  keep-alive
+2025:7:6 19:57:23.717 [DEBUG] Header Map: dnt:  1
+2025:7:6 19:57:23.717 [DEBUG] Header Map: sec-ch-ua-platform:  "Linux"
+2025:7:6 19:57:23.717 [DEBUG] Header Map: sec-fetch-site:  same-origin
+2025:7:6 19:57:23.717 [DEBUG] Header Map: user-agent:  Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36
+2025:7:6 19:57:23.717 [DEBUG] Header Map: sec-ch-ua:  "Not)A;Brand";v="8", "Chromium";v="138", "Google Chrome";v="138"
+2025:7:6 19:57:23.717 [DEBUG] Header Map: sec-ch-ua-mobile:  ?0
+2025:7:6 19:57:23.717 [DEBUG] Header Map: accept-encoding:  gzip, deflate, br, zstd
+2025:7:6 19:57:23.717 [DEBUG] Header Map: accept:  */*
+2025:7:6 19:57:23.717 [DEBUG] Header Map: sec-fetch-mode:  cors
+2025:7:6 19:57:23.717 [DEBUG] Header Map: sec-fetch-dest:  empty
+2025:7:6 19:57:23.718 [DEBUG] Header Map: referer:  http://localhost:8080/
+2025:7:6 19:57:23.718 [DEBUG] 
+2025:7:6 19:57:24.717 [DEBUG] Header Map: accept-language:  en-US,en;q=0.9
+2025:7:6 19:57:24.717 [DEBUG] Header Map: host:  localhost:8080
+2025:7:6 19:57:24.717 [DEBUG] Header Map: connection:  keep-alive
+2025:7:6 19:57:24.717 [DEBUG] Header Map: dnt:  1
+2025:7:6 19:57:24.717 [DEBUG] Header Map: sec-ch-ua-platform:  "Linux"
+2025:7:6 19:57:24.717 [DEBUG] Header Map: sec-fetch-site:  same-origin
+2025:7:6 19:57:24.717 [DEBUG] Header Map: user-agent:  Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36
+2025:7:6 19:57:24.717 [DEBUG] Header Map: sec-ch-ua:  "Not)A;Brand";v="8", "Chromium";v="138", "Google Chrome";v="138"
+2025:7:6 19:57:24.717 [DEBUG] Header Map: sec-ch-ua-mobile:  ?0
+2025:7:6 19:57:24.717 [DEBUG] Header Map: accept-encoding:  gzip, deflate, br, zstd
+2025:7:6 19:57:24.717 [DEBUG] Header Map: accept:  */*
+2025:7:6 19:57:24.717 [DEBUG] Header Map: sec-fetch-mode:  cors
+2025:7:6 19:57:24.717 [DEBUG] Header Map: sec-fetch-dest:  empty
+2025:7:6 19:57:24.717 [DEBUG] Header Map: referer:  http://localhost:8080/
+2025:7:6 19:57:24.717 [DEBUG] 
+2025:7:6 19:57:25.717 [DEBUG] Header Map: accept-language:  en-US,en;q=0.9
+2025:7:6 19:57:25.717 [DEBUG] Header Map: host:  localhost:8080
+2025:7:6 19:57:25.717 [DEBUG] Header Map: connection:  keep-alive
+2025:7:6 19:57:25.717 [DEBUG] Header Map: dnt:  1
+2025:7:6 19:57:25.717 [DEBUG] Header Map: sec-ch-ua-platform:  "Linux"
+2025:7:6 19:57:25.717 [DEBUG] Header Map: sec-fetch-site:  same-origin
+2025:7:6 19:57:25.717 [DEBUG] Header Map: user-agent:  Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36
+2025:7:6 19:57:25.717 [DEBUG] Header Map: sec-ch-ua:  "Not)A;Brand";v="8", "Chromium";v="138", "Google Chrome";v="138"
+2025:7:6 19:57:25.717 [DEBUG] Header Map: sec-ch-ua-mobile:  ?0
+2025:7:6 19:57:25.717 [DEBUG] Header Map: accept-encoding:  gzip, deflate, br, zstd
+2025:7:6 19:57:25.717 [DEBUG] Header Map: accept:  */*
+2025:7:6 19:57:25.717 [DEBUG] Header Map: sec-fetch-mode:  cors
+2025:7:6 19:57:25.717 [DEBUG] Header Map: sec-fetch-dest:  empty
+2025:7:6 19:57:25.717 [DEBUG] Header Map: referer:  http://localhost:8080/
+2025:7:6 19:57:25.717 [DEBUG] 
+2025:7:6 19:57:26.719 [DEBUG] Header Map: accept-language:  en-US,en;q=0.9
+2025:7:6 19:57:26.719 [DEBUG] Header Map: host:  localhost:8080
+2025:7:6 19:57:26.719 [DEBUG] Header Map: connection:  keep-alive
+2025:7:6 19:57:26.719 [DEBUG] Header Map: dnt:  1
+2025:7:6 19:57:26.719 [DEBUG] Header Map: sec-ch-ua-platform:  "Linux"
+2025:7:6 19:57:26.719 [DEBUG] Header Map: sec-fetch-site:  same-origin
+2025:7:6 19:57:26.719 [DEBUG] Header Map: user-agent:  Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36
+2025:7:6 19:57:26.719 [DEBUG] Header Map: sec-ch-ua:  "Not)A;Brand";v="8", "Chromium";v="138", "Google Chrome";v="138"
+2025:7:6 19:57:26.719 [DEBUG] Header Map: sec-ch-ua-mobile:  ?0
+2025:7:6 19:57:26.719 [DEBUG] Header Map: accept-encoding:  gzip, deflate, br, zstd
+2025:7:6 19:57:26.719 [DEBUG] Header Map: accept:  */*
+2025:7:6 19:57:26.719 [DEBUG] Header Map: sec-fetch-mode:  cors
+2025:7:6 19:57:26.719 [DEBUG] Header Map: sec-fetch-dest:  empty
+2025:7:6 19:57:26.719 [DEBUG] Header Map: referer:  http://localhost:8080/
+2025:7:6 19:57:26.719 [DEBUG] 
+2025:7:6 19:57:27.718 [DEBUG] Header Map: accept-language:  en-US,en;q=0.9
+2025:7:6 19:57:27.718 [DEBUG] Header Map: host:  localhost:8080
+2025:7:6 19:57:27.718 [DEBUG] Header Map: connection:  keep-alive
+2025:7:6 19:57:27.718 [DEBUG] Header Map: dnt:  1
+2025:7:6 19:57:27.718 [DEBUG] Header Map: sec-ch-ua-platform:  "Linux"
+2025:7:6 19:57:27.718 [DEBUG] Header Map: sec-fetch-site:  same-origin
+2025:7:6 19:57:27.718 [DEBUG] Header Map: user-agent:  Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36
+2025:7:6 19:57:27.718 [DEBUG] Header Map: sec-ch-ua:  "Not)A;Brand";v="8", "Chromium";v="138", "Google Chrome";v="138"
+2025:7:6 19:57:27.718 [DEBUG] Header Map: sec-ch-ua-mobile:  ?0
+2025:7:6 19:57:27.718 [DEBUG] Header Map: accept-encoding:  gzip, deflate, br, zstd
+2025:7:6 19:57:27.718 [DEBUG] Header Map: accept:  */*
+2025:7:6 19:57:27.718 [DEBUG] Header Map: sec-fetch-mode:  cors
+2025:7:6 19:57:27.718 [DEBUG] Header Map: sec-fetch-dest:  empty
+2025:7:6 19:57:27.718 [DEBUG] Header Map: referer:  http://localhost:8080/
+2025:7:6 19:57:27.718 [DEBUG] 
+2025:7:6 19:57:28.717 [DEBUG] Header Map: accept-language:  en-US,en;q=0.9
+2025:7:6 19:57:28.717 [DEBUG] Header Map: host:  localhost:8080
+2025:7:6 19:57:28.717 [DEBUG] Header Map: connection:  keep-alive
+2025:7:6 19:57:28.717 [DEBUG] Header Map: dnt:  1
+2025:7:6 19:57:28.717 [DEBUG] Header Map: sec-ch-ua-platform:  "Linux"
+2025:7:6 19:57:28.717 [DEBUG] Header Map: sec-fetch-site:  same-origin
+2025:7:6 19:57:28.717 [DEBUG] Header Map: user-agent:  Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36
+2025:7:6 19:57:28.717 [DEBUG] Header Map: sec-ch-ua:  "Not)A;Brand";v="8", "Chromium";v="138", "Google Chrome";v="138"
+2025:7:6 19:57:28.717 [DEBUG] Header Map: sec-ch-ua-mobile:  ?0
+2025:7:6 19:57:28.717 [DEBUG] Header Map: accept-encoding:  gzip, deflate, br, zstd
+2025:7:6 19:57:28.717 [DEBUG] Header Map: accept:  */*
+2025:7:6 19:57:28.717 [DEBUG] Header Map: sec-fetch-mode:  cors
+2025:7:6 19:57:28.717 [DEBUG] Header Map: sec-fetch-dest:  empty
+2025:7:6 19:57:28.717 [DEBUG] Header Map: referer:  http://localhost:8080/
+2025:7:6 19:57:28.717 [DEBUG] 
+2025:7:6 19:57:29.718 [DEBUG] Header Map: accept-language:  en-US,en;q=0.9
+2025:7:6 19:57:29.718 [DEBUG] Header Map: host:  localhost:8080
+2025:7:6 19:57:29.718 [DEBUG] Header Map: connection:  keep-alive
+2025:7:6 19:57:29.718 [DEBUG] Header Map: dnt:  1
+2025:7:6 19:57:29.718 [DEBUG] Header Map: sec-ch-ua-platform:  "Linux"
+2025:7:6 19:57:29.718 [DEBUG] Header Map: sec-fetch-site:  same-origin
+2025:7:6 19:57:29.718 [DEBUG] Header Map: user-agent:  Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36
+2025:7:6 19:57:29.718 [DEBUG] Header Map: sec-ch-ua:  "Not)A;Brand";v="8", "Chromium";v="138", "Google Chrome";v="138"
+2025:7:6 19:57:29.718 [DEBUG] Header Map: sec-ch-ua-mobile:  ?0
+2025:7:6 19:57:29.718 [DEBUG] Header Map: accept-encoding:  gzip, deflate, br, zstd
+2025:7:6 19:57:29.718 [DEBUG] Header Map: accept:  */*
+2025:7:6 19:57:29.718 [DEBUG] Header Map: sec-fetch-mode:  cors
+2025:7:6 19:57:29.718 [DEBUG] Header Map: sec-fetch-dest:  empty
+2025:7:6 19:57:29.718 [DEBUG] Header Map: referer:  http://localhost:8080/
+2025:7:6 19:57:29.718 [DEBUG] 
+2025:7:6 19:57:30.717 [DEBUG] Header Map: accept-language:  en-US,en;q=0.9
+2025:7:6 19:57:30.717 [DEBUG] Header Map: host:  localhost:8080
+2025:7:6 19:57:30.717 [DEBUG] Header Map: connection:  keep-alive
+2025:7:6 19:57:30.717 [DEBUG] Header Map: dnt:  1
+2025:7:6 19:57:30.717 [DEBUG] Header Map: sec-ch-ua-platform:  "Linux"
+2025:7:6 19:57:30.717 [DEBUG] Header Map: sec-fetch-site:  same-origin
+2025:7:6 19:57:30.717 [DEBUG] Header Map: user-agent:  Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36
+2025:7:6 19:57:30.717 [DEBUG] Header Map: sec-ch-ua:  "Not)A;Brand";v="8", "Chromium";v="138", "Google Chrome";v="138"
+2025:7:6 19:57:30.717 [DEBUG] Header Map: sec-ch-ua-mobile:  ?0
+2025:7:6 19:57:30.717 [DEBUG] Header Map: accept-encoding:  gzip, deflate, br, zstd
+2025:7:6 19:57:30.718 [DEBUG] Header Map: accept:  */*
+2025:7:6 19:57:30.718 [DEBUG] Header Map: sec-fetch-mode:  cors
+2025:7:6 19:57:30.718 [DEBUG] Header Map: sec-fetch-dest:  empty
+2025:7:6 19:57:30.718 [DEBUG] Header Map: referer:  http://localhost:8080/
+2025:7:6 19:57:30.718 [DEBUG] 
+2025:7:6 19:57:31.718 [DEBUG] Header Map: accept-language:  en-US,en;q=0.9
+2025:7:6 19:57:31.718 [DEBUG] Header Map: host:  localhost:8080
+2025:7:6 19:57:31.718 [DEBUG] Header Map: connection:  keep-alive
+2025:7:6 19:57:31.718 [DEBUG] Header Map: dnt:  1
+2025:7:6 19:57:31.718 [DEBUG] Header Map: sec-ch-ua-platform:  "Linux"
+2025:7:6 19:57:31.718 [DEBUG] Header Map: sec-fetch-site:  same-origin
+2025:7:6 19:57:31.718 [DEBUG] Header Map: user-agent:  Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36
+2025:7:6 19:57:31.718 [DEBUG] Header Map: sec-ch-ua:  "Not)A;Brand";v="8", "Chromium";v="138", "Google Chrome";v="138"
+2025:7:6 19:57:31.718 [DEBUG] Header Map: sec-ch-ua-mobile:  ?0
+2025:7:6 19:57:31.718 [DEBUG] Header Map: accept-encoding:  gzip, deflate, br, zstd
+2025:7:6 19:57:31.718 [DEBUG] Header Map: accept:  */*
+2025:7:6 19:57:31.718 [DEBUG] Header Map: sec-fetch-mode:  cors
+2025:7:6 19:57:31.718 [DEBUG] Header Map: sec-fetch-dest:  empty
+2025:7:6 19:57:31.718 [DEBUG] Header Map: referer:  http://localhost:8080/
+2025:7:6 19:57:31.718 [DEBUG] 
+2025:7:6 19:57:32.717 [DEBUG] Header Map: accept-language:  en-US,en;q=0.9
+2025:7:6 19:57:32.717 [DEBUG] Header Map: host:  localhost:8080
+2025:7:6 19:57:32.717 [DEBUG] Header Map: connection:  keep-alive
+2025:7:6 19:57:32.717 [DEBUG] Header Map: dnt:  1
+2025:7:6 19:57:32.717 [DEBUG] Header Map: sec-ch-ua-platform:  "Linux"
+2025:7:6 19:57:32.718 [DEBUG] Header Map: sec-fetch-site:  same-origin
+2025:7:6 19:57:32.718 [DEBUG] Header Map: user-agent:  Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36
+2025:7:6 19:57:32.718 [DEBUG] Header Map: sec-ch-ua:  "Not)A;Brand";v="8", "Chromium";v="138", "Google Chrome";v="138"
+2025:7:6 19:57:32.718 [DEBUG] Header Map: sec-ch-ua-mobile:  ?0
+2025:7:6 19:57:32.718 [DEBUG] Header Map: accept-encoding:  gzip, deflate, br, zstd
+2025:7:6 19:57:32.718 [DEBUG] Header Map: accept:  */*
+2025:7:6 19:57:32.718 [DEBUG] Header Map: sec-fetch-mode:  cors
+2025:7:6 19:57:32.718 [DEBUG] Header Map: sec-fetch-dest:  empty
+2025:7:6 19:57:32.718 [DEBUG] Header Map: referer:  http://localhost:8080/
+2025:7:6 19:57:32.718 [DEBUG] 
+2025:7:6 19:57:33.717 [DEBUG] Header Map: accept-language:  en-US,en;q=0.9
+2025:7:6 19:57:33.717 [DEBUG] Header Map: host:  localhost:8080
+2025:7:6 19:57:33.717 [DEBUG] Header Map: connection:  keep-alive
+2025:7:6 19:57:33.717 [DEBUG] Header Map: dnt:  1
+2025:7:6 19:57:33.717 [DEBUG] Header Map: sec-ch-ua-platform:  "Linux"
+2025:7:6 19:57:33.717 [DEBUG] Header Map: sec-fetch-site:  same-origin
+2025:7:6 19:57:33.717 [DEBUG] Header Map: user-agent:  Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36
+2025:7:6 19:57:33.717 [DEBUG] Header Map: sec-ch-ua:  "Not)A;Brand";v="8", "Chromium";v="138", "Google Chrome";v="138"
+2025:7:6 19:57:33.717 [DEBUG] Header Map: sec-ch-ua-mobile:  ?0
+2025:7:6 19:57:33.717 [DEBUG] Header Map: accept-encoding:  gzip, deflate, br, zstd
+2025:7:6 19:57:33.717 [DEBUG] Header Map: accept:  */*
+2025:7:6 19:57:33.717 [DEBUG] Header Map: sec-fetch-mode:  cors
+2025:7:6 19:57:33.717 [DEBUG] Header Map: sec-fetch-dest:  empty
+2025:7:6 19:57:33.717 [DEBUG] Header Map: referer:  http://localhost:8080/
+2025:7:6 19:57:33.717 [DEBUG] 
+2025:7:6 19:57:34.717 [DEBUG] Header Map: accept-language:  en-US,en;q=0.9
+2025:7:6 19:57:34.717 [DEBUG] Header Map: host:  localhost:8080
+2025:7:6 19:57:34.717 [DEBUG] Header Map: connection:  keep-alive
+2025:7:6 19:57:34.717 [DEBUG] Header Map: dnt:  1
+2025:7:6 19:57:34.717 [DEBUG] Header Map: sec-ch-ua-platform:  "Linux"
+2025:7:6 19:57:34.717 [DEBUG] Header Map: sec-fetch-site:  same-origin
+2025:7:6 19:57:34.717 [DEBUG] Header Map: user-agent:  Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36
+2025:7:6 19:57:34.717 [DEBUG] Header Map: sec-ch-ua:  "Not)A;Brand";v="8", "Chromium";v="138", "Google Chrome";v="138"
+2025:7:6 19:57:34.717 [DEBUG] Header Map: sec-ch-ua-mobile:  ?0
+2025:7:6 19:57:34.717 [DEBUG] Header Map: accept-encoding:  gzip, deflate, br, zstd
+2025:7:6 19:57:34.717 [DEBUG] Header Map: accept:  */*
+2025:7:6 19:57:34.717 [DEBUG] Header Map: sec-fetch-mode:  cors
+2025:7:6 19:57:34.717 [DEBUG] Header Map: sec-fetch-dest:  empty
+2025:7:6 19:57:34.717 [DEBUG] Header Map: referer:  http://localhost:8080/
+2025:7:6 19:57:34.717 [DEBUG] 
+2025:7:6 19:57:35.717 [DEBUG] Header Map: accept-language:  en-US,en;q=0.9
+2025:7:6 19:57:35.717 [DEBUG] Header Map: host:  localhost:8080
+2025:7:6 19:57:35.717 [DEBUG] Header Map: connection:  keep-alive
+2025:7:6 19:57:35.717 [DEBUG] Header Map: dnt:  1
+2025:7:6 19:57:35.717 [DEBUG] Header Map: sec-ch-ua-platform:  "Linux"
+2025:7:6 19:57:35.717 [DEBUG] Header Map: sec-fetch-site:  same-origin
+2025:7:6 19:57:35.717 [DEBUG] Header Map: user-agent:  Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36
+2025:7:6 19:57:35.717 [DEBUG] Header Map: sec-ch-ua:  "Not)A;Brand";v="8", "Chromium";v="138", "Google Chrome";v="138"
+2025:7:6 19:57:35.717 [DEBUG] Header Map: sec-ch-ua-mobile:  ?0
+2025:7:6 19:57:35.717 [DEBUG] Header Map: accept-encoding:  gzip, deflate, br, zstd
+2025:7:6 19:57:35.717 [DEBUG] Header Map: accept:  */*
+2025:7:6 19:57:35.717 [DEBUG] Header Map: sec-fetch-mode:  cors
+2025:7:6 19:57:35.717 [DEBUG] Header Map: sec-fetch-dest:  empty
+2025:7:6 19:57:35.717 [DEBUG] Header Map: referer:  http://localhost:8080/
+2025:7:6 19:57:35.717 [DEBUG] 
+2025:7:6 19:57:36.717 [DEBUG] Header Map: accept-language:  en-US,en;q=0.9
+2025:7:6 19:57:36.717 [DEBUG] Header Map: host:  localhost:8080
+2025:7:6 19:57:36.717 [DEBUG] Header Map: connection:  keep-alive
+2025:7:6 19:57:36.717 [DEBUG] Header Map: dnt:  1
+2025:7:6 19:57:36.717 [DEBUG] Header Map: sec-ch-ua-platform:  "Linux"
+2025:7:6 19:57:36.717 [DEBUG] Header Map: sec-fetch-site:  same-origin
+2025:7:6 19:57:36.717 [DEBUG] Header Map: user-agent:  Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36
+2025:7:6 19:57:36.717 [DEBUG] Header Map: sec-ch-ua:  "Not)A;Brand";v="8", "Chromium";v="138", "Google Chrome";v="138"
+2025:7:6 19:57:36.717 [DEBUG] Header Map: sec-ch-ua-mobile:  ?0
+2025:7:6 19:57:36.717 [DEBUG] Header Map: accept-encoding:  gzip, deflate, br, zstd
+2025:7:6 19:57:36.717 [DEBUG] Header Map: accept:  */*
+2025:7:6 19:57:36.717 [DEBUG] Header Map: sec-fetch-mode:  cors
+2025:7:6 19:57:36.717 [DEBUG] Header Map: sec-fetch-dest:  empty
+2025:7:6 19:57:36.717 [DEBUG] Header Map: referer:  http://localhost:8080/
+2025:7:6 19:57:36.717 [DEBUG] 
+2025:7:6 19:57:37.717 [DEBUG] Header Map: accept-language:  en-US,en;q=0.9
+2025:7:6 19:57:37.717 [DEBUG] Header Map: host:  localhost:8080
+2025:7:6 19:57:37.717 [DEBUG] Header Map: connection:  keep-alive
+2025:7:6 19:57:37.717 [DEBUG] Header Map: dnt:  1
+2025:7:6 19:57:37.717 [DEBUG] Header Map: sec-ch-ua-platform:  "Linux"
+2025:7:6 19:57:37.717 [DEBUG] Header Map: sec-fetch-site:  same-origin
+2025:7:6 19:57:37.718 [DEBUG] Header Map: user-agent:  Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36
+2025:7:6 19:57:37.718 [DEBUG] Header Map: sec-ch-ua:  "Not)A;Brand";v="8", "Chromium";v="138", "Google Chrome";v="138"
+2025:7:6 19:57:37.718 [DEBUG] Header Map: sec-ch-ua-mobile:  ?0
+2025:7:6 19:57:37.718 [DEBUG] Header Map: accept-encoding:  gzip, deflate, br, zstd
+2025:7:6 19:57:37.718 [DEBUG] Header Map: accept:  */*
+2025:7:6 19:57:37.718 [DEBUG] Header Map: sec-fetch-mode:  cors
+2025:7:6 19:57:37.718 [DEBUG] Header Map: sec-fetch-dest:  empty
+2025:7:6 19:57:37.718 [DEBUG] Header Map: referer:  http://localhost:8080/
+2025:7:6 19:57:37.718 [DEBUG] 
+2025:7:6 19:57:38.718 [DEBUG] Header Map: accept-language:  en-US,en;q=0.9
+2025:7:6 19:57:38.718 [DEBUG] Header Map: host:  localhost:8080
+2025:7:6 19:57:38.718 [DEBUG] Header Map: connection:  keep-alive
+2025:7:6 19:57:38.718 [DEBUG] Header Map: dnt:  1
+2025:7:6 19:57:38.718 [DEBUG] Header Map: sec-ch-ua-platform:  "Linux"
+2025:7:6 19:57:38.718 [DEBUG] Header Map: sec-fetch-site:  same-origin
+2025:7:6 19:57:38.718 [DEBUG] Header Map: user-agent:  Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36
+2025:7:6 19:57:38.718 [DEBUG] Header Map: sec-ch-ua:  "Not)A;Brand";v="8", "Chromium";v="138", "Google Chrome";v="138"
+2025:7:6 19:57:38.718 [DEBUG] Header Map: sec-ch-ua-mobile:  ?0
+2025:7:6 19:57:38.718 [DEBUG] Header Map: accept-encoding:  gzip, deflate, br, zstd
+2025:7:6 19:57:38.718 [DEBUG] Header Map: accept:  */*
+2025:7:6 19:57:38.718 [DEBUG] Header Map: sec-fetch-mode:  cors
+2025:7:6 19:57:38.718 [DEBUG] Header Map: sec-fetch-dest:  empty
+2025:7:6 19:57:38.718 [DEBUG] Header Map: referer:  http://localhost:8080/
+2025:7:6 19:57:38.718 [DEBUG] 
+2025:7:6 19:57:39.718 [DEBUG] Header Map: accept-language:  en-US,en;q=0.9
+2025:7:6 19:57:39.718 [DEBUG] Header Map: host:  localhost:8080
+2025:7:6 19:57:39.719 [DEBUG] Header Map: connection:  keep-alive
+2025:7:6 19:57:39.719 [DEBUG] Header Map: dnt:  1
+2025:7:6 19:57:39.719 [DEBUG] Header Map: sec-ch-ua-platform:  "Linux"
+2025:7:6 19:57:39.719 [DEBUG] Header Map: sec-fetch-site:  same-origin
+2025:7:6 19:57:39.719 [DEBUG] Header Map: user-agent:  Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36
+2025:7:6 19:57:39.719 [DEBUG] Header Map: sec-ch-ua:  "Not)A;Brand";v="8", "Chromium";v="138", "Google Chrome";v="138"
+2025:7:6 19:57:39.719 [DEBUG] Header Map: sec-ch-ua-mobile:  ?0
+2025:7:6 19:57:39.719 [DEBUG] Header Map: accept-encoding:  gzip, deflate, br, zstd
+2025:7:6 19:57:39.719 [DEBUG] Header Map: accept:  */*
+2025:7:6 19:57:39.719 [DEBUG] Header Map: sec-fetch-mode:  cors
+2025:7:6 19:57:39.719 [DEBUG] Header Map: sec-fetch-dest:  empty
+2025:7:6 19:57:39.719 [DEBUG] Header Map: referer:  http://localhost:8080/
+2025:7:6 19:57:39.719 [DEBUG] 
+2025:7:6 19:57:40.717 [DEBUG] Header Map: accept-language:  en-US,en;q=0.9
+2025:7:6 19:57:40.717 [DEBUG] Header Map: host:  localhost:8080
+2025:7:6 19:57:40.717 [DEBUG] Header Map: connection:  keep-alive
+2025:7:6 19:57:40.717 [DEBUG] Header Map: dnt:  1
+2025:7:6 19:57:40.717 [DEBUG] Header Map: sec-ch-ua-platform:  "Linux"
+2025:7:6 19:57:40.717 [DEBUG] Header Map: sec-fetch-site:  same-origin
+2025:7:6 19:57:40.717 [DEBUG] Header Map: user-agent:  Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36
+2025:7:6 19:57:40.717 [DEBUG] Header Map: sec-ch-ua:  "Not)A;Brand";v="8", "Chromium";v="138", "Google Chrome";v="138"
+2025:7:6 19:57:40.717 [DEBUG] Header Map: sec-ch-ua-mobile:  ?0
+2025:7:6 19:57:40.717 [DEBUG] Header Map: accept-encoding:  gzip, deflate, br, zstd
+2025:7:6 19:57:40.717 [DEBUG] Header Map: accept:  */*
+2025:7:6 19:57:40.717 [DEBUG] Header Map: sec-fetch-mode:  cors
+2025:7:6 19:57:40.717 [DEBUG] Header Map: sec-fetch-dest:  empty
+2025:7:6 19:57:40.717 [DEBUG] Header Map: referer:  http://localhost:8080/
+2025:7:6 19:57:40.717 [DEBUG] 
+2025:7:6 19:57:41.739 [DEBUG] Header Map: accept-language:  en-US,en;q=0.9
+2025:7:6 19:57:41.739 [DEBUG] Header Map: host:  localhost:8080
+2025:7:6 19:57:41.740 [DEBUG] Header Map: connection:  keep-alive
+2025:7:6 19:57:41.740 [DEBUG] Header Map: dnt:  1
+2025:7:6 19:57:41.740 [DEBUG] Header Map: sec-ch-ua-platform:  "Linux"
+2025:7:6 19:57:41.740 [DEBUG] Header Map: sec-fetch-site:  same-origin
+2025:7:6 19:57:41.740 [DEBUG] Header Map: user-agent:  Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36
+2025:7:6 19:57:41.740 [DEBUG] Header Map: sec-ch-ua:  "Not)A;Brand";v="8", "Chromium";v="138", "Google Chrome";v="138"
+2025:7:6 19:57:41.740 [DEBUG] Header Map: sec-ch-ua-mobile:  ?0
+2025:7:6 19:57:41.740 [DEBUG] Header Map: accept-encoding:  gzip, deflate, br, zstd
+2025:7:6 19:57:41.740 [DEBUG] Header Map: accept:  */*
+2025:7:6 19:57:41.740 [DEBUG] Header Map: sec-fetch-mode:  cors
+2025:7:6 19:57:41.740 [DEBUG] Header Map: sec-fetch-dest:  empty
+2025:7:6 19:57:41.740 [DEBUG] Header Map: referer:  http://localhost:8080/
+2025:7:6 19:57:41.740 [DEBUG] 
+2025:7:6 19:57:42.811 [DEBUG] Header Map: accept-language:  en-US,en;q=0.9
+2025:7:6 19:57:42.811 [DEBUG] Header Map: host:  localhost:8080
+2025:7:6 19:57:42.811 [DEBUG] Header Map: connection:  keep-alive
+2025:7:6 19:57:42.811 [DEBUG] Header Map: dnt:  1
+2025:7:6 19:57:42.811 [DEBUG] Header Map: sec-ch-ua-platform:  "Linux"
+2025:7:6 19:57:42.811 [DEBUG] Header Map: sec-fetch-site:  same-origin
+2025:7:6 19:57:42.811 [DEBUG] Header Map: user-agent:  Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36
+2025:7:6 19:57:42.811 [DEBUG] Header Map: sec-ch-ua:  "Not)A;Brand";v="8", "Chromium";v="138", "Google Chrome";v="138"
+2025:7:6 19:57:42.811 [DEBUG] Header Map: sec-ch-ua-mobile:  ?0
+2025:7:6 19:57:42.811 [DEBUG] Header Map: accept-encoding:  gzip, deflate, br, zstd
+2025:7:6 19:57:42.811 [DEBUG] Header Map: accept:  */*
+2025:7:6 19:57:42.811 [DEBUG] Header Map: sec-fetch-mode:  cors
+2025:7:6 19:57:42.811 [DEBUG] Header Map: sec-fetch-dest:  empty
+2025:7:6 19:57:42.811 [DEBUG] Header Map: referer:  http://localhost:8080/
+2025:7:6 19:57:42.811 [DEBUG] 
+2025:7:6 19:57:43.719 [DEBUG] Header Map: accept-language:  en-US,en;q=0.9
+2025:7:6 19:57:43.719 [DEBUG] Header Map: host:  localhost:8080
+2025:7:6 19:57:43.719 [DEBUG] Header Map: connection:  keep-alive
+2025:7:6 19:57:43.719 [DEBUG] Header Map: dnt:  1
+2025:7:6 19:57:43.719 [DEBUG] Header Map: sec-ch-ua-platform:  "Linux"
+2025:7:6 19:57:43.719 [DEBUG] Header Map: sec-fetch-site:  same-origin
+2025:7:6 19:57:43.719 [DEBUG] Header Map: user-agent:  Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36
+2025:7:6 19:57:43.719 [DEBUG] Header Map: sec-ch-ua:  "Not)A;Brand";v="8", "Chromium";v="138", "Google Chrome";v="138"
+2025:7:6 19:57:43.719 [DEBUG] Header Map: sec-ch-ua-mobile:  ?0
+2025:7:6 19:57:43.719 [DEBUG] Header Map: accept-encoding:  gzip, deflate, br, zstd
+2025:7:6 19:57:43.719 [DEBUG] Header Map: accept:  */*
+2025:7:6 19:57:43.719 [DEBUG] Header Map: sec-fetch-mode:  cors
+2025:7:6 19:57:43.719 [DEBUG] Header Map: sec-fetch-dest:  empty
+2025:7:6 19:57:43.719 [DEBUG] Header Map: referer:  http://localhost:8080/
+2025:7:6 19:57:43.719 [DEBUG] 
+2025:7:6 19:57:44.738 [DEBUG] Header Map: accept-language:  en-US,en;q=0.9
+2025:7:6 19:57:44.738 [DEBUG] Header Map: host:  localhost:8080
+2025:7:6 19:57:44.738 [DEBUG] Header Map: connection:  keep-alive
+2025:7:6 19:57:44.738 [DEBUG] Header Map: dnt:  1
+2025:7:6 19:57:44.738 [DEBUG] Header Map: sec-ch-ua-platform:  "Linux"
+2025:7:6 19:57:44.738 [DEBUG] Header Map: sec-fetch-site:  same-origin
+2025:7:6 19:57:44.738 [DEBUG] Header Map: user-agent:  Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36
+2025:7:6 19:57:44.738 [DEBUG] Header Map: sec-ch-ua:  "Not)A;Brand";v="8", "Chromium";v="138", "Google Chrome";v="138"
+2025:7:6 19:57:44.738 [DEBUG] Header Map: sec-ch-ua-mobile:  ?0
+2025:7:6 19:57:44.738 [DEBUG] Header Map: accept-encoding:  gzip, deflate, br, zstd
+2025:7:6 19:57:44.738 [DEBUG] Header Map: accept:  */*
+2025:7:6 19:57:44.738 [DEBUG] Header Map: sec-fetch-mode:  cors
+2025:7:6 19:57:44.738 [DEBUG] Header Map: sec-fetch-dest:  empty
+2025:7:6 19:57:44.738 [DEBUG] Header Map: referer:  http://localhost:8080/
+2025:7:6 19:57:44.738 [DEBUG] 
+2025:7:6 19:58:12.42 [DEBUG] Header Map: accept-language:  en-US,en;q=0.9
+2025:7:6 19:58:12.42 [DEBUG] Header Map: host:  localhost:8080
+2025:7:6 19:58:12.42 [DEBUG] Header Map: connection:  keep-alive
+2025:7:6 19:58:12.42 [DEBUG] Header Map: dnt:  1
+2025:7:6 19:58:12.42 [DEBUG] Header Map: sec-ch-ua-platform:  "Linux"
+2025:7:6 19:58:12.42 [DEBUG] Header Map: sec-fetch-site:  same-origin
+2025:7:6 19:58:12.42 [DEBUG] Header Map: user-agent:  Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36
+2025:7:6 19:58:12.42 [DEBUG] Header Map: sec-ch-ua:  "Not)A;Brand";v="8", "Chromium";v="138", "Google Chrome";v="138"
+2025:7:6 19:58:12.42 [DEBUG] Header Map: sec-ch-ua-mobile:  ?0
+2025:7:6 19:58:12.42 [DEBUG] Header Map: accept-encoding:  gzip, deflate, br, zstd
+2025:7:6 19:58:12.42 [DEBUG] Header Map: accept:  */*
+2025:7:6 19:58:12.42 [DEBUG] Header Map: sec-fetch-mode:  cors
+2025:7:6 19:58:12.42 [DEBUG] Header Map: sec-fetch-dest:  empty
+2025:7:6 19:58:12.42 [DEBUG] Header Map: referer:  http://localhost:8080/
+2025:7:6 19:58:12.42 [DEBUG] 
+2025:7:6 19:58:13.22 [DEBUG] Header Map: accept-language:  en-US,en;q=0.9
+2025:7:6 19:58:13.22 [DEBUG] Header Map: host:  localhost:8080
+2025:7:6 19:58:13.22 [DEBUG] Header Map: connection:  keep-alive
+2025:7:6 19:58:13.22 [DEBUG] Header Map: dnt:  1
+2025:7:6 19:58:13.22 [DEBUG] Header Map: sec-ch-ua-platform:  "Linux"
+2025:7:6 19:58:13.22 [DEBUG] Header Map: sec-fetch-site:  same-origin
+2025:7:6 19:58:13.22 [DEBUG] Header Map: user-agent:  Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36
+2025:7:6 19:58:13.22 [DEBUG] Header Map: sec-ch-ua:  "Not)A;Brand";v="8", "Chromium";v="138", "Google Chrome";v="138"
+2025:7:6 19:58:13.22 [DEBUG] Header Map: sec-ch-ua-mobile:  ?0
+2025:7:6 19:58:13.22 [DEBUG] Header Map: accept-encoding:  gzip, deflate, br, zstd
+2025:7:6 19:58:13.22 [DEBUG] Header Map: accept:  */*
+2025:7:6 19:58:13.22 [DEBUG] Header Map: sec-fetch-mode:  cors
+2025:7:6 19:58:13.22 [DEBUG] Header Map: sec-fetch-dest:  empty
+2025:7:6 19:58:13.22 [DEBUG] Header Map: referer:  http://localhost:8080/
+2025:7:6 19:58:13.22 [DEBUG] 
+2025:7:6 19:58:14.21 [DEBUG] Header Map: accept-language:  en-US,en;q=0.9
+2025:7:6 19:58:14.22 [DEBUG] Header Map: host:  localhost:8080
+2025:7:6 19:58:14.22 [DEBUG] Header Map: connection:  keep-alive
+2025:7:6 19:58:14.22 [DEBUG] Header Map: dnt:  1
+2025:7:6 19:58:14.22 [DEBUG] Header Map: sec-ch-ua-platform:  "Linux"
+2025:7:6 19:58:14.22 [DEBUG] Header Map: sec-fetch-site:  same-origin
+2025:7:6 19:58:14.22 [DEBUG] Header Map: user-agent:  Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36
+2025:7:6 19:58:14.22 [DEBUG] Header Map: sec-ch-ua:  "Not)A;Brand";v="8", "Chromium";v="138", "Google Chrome";v="138"
+2025:7:6 19:58:14.22 [DEBUG] Header Map: sec-ch-ua-mobile:  ?0
+2025:7:6 19:58:14.22 [DEBUG] Header Map: accept-encoding:  gzip, deflate, br, zstd
+2025:7:6 19:58:14.22 [DEBUG] Header Map: accept:  */*
+2025:7:6 19:58:14.22 [DEBUG] Header Map: sec-fetch-mode:  cors
+2025:7:6 19:58:14.22 [DEBUG] Header Map: sec-fetch-dest:  empty
+2025:7:6 19:58:14.22 [DEBUG] Header Map: referer:  http://localhost:8080/
+2025:7:6 19:58:14.22 [DEBUG] 
+2025:7:6 19:58:15.21 [DEBUG] Header Map: accept-language:  en-US,en;q=0.9
+2025:7:6 19:58:15.21 [DEBUG] Header Map: host:  localhost:8080
+2025:7:6 19:58:15.21 [DEBUG] Header Map: connection:  keep-alive
+2025:7:6 19:58:15.21 [DEBUG] Header Map: dnt:  1
+2025:7:6 19:58:15.21 [DEBUG] Header Map: sec-ch-ua-platform:  "Linux"
+2025:7:6 19:58:15.21 [DEBUG] Header Map: sec-fetch-site:  same-origin
+2025:7:6 19:58:15.21 [DEBUG] Header Map: user-agent:  Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36
+2025:7:6 19:58:15.21 [DEBUG] Header Map: sec-ch-ua:  "Not)A;Brand";v="8", "Chromium";v="138", "Google Chrome";v="138"
+2025:7:6 19:58:15.21 [DEBUG] Header Map: sec-ch-ua-mobile:  ?0
+2025:7:6 19:58:15.21 [DEBUG] Header Map: accept-encoding:  gzip, deflate, br, zstd
+2025:7:6 19:58:15.21 [DEBUG] Header Map: accept:  */*
+2025:7:6 19:58:15.21 [DEBUG] Header Map: sec-fetch-mode:  cors
+2025:7:6 19:58:15.21 [DEBUG] Header Map: sec-fetch-dest:  empty
+2025:7:6 19:58:15.21 [DEBUG] Header Map: referer:  http://localhost:8080/
+2025:7:6 19:58:15.22 [DEBUG] 
+2025:7:6 19:58:16.486 [DEBUG] Header Map: accept-language:  en-US,en;q=0.9
+2025:7:6 19:58:16.486 [DEBUG] Header Map: host:  localhost:8080
+2025:7:6 19:58:16.486 [DEBUG] Header Map: connection:  keep-alive
+2025:7:6 19:58:16.486 [DEBUG] Header Map: dnt:  1
+2025:7:6 19:58:16.486 [DEBUG] Header Map: sec-ch-ua-platform:  "Linux"
+2025:7:6 19:58:16.486 [DEBUG] Header Map: sec-fetch-site:  same-origin
+2025:7:6 19:58:16.486 [DEBUG] Header Map: user-agent:  Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36
+2025:7:6 19:58:16.486 [DEBUG] Header Map: sec-ch-ua:  "Not)A;Brand";v="8", "Chromium";v="138", "Google Chrome";v="138"
+2025:7:6 19:58:16.486 [DEBUG] Header Map: sec-ch-ua-mobile:  ?0
+2025:7:6 19:58:16.486 [DEBUG] Header Map: accept-encoding:  gzip, deflate, br, zstd
+2025:7:6 19:58:16.486 [DEBUG] Header Map: accept:  */*
+2025:7:6 19:58:16.486 [DEBUG] Header Map: sec-fetch-mode:  cors
+2025:7:6 19:58:16.486 [DEBUG] Header Map: sec-fetch-dest:  empty
+2025:7:6 19:58:16.486 [DEBUG] Header Map: referer:  http://localhost:8080/
+2025:7:6 19:58:16.486 [DEBUG] 
+2025:7:6 19:58:17.22 [DEBUG] Header Map: accept-language:  en-US,en;q=0.9
+2025:7:6 19:58:17.22 [DEBUG] Header Map: host:  localhost:8080
+2025:7:6 19:58:17.22 [DEBUG] Header Map: connection:  keep-alive
+2025:7:6 19:58:17.22 [DEBUG] Header Map: dnt:  1
+2025:7:6 19:58:17.22 [DEBUG] Header Map: sec-ch-ua-platform:  "Linux"
+2025:7:6 19:58:17.22 [DEBUG] Header Map: sec-fetch-site:  same-origin
+2025:7:6 19:58:17.22 [DEBUG] Header Map: user-agent:  Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36
+2025:7:6 19:58:17.22 [DEBUG] Header Map: sec-ch-ua:  "Not)A;Brand";v="8", "Chromium";v="138", "Google Chrome";v="138"
+2025:7:6 19:58:17.22 [DEBUG] Header Map: sec-ch-ua-mobile:  ?0
+2025:7:6 19:58:17.22 [DEBUG] Header Map: accept-encoding:  gzip, deflate, br, zstd
+2025:7:6 19:58:17.22 [DEBUG] Header Map: accept:  */*
+2025:7:6 19:58:17.22 [DEBUG] Header Map: sec-fetch-mode:  cors
+2025:7:6 19:58:17.22 [DEBUG] Header Map: sec-fetch-dest:  empty
+2025:7:6 19:58:17.22 [DEBUG] Header Map: referer:  http://localhost:8080/
+2025:7:6 19:58:17.22 [DEBUG] 
+2025:7:6 19:58:18.22 [DEBUG] Header Map: accept-language:  en-US,en;q=0.9
+2025:7:6 19:58:18.22 [DEBUG] Header Map: host:  localhost:8080
+2025:7:6 19:58:18.22 [DEBUG] Header Map: connection:  keep-alive
+2025:7:6 19:58:18.22 [DEBUG] Header Map: dnt:  1
+2025:7:6 19:58:18.22 [DEBUG] Header Map: sec-ch-ua-platform:  "Linux"
+2025:7:6 19:58:18.22 [DEBUG] Header Map: sec-fetch-site:  same-origin
+2025:7:6 19:58:18.22 [DEBUG] Header Map: user-agent:  Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36
+2025:7:6 19:58:18.22 [DEBUG] Header Map: sec-ch-ua:  "Not)A;Brand";v="8", "Chromium";v="138", "Google Chrome";v="138"
+2025:7:6 19:58:18.22 [DEBUG] Header Map: sec-ch-ua-mobile:  ?0
+2025:7:6 19:58:18.22 [DEBUG] Header Map: accept-encoding:  gzip, deflate, br, zstd
+2025:7:6 19:58:18.22 [DEBUG] Header Map: accept:  */*
+2025:7:6 19:58:18.22 [DEBUG] Header Map: sec-fetch-mode:  cors
+2025:7:6 19:58:18.22 [DEBUG] Header Map: sec-fetch-dest:  empty
+2025:7:6 19:58:18.22 [DEBUG] Header Map: referer:  http://localhost:8080/
+2025:7:6 19:58:18.22 [DEBUG] 
+2025:7:6 19:58:19.22 [DEBUG] Header Map: accept-language:  en-US,en;q=0.9
+2025:7:6 19:58:19.22 [DEBUG] Header Map: host:  localhost:8080
+2025:7:6 19:58:19.22 [DEBUG] Header Map: connection:  keep-alive
+2025:7:6 19:58:19.22 [DEBUG] Header Map: dnt:  1
+2025:7:6 19:58:19.23 [DEBUG] Header Map: sec-ch-ua-platform:  "Linux"
+2025:7:6 19:58:19.23 [DEBUG] Header Map: sec-fetch-site:  same-origin
+2025:7:6 19:58:19.23 [DEBUG] Header Map: user-agent:  Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36
+2025:7:6 19:58:19.23 [DEBUG] Header Map: sec-ch-ua:  "Not)A;Brand";v="8", "Chromium";v="138", "Google Chrome";v="138"
+2025:7:6 19:58:19.23 [DEBUG] Header Map: sec-ch-ua-mobile:  ?0
+2025:7:6 19:58:19.23 [DEBUG] Header Map: accept-encoding:  gzip, deflate, br, zstd
+2025:7:6 19:58:19.23 [DEBUG] Header Map: accept:  */*
+2025:7:6 19:58:19.23 [DEBUG] Header Map: sec-fetch-mode:  cors
+2025:7:6 19:58:19.23 [DEBUG] Header Map: sec-fetch-dest:  empty
+2025:7:6 19:58:19.23 [DEBUG] Header Map: referer:  http://localhost:8080/
+2025:7:6 19:58:19.23 [DEBUG] 
+2025:7:6 19:58:20.22 [DEBUG] Header Map: accept-language:  en-US,en;q=0.9
+2025:7:6 19:58:20.22 [DEBUG] Header Map: host:  localhost:8080
+2025:7:6 19:58:20.22 [DEBUG] Header Map: connection:  keep-alive
+2025:7:6 19:58:20.22 [DEBUG] Header Map: dnt:  1
+2025:7:6 19:58:20.22 [DEBUG] Header Map: sec-ch-ua-platform:  "Linux"
+2025:7:6 19:58:20.22 [DEBUG] Header Map: sec-fetch-site:  same-origin
+2025:7:6 19:58:20.22 [DEBUG] Header Map: user-agent:  Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36
+2025:7:6 19:58:20.22 [DEBUG] Header Map: sec-ch-ua:  "Not)A;Brand";v="8", "Chromium";v="138", "Google Chrome";v="138"
+2025:7:6 19:58:20.22 [DEBUG] Header Map: sec-ch-ua-mobile:  ?0
+2025:7:6 19:58:20.22 [DEBUG] Header Map: accept-encoding:  gzip, deflate, br, zstd
+2025:7:6 19:58:20.22 [DEBUG] Header Map: accept:  */*
+2025:7:6 19:58:20.22 [DEBUG] Header Map: sec-fetch-mode:  cors
+2025:7:6 19:58:20.22 [DEBUG] Header Map: sec-fetch-dest:  empty
+2025:7:6 19:58:20.22 [DEBUG] Header Map: referer:  http://localhost:8080/
+2025:7:6 19:58:20.22 [DEBUG] 
+2025:7:6 19:58:21.21 [DEBUG] Header Map: accept-language:  en-US,en;q=0.9
+2025:7:6 19:58:21.21 [DEBUG] Header Map: host:  localhost:8080
+2025:7:6 19:58:21.22 [DEBUG] Header Map: connection:  keep-alive
+2025:7:6 19:58:21.22 [DEBUG] Header Map: dnt:  1
+2025:7:6 19:58:21.22 [DEBUG] Header Map: sec-ch-ua-platform:  "Linux"
+2025:7:6 19:58:21.22 [DEBUG] Header Map: sec-fetch-site:  same-origin
+2025:7:6 19:58:21.22 [DEBUG] Header Map: user-agent:  Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36
+2025:7:6 19:58:21.22 [DEBUG] Header Map: sec-ch-ua:  "Not)A;Brand";v="8", "Chromium";v="138", "Google Chrome";v="138"
+2025:7:6 19:58:21.22 [DEBUG] Header Map: sec-ch-ua-mobile:  ?0
+2025:7:6 19:58:21.22 [DEBUG] Header Map: accept-encoding:  gzip, deflate, br, zstd
+2025:7:6 19:58:21.22 [DEBUG] Header Map: accept:  */*
+2025:7:6 19:58:21.22 [DEBUG] Header Map: sec-fetch-mode:  cors
+2025:7:6 19:58:21.22 [DEBUG] Header Map: sec-fetch-dest:  empty
+2025:7:6 19:58:21.22 [DEBUG] Header Map: referer:  http://localhost:8080/
+2025:7:6 19:58:21.22 [DEBUG] 
+2025:7:6 19:58:22.21 [DEBUG] Header Map: accept-language:  en-US,en;q=0.9
+2025:7:6 19:58:22.21 [DEBUG] Header Map: host:  localhost:8080
+2025:7:6 19:58:22.21 [DEBUG] Header Map: connection:  keep-alive
+2025:7:6 19:58:22.21 [DEBUG] Header Map: dnt:  1
+2025:7:6 19:58:22.21 [DEBUG] Header Map: sec-ch-ua-platform:  "Linux"
+2025:7:6 19:58:22.21 [DEBUG] Header Map: sec-fetch-site:  same-origin
+2025:7:6 19:58:22.21 [DEBUG] Header Map: user-agent:  Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36
+2025:7:6 19:58:22.21 [DEBUG] Header Map: sec-ch-ua:  "Not)A;Brand";v="8", "Chromium";v="138", "Google Chrome";v="138"
+2025:7:6 19:58:22.22 [DEBUG] Header Map: sec-ch-ua-mobile:  ?0
+2025:7:6 19:58:22.22 [DEBUG] Header Map: accept-encoding:  gzip, deflate, br, zstd
+2025:7:6 19:58:22.22 [DEBUG] Header Map: accept:  */*
+2025:7:6 19:58:22.22 [DEBUG] Header Map: sec-fetch-mode:  cors
+2025:7:6 19:58:22.22 [DEBUG] Header Map: sec-fetch-dest:  empty
+2025:7:6 19:58:22.22 [DEBUG] Header Map: referer:  http://localhost:8080/
+2025:7:6 19:58:22.22 [DEBUG] 
+2025:7:6 19:58:23.22 [DEBUG] Header Map: accept-language:  en-US,en;q=0.9
+2025:7:6 19:58:23.22 [DEBUG] Header Map: host:  localhost:8080
+2025:7:6 19:58:23.22 [DEBUG] Header Map: connection:  keep-alive
+2025:7:6 19:58:23.22 [DEBUG] Header Map: dnt:  1
+2025:7:6 19:58:23.22 [DEBUG] Header Map: sec-ch-ua-platform:  "Linux"
+2025:7:6 19:58:23.22 [DEBUG] Header Map: sec-fetch-site:  same-origin
+2025:7:6 19:58:23.22 [DEBUG] Header Map: user-agent:  Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36
+2025:7:6 19:58:23.22 [DEBUG] Header Map: sec-ch-ua:  "Not)A;Brand";v="8", "Chromium";v="138", "Google Chrome";v="138"
+2025:7:6 19:58:23.22 [DEBUG] Header Map: sec-ch-ua-mobile:  ?0
+2025:7:6 19:58:23.22 [DEBUG] Header Map: accept-encoding:  gzip, deflate, br, zstd
+2025:7:6 19:58:23.22 [DEBUG] Header Map: accept:  */*
+2025:7:6 19:58:23.22 [DEBUG] Header Map: sec-fetch-mode:  cors
+2025:7:6 19:58:23.22 [DEBUG] Header Map: sec-fetch-dest:  empty
+2025:7:6 19:58:23.22 [DEBUG] Header Map: referer:  http://localhost:8080/
+2025:7:6 19:58:23.22 [DEBUG] 
+2025:7:6 19:58:24.22 [DEBUG] Header Map: accept-language:  en-US,en;q=0.9
+2025:7:6 19:58:24.22 [DEBUG] Header Map: host:  localhost:8080
+2025:7:6 19:58:24.22 [DEBUG] Header Map: connection:  keep-alive
+2025:7:6 19:58:24.22 [DEBUG] Header Map: dnt:  1
+2025:7:6 19:58:24.22 [DEBUG] Header Map: sec-ch-ua-platform:  "Linux"
+2025:7:6 19:58:24.22 [DEBUG] Header Map: sec-fetch-site:  same-origin
+2025:7:6 19:58:24.22 [DEBUG] Header Map: user-agent:  Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36
+2025:7:6 19:58:24.22 [DEBUG] Header Map: sec-ch-ua:  "Not)A;Brand";v="8", "Chromium";v="138", "Google Chrome";v="138"
+2025:7:6 19:58:24.22 [DEBUG] Header Map: sec-ch-ua-mobile:  ?0
+2025:7:6 19:58:24.22 [DEBUG] Header Map: accept-encoding:  gzip, deflate, br, zstd
+2025:7:6 19:58:24.22 [DEBUG] Header Map: accept:  */*
+2025:7:6 19:58:24.22 [DEBUG] Header Map: sec-fetch-mode:  cors
+2025:7:6 19:58:24.22 [DEBUG] Header Map: sec-fetch-dest:  empty
+2025:7:6 19:58:24.22 [DEBUG] Header Map: referer:  http://localhost:8080/
+2025:7:6 19:58:24.22 [DEBUG] 
+2025:7:6 19:58:25.22 [DEBUG] Header Map: accept-language:  en-US,en;q=0.9
+2025:7:6 19:58:25.22 [DEBUG] Header Map: host:  localhost:8080
+2025:7:6 19:58:25.22 [DEBUG] Header Map: connection:  keep-alive
+2025:7:6 19:58:25.22 [DEBUG] Header Map: dnt:  1
+2025:7:6 19:58:25.22 [DEBUG] Header Map: sec-ch-ua-platform:  "Linux"
+2025:7:6 19:58:25.22 [DEBUG] Header Map: sec-fetch-site:  same-origin
+2025:7:6 19:58:25.22 [DEBUG] Header Map: user-agent:  Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36
+2025:7:6 19:58:25.22 [DEBUG] Header Map: sec-ch-ua:  "Not)A;Brand";v="8", "Chromium";v="138", "Google Chrome";v="138"
+2025:7:6 19:58:25.22 [DEBUG] Header Map: sec-ch-ua-mobile:  ?0
+2025:7:6 19:58:25.22 [DEBUG] Header Map: accept-encoding:  gzip, deflate, br, zstd
+2025:7:6 19:58:25.22 [DEBUG] Header Map: accept:  */*
+2025:7:6 19:58:25.22 [DEBUG] Header Map: sec-fetch-mode:  cors
+2025:7:6 19:58:25.23 [DEBUG] Header Map: sec-fetch-dest:  empty
+2025:7:6 19:58:25.23 [DEBUG] Header Map: referer:  http://localhost:8080/
+2025:7:6 19:58:25.23 [DEBUG] 
+2025:7:6 19:58:26.22 [DEBUG] Header Map: accept-language:  en-US,en;q=0.9
+2025:7:6 19:58:26.22 [DEBUG] Header Map: host:  localhost:8080
+2025:7:6 19:58:26.22 [DEBUG] Header Map: connection:  keep-alive
+2025:7:6 19:58:26.22 [DEBUG] Header Map: dnt:  1
+2025:7:6 19:58:26.22 [DEBUG] Header Map: sec-ch-ua-platform:  "Linux"
+2025:7:6 19:58:26.22 [DEBUG] Header Map: sec-fetch-site:  same-origin
+2025:7:6 19:58:26.22 [DEBUG] Header Map: user-agent:  Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36
+2025:7:6 19:58:26.22 [DEBUG] Header Map: sec-ch-ua:  "Not)A;Brand";v="8", "Chromium";v="138", "Google Chrome";v="138"
+2025:7:6 19:58:26.22 [DEBUG] Header Map: sec-ch-ua-mobile:  ?0
+2025:7:6 19:58:26.22 [DEBUG] Header Map: accept-encoding:  gzip, deflate, br, zstd
+2025:7:6 19:58:26.22 [DEBUG] Header Map: accept:  */*
+2025:7:6 19:58:26.22 [DEBUG] Header Map: sec-fetch-mode:  cors
+2025:7:6 19:58:26.22 [DEBUG] Header Map: sec-fetch-dest:  empty
+2025:7:6 19:58:26.22 [DEBUG] Header Map: referer:  http://localhost:8080/
+2025:7:6 19:58:26.22 [DEBUG] 
+2025:7:6 19:58:27.22 [DEBUG] Header Map: accept-language:  en-US,en;q=0.9
+2025:7:6 19:58:27.22 [DEBUG] Header Map: host:  localhost:8080
+2025:7:6 19:58:27.22 [DEBUG] Header Map: connection:  keep-alive
+2025:7:6 19:58:27.22 [DEBUG] Header Map: dnt:  1
+2025:7:6 19:58:27.22 [DEBUG] Header Map: sec-ch-ua-platform:  "Linux"
+2025:7:6 19:58:27.22 [DEBUG] Header Map: sec-fetch-site:  same-origin
+2025:7:6 19:58:27.22 [DEBUG] Header Map: user-agent:  Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36
+2025:7:6 19:58:27.22 [DEBUG] Header Map: sec-ch-ua:  "Not)A;Brand";v="8", "Chromium";v="138", "Google Chrome";v="138"
+2025:7:6 19:58:27.22 [DEBUG] Header Map: sec-ch-ua-mobile:  ?0
+2025:7:6 19:58:27.22 [DEBUG] Header Map: accept-encoding:  gzip, deflate, br, zstd
+2025:7:6 19:58:27.22 [DEBUG] Header Map: accept:  */*
+2025:7:6 19:58:27.22 [DEBUG] Header Map: sec-fetch-mode:  cors
+2025:7:6 19:58:27.22 [DEBUG] Header Map: sec-fetch-dest:  empty
+2025:7:6 19:58:27.22 [DEBUG] Header Map: referer:  http://localhost:8080/
+2025:7:6 19:58:27.22 [DEBUG] 
+2025:7:6 19:58:28.22 [DEBUG] Header Map: accept-language:  en-US,en;q=0.9
+2025:7:6 19:58:28.22 [DEBUG] Header Map: host:  localhost:8080
+2025:7:6 19:58:28.22 [DEBUG] Header Map: connection:  keep-alive
+2025:7:6 19:58:28.22 [DEBUG] Header Map: dnt:  1
+2025:7:6 19:58:28.22 [DEBUG] Header Map: sec-ch-ua-platform:  "Linux"
+2025:7:6 19:58:28.22 [DEBUG] Header Map: sec-fetch-site:  same-origin
+2025:7:6 19:58:28.22 [DEBUG] Header Map: user-agent:  Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36
+2025:7:6 19:58:28.22 [DEBUG] Header Map: sec-ch-ua:  "Not)A;Brand";v="8", "Chromium";v="138", "Google Chrome";v="138"
+2025:7:6 19:58:28.22 [DEBUG] Header Map: sec-ch-ua-mobile:  ?0
+2025:7:6 19:58:28.22 [DEBUG] Header Map: accept-encoding:  gzip, deflate, br, zstd
+2025:7:6 19:58:28.22 [DEBUG] Header Map: accept:  */*
+2025:7:6 19:58:28.22 [DEBUG] Header Map: sec-fetch-mode:  cors
+2025:7:6 19:58:28.22 [DEBUG] Header Map: sec-fetch-dest:  empty
+2025:7:6 19:58:28.22 [DEBUG] Header Map: referer:  http://localhost:8080/
+2025:7:6 19:58:28.22 [DEBUG] 
+2025:7:6 19:58:29.21 [DEBUG] Header Map: accept-language:  en-US,en;q=0.9
+2025:7:6 19:58:29.22 [DEBUG] Header Map: host:  localhost:8080
+2025:7:6 19:58:29.22 [DEBUG] Header Map: connection:  keep-alive
+2025:7:6 19:58:29.22 [DEBUG] Header Map: dnt:  1
+2025:7:6 19:58:29.22 [DEBUG] Header Map: sec-ch-ua-platform:  "Linux"
+2025:7:6 19:58:29.22 [DEBUG] Header Map: sec-fetch-site:  same-origin
+2025:7:6 19:58:29.22 [DEBUG] Header Map: user-agent:  Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36
+2025:7:6 19:58:29.22 [DEBUG] Header Map: sec-ch-ua:  "Not)A;Brand";v="8", "Chromium";v="138", "Google Chrome";v="138"
+2025:7:6 19:58:29.22 [DEBUG] Header Map: sec-ch-ua-mobile:  ?0
+2025:7:6 19:58:29.22 [DEBUG] Header Map: accept-encoding:  gzip, deflate, br, zstd
+2025:7:6 19:58:29.22 [DEBUG] Header Map: accept:  */*
+2025:7:6 19:58:29.22 [DEBUG] Header Map: sec-fetch-mode:  cors
+2025:7:6 19:58:29.22 [DEBUG] Header Map: sec-fetch-dest:  empty
+2025:7:6 19:58:29.22 [DEBUG] Header Map: referer:  http://localhost:8080/
+2025:7:6 19:58:29.22 [DEBUG] 
+2025:7:6 19:58:30.22 [DEBUG] Header Map: accept-language:  en-US,en;q=0.9
+2025:7:6 19:58:30.22 [DEBUG] Header Map: host:  localhost:8080
+2025:7:6 19:58:30.22 [DEBUG] Header Map: connection:  keep-alive
+2025:7:6 19:58:30.22 [DEBUG] Header Map: dnt:  1
+2025:7:6 19:58:30.22 [DEBUG] Header Map: sec-ch-ua-platform:  "Linux"
+2025:7:6 19:58:30.22 [DEBUG] Header Map: sec-fetch-site:  same-origin
+2025:7:6 19:58:30.22 [DEBUG] Header Map: user-agent:  Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36
+2025:7:6 19:58:30.22 [DEBUG] Header Map: sec-ch-ua:  "Not)A;Brand";v="8", "Chromium";v="138", "Google Chrome";v="138"
+2025:7:6 19:58:30.22 [DEBUG] Header Map: sec-ch-ua-mobile:  ?0
+2025:7:6 19:58:30.22 [DEBUG] Header Map: accept-encoding:  gzip, deflate, br, zstd
+2025:7:6 19:58:30.22 [DEBUG] Header Map: accept:  */*
+2025:7:6 19:58:30.22 [DEBUG] Header Map: sec-fetch-mode:  cors
+2025:7:6 19:58:30.22 [DEBUG] Header Map: sec-fetch-dest:  empty
+2025:7:6 19:58:30.22 [DEBUG] Header Map: referer:  http://localhost:8080/
+2025:7:6 19:58:30.22 [DEBUG] 
+2025:7:6 19:58:31.22 [DEBUG] Header Map: accept-language:  en-US,en;q=0.9
+2025:7:6 19:58:31.22 [DEBUG] Header Map: host:  localhost:8080
+2025:7:6 19:58:31.22 [DEBUG] Header Map: connection:  keep-alive
+2025:7:6 19:58:31.22 [DEBUG] Header Map: dnt:  1
+2025:7:6 19:58:31.22 [DEBUG] Header Map: sec-ch-ua-platform:  "Linux"
+2025:7:6 19:58:31.22 [DEBUG] Header Map: sec-fetch-site:  same-origin
+2025:7:6 19:58:31.22 [DEBUG] Header Map: user-agent:  Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36
+2025:7:6 19:58:31.22 [DEBUG] Header Map: sec-ch-ua:  "Not)A;Brand";v="8", "Chromium";v="138", "Google Chrome";v="138"
+2025:7:6 19:58:31.22 [DEBUG] Header Map: sec-ch-ua-mobile:  ?0
+2025:7:6 19:58:31.22 [DEBUG] Header Map: accept-encoding:  gzip, deflate, br, zstd
+2025:7:6 19:58:31.22 [DEBUG] Header Map: accept:  */*
+2025:7:6 19:58:31.22 [DEBUG] Header Map: sec-fetch-mode:  cors
+2025:7:6 19:58:31.22 [DEBUG] Header Map: sec-fetch-dest:  empty
+2025:7:6 19:58:31.22 [DEBUG] Header Map: referer:  http://localhost:8080/
+2025:7:6 19:58:31.22 [DEBUG] 
+2025:7:6 19:58:32.22 [DEBUG] Header Map: accept-language:  en-US,en;q=0.9
+2025:7:6 19:58:32.22 [DEBUG] Header Map: host:  localhost:8080
+2025:7:6 19:58:32.22 [DEBUG] Header Map: connection:  keep-alive
+2025:7:6 19:58:32.22 [DEBUG] Header Map: dnt:  1
+2025:7:6 19:58:32.22 [DEBUG] Header Map: sec-ch-ua-platform:  "Linux"
+2025:7:6 19:58:32.22 [DEBUG] Header Map: sec-fetch-site:  same-origin
+2025:7:6 19:58:32.22 [DEBUG] Header Map: user-agent:  Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36
+2025:7:6 19:58:32.22 [DEBUG] Header Map: sec-ch-ua:  "Not)A;Brand";v="8", "Chromium";v="138", "Google Chrome";v="138"
+2025:7:6 19:58:32.22 [DEBUG] Header Map: sec-ch-ua-mobile:  ?0
+2025:7:6 19:58:32.22 [DEBUG] Header Map: accept-encoding:  gzip, deflate, br, zstd
+2025:7:6 19:58:32.22 [DEBUG] Header Map: accept:  */*
+2025:7:6 19:58:32.22 [DEBUG] Header Map: sec-fetch-mode:  cors
+2025:7:6 19:58:32.22 [DEBUG] Header Map: sec-fetch-dest:  empty
+2025:7:6 19:58:32.22 [DEBUG] Header Map: referer:  http://localhost:8080/
+2025:7:6 19:58:32.22 [DEBUG] 
+2025:7:6 19:58:33.22 [DEBUG] Header Map: accept-language:  en-US,en;q=0.9
+2025:7:6 19:58:33.22 [DEBUG] Header Map: host:  localhost:8080
+2025:7:6 19:58:33.22 [DEBUG] Header Map: connection:  keep-alive
+2025:7:6 19:58:33.22 [DEBUG] Header Map: dnt:  1
+2025:7:6 19:58:33.22 [DEBUG] Header Map: sec-ch-ua-platform:  "Linux"
+2025:7:6 19:58:33.22 [DEBUG] Header Map: sec-fetch-site:  same-origin
+2025:7:6 19:58:33.22 [DEBUG] Header Map: user-agent:  Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36
+2025:7:6 19:58:33.22 [DEBUG] Header Map: sec-ch-ua:  "Not)A;Brand";v="8", "Chromium";v="138", "Google Chrome";v="138"
+2025:7:6 19:58:33.22 [DEBUG] Header Map: sec-ch-ua-mobile:  ?0
+2025:7:6 19:58:33.22 [DEBUG] Header Map: accept-encoding:  gzip, deflate, br, zstd
+2025:7:6 19:58:33.22 [DEBUG] Header Map: accept:  */*
+2025:7:6 19:58:33.22 [DEBUG] Header Map: sec-fetch-mode:  cors
+2025:7:6 19:58:33.22 [DEBUG] Header Map: sec-fetch-dest:  empty
+2025:7:6 19:58:33.22 [DEBUG] Header Map: referer:  http://localhost:8080/
+2025:7:6 19:58:33.22 [DEBUG] 
+2025:7:6 19:58:34.22 [DEBUG] Header Map: accept-language:  en-US,en;q=0.9
+2025:7:6 19:58:34.22 [DEBUG] Header Map: host:  localhost:8080
+2025:7:6 19:58:34.22 [DEBUG] Header Map: connection:  keep-alive
+2025:7:6 19:58:34.22 [DEBUG] Header Map: dnt:  1
+2025:7:6 19:58:34.22 [DEBUG] Header Map: sec-ch-ua-platform:  "Linux"
+2025:7:6 19:58:34.22 [DEBUG] Header Map: sec-fetch-site:  same-origin
+2025:7:6 19:58:34.22 [DEBUG] Header Map: user-agent:  Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36
+2025:7:6 19:58:34.22 [DEBUG] Header Map: sec-ch-ua:  "Not)A;Brand";v="8", "Chromium";v="138", "Google Chrome";v="138"
+2025:7:6 19:58:34.22 [DEBUG] Header Map: sec-ch-ua-mobile:  ?0
+2025:7:6 19:58:34.22 [DEBUG] Header Map: accept-encoding:  gzip, deflate, br, zstd
+2025:7:6 19:58:34.22 [DEBUG] Header Map: accept:  */*
+2025:7:6 19:58:34.22 [DEBUG] Header Map: sec-fetch-mode:  cors
+2025:7:6 19:58:34.22 [DEBUG] Header Map: sec-fetch-dest:  empty
+2025:7:6 19:58:34.22 [DEBUG] Header Map: referer:  http://localhost:8080/
+2025:7:6 19:58:34.22 [DEBUG] 
+2025:7:6 19:58:35.22 [DEBUG] Header Map: accept-language:  en-US,en;q=0.9
+2025:7:6 19:58:35.22 [DEBUG] Header Map: host:  localhost:8080
+2025:7:6 19:58:35.22 [DEBUG] Header Map: connection:  keep-alive
+2025:7:6 19:58:35.22 [DEBUG] Header Map: dnt:  1
+2025:7:6 19:58:35.22 [DEBUG] Header Map: sec-ch-ua-platform:  "Linux"
+2025:7:6 19:58:35.22 [DEBUG] Header Map: sec-fetch-site:  same-origin
+2025:7:6 19:58:35.22 [DEBUG] Header Map: user-agent:  Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36
+2025:7:6 19:58:35.22 [DEBUG] Header Map: sec-ch-ua:  "Not)A;Brand";v="8", "Chromium";v="138", "Google Chrome";v="138"
+2025:7:6 19:58:35.22 [DEBUG] Header Map: sec-ch-ua-mobile:  ?0
+2025:7:6 19:58:35.22 [DEBUG] Header Map: accept-encoding:  gzip, deflate, br, zstd
+2025:7:6 19:58:35.22 [DEBUG] Header Map: accept:  */*
+2025:7:6 19:58:35.22 [DEBUG] Header Map: sec-fetch-mode:  cors
+2025:7:6 19:58:35.22 [DEBUG] Header Map: sec-fetch-dest:  empty
+2025:7:6 19:58:35.22 [DEBUG] Header Map: referer:  http://localhost:8080/
+2025:7:6 19:58:35.22 [DEBUG] 
+2025:7:6 19:58:36.22 [DEBUG] Header Map: accept-language:  en-US,en;q=0.9
+2025:7:6 19:58:36.22 [DEBUG] Header Map: host:  localhost:8080
+2025:7:6 19:58:36.22 [DEBUG] Header Map: connection:  keep-alive
+2025:7:6 19:58:36.22 [DEBUG] Header Map: dnt:  1
+2025:7:6 19:58:36.22 [DEBUG] Header Map: sec-ch-ua-platform:  "Linux"
+2025:7:6 19:58:36.22 [DEBUG] Header Map: sec-fetch-site:  same-origin
+2025:7:6 19:58:36.22 [DEBUG] Header Map: user-agent:  Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36
+2025:7:6 19:58:36.22 [DEBUG] Header Map: sec-ch-ua:  "Not)A;Brand";v="8", "Chromium";v="138", "Google Chrome";v="138"
+2025:7:6 19:58:36.22 [DEBUG] Header Map: sec-ch-ua-mobile:  ?0
+2025:7:6 19:58:36.22 [DEBUG] Header Map: accept-encoding:  gzip, deflate, br, zstd
+2025:7:6 19:58:36.22 [DEBUG] Header Map: accept:  */*
+2025:7:6 19:58:36.22 [DEBUG] Header Map: sec-fetch-mode:  cors
+2025:7:6 19:58:36.22 [DEBUG] Header Map: sec-fetch-dest:  empty
+2025:7:6 19:58:36.22 [DEBUG] Header Map: referer:  http://localhost:8080/
+2025:7:6 19:58:36.22 [DEBUG] 
+2025:7:6 19:58:37.22 [DEBUG] Header Map: accept-language:  en-US,en;q=0.9
+2025:7:6 19:58:37.22 [DEBUG] Header Map: host:  localhost:8080
+2025:7:6 19:58:37.22 [DEBUG] Header Map: connection:  keep-alive
+2025:7:6 19:58:37.22 [DEBUG] Header Map: dnt:  1
+2025:7:6 19:58:37.22 [DEBUG] Header Map: sec-ch-ua-platform:  "Linux"
+2025:7:6 19:58:37.22 [DEBUG] Header Map: sec-fetch-site:  same-origin
+2025:7:6 19:58:37.22 [DEBUG] Header Map: user-agent:  Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36
+2025:7:6 19:58:37.22 [DEBUG] Header Map: sec-ch-ua:  "Not)A;Brand";v="8", "Chromium";v="138", "Google Chrome";v="138"
+2025:7:6 19:58:37.22 [DEBUG] Header Map: sec-ch-ua-mobile:  ?0
+2025:7:6 19:58:37.22 [DEBUG] Header Map: accept-encoding:  gzip, deflate, br, zstd
+2025:7:6 19:58:37.22 [DEBUG] Header Map: accept:  */*
+2025:7:6 19:58:37.22 [DEBUG] Header Map: sec-fetch-mode:  cors
+2025:7:6 19:58:37.22 [DEBUG] Header Map: sec-fetch-dest:  empty
+2025:7:6 19:58:37.22 [DEBUG] Header Map: referer:  http://localhost:8080/
+2025:7:6 19:58:37.22 [DEBUG] 
+2025:7:6 19:58:38.22 [DEBUG] Header Map: accept-language:  en-US,en;q=0.9
+2025:7:6 19:58:38.22 [DEBUG] Header Map: host:  localhost:8080
+2025:7:6 19:58:38.22 [DEBUG] Header Map: connection:  keep-alive
+2025:7:6 19:58:38.22 [DEBUG] Header Map: dnt:  1
+2025:7:6 19:58:38.22 [DEBUG] Header Map: sec-ch-ua-platform:  "Linux"
+2025:7:6 19:58:38.22 [DEBUG] Header Map: sec-fetch-site:  same-origin
+2025:7:6 19:58:38.22 [DEBUG] Header Map: user-agent:  Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36
+2025:7:6 19:58:38.22 [DEBUG] Header Map: sec-ch-ua:  "Not)A;Brand";v="8", "Chromium";v="138", "Google Chrome";v="138"
+2025:7:6 19:58:38.22 [DEBUG] Header Map: sec-ch-ua-mobile:  ?0
+2025:7:6 19:58:38.22 [DEBUG] Header Map: accept-encoding:  gzip, deflate, br, zstd
+2025:7:6 19:58:38.22 [DEBUG] Header Map: accept:  */*
+2025:7:6 19:58:38.22 [DEBUG] Header Map: sec-fetch-mode:  cors
+2025:7:6 19:58:38.22 [DEBUG] Header Map: sec-fetch-dest:  empty
+2025:7:6 19:58:38.22 [DEBUG] Header Map: referer:  http://localhost:8080/
+2025:7:6 19:58:38.22 [DEBUG] 
+2025:7:6 19:58:39.22 [DEBUG] Header Map: accept-language:  en-US,en;q=0.9
+2025:7:6 19:58:39.22 [DEBUG] Header Map: host:  localhost:8080
+2025:7:6 19:58:39.22 [DEBUG] Header Map: connection:  keep-alive
+2025:7:6 19:58:39.22 [DEBUG] Header Map: dnt:  1
+2025:7:6 19:58:39.22 [DEBUG] Header Map: sec-ch-ua-platform:  "Linux"
+2025:7:6 19:58:39.22 [DEBUG] Header Map: sec-fetch-site:  same-origin
+2025:7:6 19:58:39.22 [DEBUG] Header Map: user-agent:  Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36
+2025:7:6 19:58:39.22 [DEBUG] Header Map: sec-ch-ua:  "Not)A;Brand";v="8", "Chromium";v="138", "Google Chrome";v="138"
+2025:7:6 19:58:39.22 [DEBUG] Header Map: sec-ch-ua-mobile:  ?0
+2025:7:6 19:58:39.22 [DEBUG] Header Map: accept-encoding:  gzip, deflate, br, zstd
+2025:7:6 19:58:39.22 [DEBUG] Header Map: accept:  */*
+2025:7:6 19:58:39.22 [DEBUG] Header Map: sec-fetch-mode:  cors
+2025:7:6 19:58:39.22 [DEBUG] Header Map: sec-fetch-dest:  empty
+2025:7:6 19:58:39.22 [DEBUG] Header Map: referer:  http://localhost:8080/
+2025:7:6 19:58:39.22 [DEBUG] 
+2025:7:6 19:58:40.21 [DEBUG] Header Map: accept-language:  en-US,en;q=0.9
+2025:7:6 19:58:40.22 [DEBUG] Header Map: host:  localhost:8080
+2025:7:6 19:58:40.22 [DEBUG] Header Map: connection:  keep-alive
+2025:7:6 19:58:40.22 [DEBUG] Header Map: dnt:  1
+2025:7:6 19:58:40.22 [DEBUG] Header Map: sec-ch-ua-platform:  "Linux"
+2025:7:6 19:58:40.22 [DEBUG] Header Map: sec-fetch-site:  same-origin
+2025:7:6 19:58:40.22 [DEBUG] Header Map: user-agent:  Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36
+2025:7:6 19:58:40.22 [DEBUG] Header Map: sec-ch-ua:  "Not)A;Brand";v="8", "Chromium";v="138", "Google Chrome";v="138"
+2025:7:6 19:58:40.22 [DEBUG] Header Map: sec-ch-ua-mobile:  ?0
+2025:7:6 19:58:40.22 [DEBUG] Header Map: accept-encoding:  gzip, deflate, br, zstd
+2025:7:6 19:58:40.22 [DEBUG] Header Map: accept:  */*
+2025:7:6 19:58:40.22 [DEBUG] Header Map: sec-fetch-mode:  cors
+2025:7:6 19:58:40.22 [DEBUG] Header Map: sec-fetch-dest:  empty
+2025:7:6 19:58:40.22 [DEBUG] Header Map: referer:  http://localhost:8080/
+2025:7:6 19:58:40.22 [DEBUG] 
+2025:7:6 19:58:41.22 [DEBUG] Header Map: accept-language:  en-US,en;q=0.9
+2025:7:6 19:58:41.22 [DEBUG] Header Map: host:  localhost:8080
+2025:7:6 19:58:41.22 [DEBUG] Header Map: connection:  keep-alive
+2025:7:6 19:58:41.22 [DEBUG] Header Map: dnt:  1
+2025:7:6 19:58:41.22 [DEBUG] Header Map: sec-ch-ua-platform:  "Linux"
+2025:7:6 19:58:41.22 [DEBUG] Header Map: sec-fetch-site:  same-origin
+2025:7:6 19:58:41.22 [DEBUG] Header Map: user-agent:  Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36
+2025:7:6 19:58:41.22 [DEBUG] Header Map: sec-ch-ua:  "Not)A;Brand";v="8", "Chromium";v="138", "Google Chrome";v="138"
+2025:7:6 19:58:41.22 [DEBUG] Header Map: sec-ch-ua-mobile:  ?0
+2025:7:6 19:58:41.22 [DEBUG] Header Map: accept-encoding:  gzip, deflate, br, zstd
+2025:7:6 19:58:41.22 [DEBUG] Header Map: accept:  */*
+2025:7:6 19:58:41.22 [DEBUG] Header Map: sec-fetch-mode:  cors
+2025:7:6 19:58:41.22 [DEBUG] Header Map: sec-fetch-dest:  empty
+2025:7:6 19:58:41.22 [DEBUG] Header Map: referer:  http://localhost:8080/
+2025:7:6 19:58:41.22 [DEBUG] 
+2025:7:6 19:58:42.21 [DEBUG] Header Map: accept-language:  en-US,en;q=0.9
+2025:7:6 19:58:42.21 [DEBUG] Header Map: host:  localhost:8080
+2025:7:6 19:58:42.21 [DEBUG] Header Map: connection:  keep-alive
+2025:7:6 19:58:42.21 [DEBUG] Header Map: dnt:  1
+2025:7:6 19:58:42.21 [DEBUG] Header Map: sec-ch-ua-platform:  "Linux"
+2025:7:6 19:58:42.22 [DEBUG] Header Map: sec-fetch-site:  same-origin
+2025:7:6 19:58:42.22 [DEBUG] Header Map: user-agent:  Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36
+2025:7:6 19:58:42.22 [DEBUG] Header Map: sec-ch-ua:  "Not)A;Brand";v="8", "Chromium";v="138", "Google Chrome";v="138"
+2025:7:6 19:58:42.22 [DEBUG] Header Map: sec-ch-ua-mobile:  ?0
+2025:7:6 19:58:42.22 [DEBUG] Header Map: accept-encoding:  gzip, deflate, br, zstd
+2025:7:6 19:58:42.22 [DEBUG] Header Map: accept:  */*
+2025:7:6 19:58:42.22 [DEBUG] Header Map: sec-fetch-mode:  cors
+2025:7:6 19:58:42.22 [DEBUG] Header Map: sec-fetch-dest:  empty
+2025:7:6 19:58:42.22 [DEBUG] Header Map: referer:  http://localhost:8080/
+2025:7:6 19:58:42.22 [DEBUG] 
+2025:7:6 19:58:43.22 [DEBUG] Header Map: accept-language:  en-US,en;q=0.9
+2025:7:6 19:58:43.22 [DEBUG] Header Map: host:  localhost:8080
+2025:7:6 19:58:43.22 [DEBUG] Header Map: connection:  keep-alive
+2025:7:6 19:58:43.22 [DEBUG] Header Map: dnt:  1
+2025:7:6 19:58:43.22 [DEBUG] Header Map: sec-ch-ua-platform:  "Linux"
+2025:7:6 19:58:43.22 [DEBUG] Header Map: sec-fetch-site:  same-origin
+2025:7:6 19:58:43.22 [DEBUG] Header Map: user-agent:  Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36
+2025:7:6 19:58:43.22 [DEBUG] Header Map: sec-ch-ua:  "Not)A;Brand";v="8", "Chromium";v="138", "Google Chrome";v="138"
+2025:7:6 19:58:43.22 [DEBUG] Header Map: sec-ch-ua-mobile:  ?0
+2025:7:6 19:58:43.22 [DEBUG] Header Map: accept-encoding:  gzip, deflate, br, zstd
+2025:7:6 19:58:43.22 [DEBUG] Header Map: accept:  */*
+2025:7:6 19:58:43.22 [DEBUG] Header Map: sec-fetch-mode:  cors
+2025:7:6 19:58:43.22 [DEBUG] Header Map: sec-fetch-dest:  empty
+2025:7:6 19:58:43.22 [DEBUG] Header Map: referer:  http://localhost:8080/
+2025:7:6 19:58:43.22 [DEBUG] 
+2025:7:6 19:58:44.22 [DEBUG] Header Map: accept-language:  en-US,en;q=0.9
+2025:7:6 19:58:44.22 [DEBUG] Header Map: host:  localhost:8080
+2025:7:6 19:58:44.22 [DEBUG] Header Map: connection:  keep-alive
+2025:7:6 19:58:44.22 [DEBUG] Header Map: dnt:  1
+2025:7:6 19:58:44.22 [DEBUG] Header Map: sec-ch-ua-platform:  "Linux"
+2025:7:6 19:58:44.22 [DEBUG] Header Map: sec-fetch-site:  same-origin
+2025:7:6 19:58:44.22 [DEBUG] Header Map: user-agent:  Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36
+2025:7:6 19:58:44.22 [DEBUG] Header Map: sec-ch-ua:  "Not)A;Brand";v="8", "Chromium";v="138", "Google Chrome";v="138"
+2025:7:6 19:58:44.22 [DEBUG] Header Map: sec-ch-ua-mobile:  ?0
+2025:7:6 19:58:44.22 [DEBUG] Header Map: accept-encoding:  gzip, deflate, br, zstd
+2025:7:6 19:58:44.22 [DEBUG] Header Map: accept:  */*
+2025:7:6 19:58:44.22 [DEBUG] Header Map: sec-fetch-mode:  cors
+2025:7:6 19:58:44.22 [DEBUG] Header Map: sec-fetch-dest:  empty
+2025:7:6 19:58:44.22 [DEBUG] Header Map: referer:  http://localhost:8080/
+2025:7:6 19:58:44.22 [DEBUG] 
+2025:7:6 19:58:45.22 [DEBUG] Header Map: accept-language:  en-US,en;q=0.9
+2025:7:6 19:58:45.22 [DEBUG] Header Map: host:  localhost:8080
+2025:7:6 19:58:45.22 [DEBUG] Header Map: connection:  keep-alive
+2025:7:6 19:58:45.22 [DEBUG] Header Map: dnt:  1
+2025:7:6 19:58:45.22 [DEBUG] Header Map: sec-ch-ua-platform:  "Linux"
+2025:7:6 19:58:45.22 [DEBUG] Header Map: sec-fetch-site:  same-origin
+2025:7:6 19:58:45.22 [DEBUG] Header Map: user-agent:  Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36
+2025:7:6 19:58:45.22 [DEBUG] Header Map: sec-ch-ua:  "Not)A;Brand";v="8", "Chromium";v="138", "Google Chrome";v="138"
+2025:7:6 19:58:45.22 [DEBUG] Header Map: sec-ch-ua-mobile:  ?0
+2025:7:6 19:58:45.22 [DEBUG] Header Map: accept-encoding:  gzip, deflate, br, zstd
+2025:7:6 19:58:45.22 [DEBUG] Header Map: accept:  */*
+2025:7:6 19:58:45.22 [DEBUG] Header Map: sec-fetch-mode:  cors
+2025:7:6 19:58:45.22 [DEBUG] Header Map: sec-fetch-dest:  empty
+2025:7:6 19:58:45.22 [DEBUG] Header Map: referer:  http://localhost:8080/
+2025:7:6 19:58:45.22 [DEBUG] 
+2025:7:6 19:58:46.22 [DEBUG] Header Map: accept-language:  en-US,en;q=0.9
+2025:7:6 19:58:46.22 [DEBUG] Header Map: host:  localhost:8080
+2025:7:6 19:58:46.22 [DEBUG] Header Map: connection:  keep-alive
+2025:7:6 19:58:46.22 [DEBUG] Header Map: dnt:  1
+2025:7:6 19:58:46.22 [DEBUG] Header Map: sec-ch-ua-platform:  "Linux"
+2025:7:6 19:58:46.22 [DEBUG] Header Map: sec-fetch-site:  same-origin
+2025:7:6 19:58:46.22 [DEBUG] Header Map: user-agent:  Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36
+2025:7:6 19:58:46.22 [DEBUG] Header Map: sec-ch-ua:  "Not)A;Brand";v="8", "Chromium";v="138", "Google Chrome";v="138"
+2025:7:6 19:58:46.22 [DEBUG] Header Map: sec-ch-ua-mobile:  ?0
+2025:7:6 19:58:46.22 [DEBUG] Header Map: accept-encoding:  gzip, deflate, br, zstd
+2025:7:6 19:58:46.22 [DEBUG] Header Map: accept:  */*
+2025:7:6 19:58:46.22 [DEBUG] Header Map: sec-fetch-mode:  cors
+2025:7:6 19:58:46.22 [DEBUG] Header Map: sec-fetch-dest:  empty
+2025:7:6 19:58:46.22 [DEBUG] Header Map: referer:  http://localhost:8080/
+2025:7:6 19:58:46.22 [DEBUG] 
+2025:7:6 19:58:47.22 [DEBUG] Header Map: accept-language:  en-US,en;q=0.9
+2025:7:6 19:58:47.22 [DEBUG] Header Map: host:  localhost:8080
+2025:7:6 19:58:47.22 [DEBUG] Header Map: connection:  keep-alive
+2025:7:6 19:58:47.22 [DEBUG] Header Map: dnt:  1
+2025:7:6 19:58:47.22 [DEBUG] Header Map: sec-ch-ua-platform:  "Linux"
+2025:7:6 19:58:47.22 [DEBUG] Header Map: sec-fetch-site:  same-origin
+2025:7:6 19:58:47.23 [DEBUG] Header Map: user-agent:  Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36
+2025:7:6 19:58:47.23 [DEBUG] Header Map: sec-ch-ua:  "Not)A;Brand";v="8", "Chromium";v="138", "Google Chrome";v="138"
+2025:7:6 19:58:47.23 [DEBUG] Header Map: sec-ch-ua-mobile:  ?0
+2025:7:6 19:58:47.23 [DEBUG] Header Map: accept-encoding:  gzip, deflate, br, zstd
+2025:7:6 19:58:47.23 [DEBUG] Header Map: accept:  */*
+2025:7:6 19:58:47.23 [DEBUG] Header Map: sec-fetch-mode:  cors
+2025:7:6 19:58:47.23 [DEBUG] Header Map: sec-fetch-dest:  empty
+2025:7:6 19:58:47.23 [DEBUG] Header Map: referer:  http://localhost:8080/
+2025:7:6 19:58:47.23 [DEBUG] 
+2025:7:6 19:58:48.23 [DEBUG] Header Map: accept-language:  en-US,en;q=0.9
+2025:7:6 19:58:48.28 [DEBUG] Header Map: host:  localhost:8080
+2025:7:6 19:58:48.28 [DEBUG] Header Map: connection:  keep-alive
+2025:7:6 19:58:48.28 [DEBUG] Header Map: dnt:  1
+2025:7:6 19:58:48.28 [DEBUG] Header Map: sec-ch-ua-platform:  "Linux"
+2025:7:6 19:58:48.28 [DEBUG] Header Map: sec-fetch-site:  same-origin
+2025:7:6 19:58:48.28 [DEBUG] Header Map: user-agent:  Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36
+2025:7:6 19:58:48.28 [DEBUG] Header Map: sec-ch-ua:  "Not)A;Brand";v="8", "Chromium";v="138", "Google Chrome";v="138"
+2025:7:6 19:58:48.28 [DEBUG] Header Map: sec-ch-ua-mobile:  ?0
+2025:7:6 19:58:48.28 [DEBUG] Header Map: accept-encoding:  gzip, deflate, br, zstd
+2025:7:6 19:58:48.28 [DEBUG] Header Map: accept:  */*
+2025:7:6 19:58:48.28 [DEBUG] Header Map: sec-fetch-mode:  cors
+2025:7:6 19:58:48.28 [DEBUG] Header Map: sec-fetch-dest:  empty
+2025:7:6 19:58:48.28 [DEBUG] Header Map: referer:  http://localhost:8080/
+2025:7:6 19:58:48.28 [DEBUG] 
+2025:7:6 19:58:49.22 [DEBUG] Header Map: accept-language:  en-US,en;q=0.9
+2025:7:6 19:58:49.22 [DEBUG] Header Map: host:  localhost:8080
+2025:7:6 19:58:49.23 [DEBUG] Header Map: connection:  keep-alive
+2025:7:6 19:58:49.23 [DEBUG] Header Map: dnt:  1
+2025:7:6 19:58:49.23 [DEBUG] Header Map: sec-ch-ua-platform:  "Linux"
+2025:7:6 19:58:49.23 [DEBUG] Header Map: sec-fetch-site:  same-origin
+2025:7:6 19:58:49.23 [DEBUG] Header Map: user-agent:  Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36
+2025:7:6 19:58:49.23 [DEBUG] Header Map: sec-ch-ua:  "Not)A;Brand";v="8", "Chromium";v="138", "Google Chrome";v="138"
+2025:7:6 19:58:49.23 [DEBUG] Header Map: sec-ch-ua-mobile:  ?0
+2025:7:6 19:58:49.23 [DEBUG] Header Map: accept-encoding:  gzip, deflate, br, zstd
+2025:7:6 19:58:49.23 [DEBUG] Header Map: accept:  */*
+2025:7:6 19:58:49.23 [DEBUG] Header Map: sec-fetch-mode:  cors
+2025:7:6 19:58:49.23 [DEBUG] Header Map: sec-fetch-dest:  empty
+2025:7:6 19:58:49.23 [DEBUG] Header Map: referer:  http://localhost:8080/
+2025:7:6 19:58:49.23 [DEBUG] 
+2025:7:6 19:58:50.23 [DEBUG] Header Map: accept-language:  en-US,en;q=0.9
+2025:7:6 19:58:50.23 [DEBUG] Header Map: host:  localhost:8080
+2025:7:6 19:58:50.23 [DEBUG] Header Map: connection:  keep-alive
+2025:7:6 19:58:50.23 [DEBUG] Header Map: dnt:  1
+2025:7:6 19:58:50.23 [DEBUG] Header Map: sec-ch-ua-platform:  "Linux"
+2025:7:6 19:58:50.23 [DEBUG] Header Map: sec-fetch-site:  same-origin
+2025:7:6 19:58:50.23 [DEBUG] Header Map: user-agent:  Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36
+2025:7:6 19:58:50.23 [DEBUG] Header Map: sec-ch-ua:  "Not)A;Brand";v="8", "Chromium";v="138", "Google Chrome";v="138"
+2025:7:6 19:58:50.23 [DEBUG] Header Map: sec-ch-ua-mobile:  ?0
+2025:7:6 19:58:50.23 [DEBUG] Header Map: accept-encoding:  gzip, deflate, br, zstd
+2025:7:6 19:58:50.23 [DEBUG] Header Map: accept:  */*
+2025:7:6 19:58:50.23 [DEBUG] Header Map: sec-fetch-mode:  cors
+2025:7:6 19:58:50.23 [DEBUG] Header Map: sec-fetch-dest:  empty
+2025:7:6 19:58:50.23 [DEBUG] Header Map: referer:  http://localhost:8080/
+2025:7:6 19:58:50.23 [DEBUG] 
+2025:7:6 19:58:51.23 [DEBUG] Header Map: accept-language:  en-US,en;q=0.9
+2025:7:6 19:58:51.23 [DEBUG] Header Map: host:  localhost:8080
+2025:7:6 19:58:51.23 [DEBUG] Header Map: connection:  keep-alive
+2025:7:6 19:58:51.23 [DEBUG] Header Map: dnt:  1
+2025:7:6 19:58:51.23 [DEBUG] Header Map: sec-ch-ua-platform:  "Linux"
+2025:7:6 19:58:51.23 [DEBUG] Header Map: sec-fetch-site:  same-origin
+2025:7:6 19:58:51.24 [DEBUG] Header Map: user-agent:  Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36
+2025:7:6 19:58:51.24 [DEBUG] Header Map: sec-ch-ua:  "Not)A;Brand";v="8", "Chromium";v="138", "Google Chrome";v="138"
+2025:7:6 19:58:51.24 [DEBUG] Header Map: sec-ch-ua-mobile:  ?0
+2025:7:6 19:58:51.24 [DEBUG] Header Map: accept-encoding:  gzip, deflate, br, zstd
+2025:7:6 19:58:51.24 [DEBUG] Header Map: accept:  */*
+2025:7:6 19:58:51.24 [DEBUG] Header Map: sec-fetch-mode:  cors
+2025:7:6 19:58:51.24 [DEBUG] Header Map: sec-fetch-dest:  empty
+2025:7:6 19:58:51.24 [DEBUG] Header Map: referer:  http://localhost:8080/
+2025:7:6 19:58:51.24 [DEBUG] 
+2025:7:6 19:58:52.24 [DEBUG] Header Map: accept-language:  en-US,en;q=0.9
+2025:7:6 19:58:52.24 [DEBUG] Header Map: host:  localhost:8080
+2025:7:6 19:58:52.24 [DEBUG] Header Map: connection:  keep-alive
+2025:7:6 19:58:52.24 [DEBUG] Header Map: dnt:  1
+2025:7:6 19:58:52.24 [DEBUG] Header Map: sec-ch-ua-platform:  "Linux"
+2025:7:6 19:58:52.24 [DEBUG] Header Map: sec-fetch-site:  same-origin
+2025:7:6 19:58:52.24 [DEBUG] Header Map: user-agent:  Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36
+2025:7:6 19:58:52.24 [DEBUG] Header Map: sec-ch-ua:  "Not)A;Brand";v="8", "Chromium";v="138", "Google Chrome";v="138"
+2025:7:6 19:58:52.24 [DEBUG] Header Map: sec-ch-ua-mobile:  ?0
+2025:7:6 19:58:52.24 [DEBUG] Header Map: accept-encoding:  gzip, deflate, br, zstd
+2025:7:6 19:58:52.24 [DEBUG] Header Map: accept:  */*
+2025:7:6 19:58:52.25 [DEBUG] Header Map: sec-fetch-mode:  cors
+2025:7:6 19:58:52.25 [DEBUG] Header Map: sec-fetch-dest:  empty
+2025:7:6 19:58:52.25 [DEBUG] Header Map: referer:  http://localhost:8080/
+2025:7:6 19:58:52.25 [DEBUG] 
+2025:7:6 19:58:53.23 [DEBUG] Header Map: accept-language:  en-US,en;q=0.9
+2025:7:6 19:58:53.24 [DEBUG] Header Map: host:  localhost:8080
+2025:7:6 19:58:53.24 [DEBUG] Header Map: connection:  keep-alive
+2025:7:6 19:58:53.24 [DEBUG] Header Map: dnt:  1
+2025:7:6 19:58:53.24 [DEBUG] Header Map: sec-ch-ua-platform:  "Linux"
+2025:7:6 19:58:53.24 [DEBUG] Header Map: sec-fetch-site:  same-origin
+2025:7:6 19:58:53.24 [DEBUG] Header Map: user-agent:  Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36
+2025:7:6 19:58:53.24 [DEBUG] Header Map: sec-ch-ua:  "Not)A;Brand";v="8", "Chromium";v="138", "Google Chrome";v="138"
+2025:7:6 19:58:53.24 [DEBUG] Header Map: sec-ch-ua-mobile:  ?0
+2025:7:6 19:58:53.24 [DEBUG] Header Map: accept-encoding:  gzip, deflate, br, zstd
+2025:7:6 19:58:53.24 [DEBUG] Header Map: accept:  */*
+2025:7:6 19:58:53.24 [DEBUG] Header Map: sec-fetch-mode:  cors
+2025:7:6 19:58:53.24 [DEBUG] Header Map: sec-fetch-dest:  empty
+2025:7:6 19:58:53.24 [DEBUG] Header Map: referer:  http://localhost:8080/
+2025:7:6 19:58:53.24 [DEBUG] 
+2025:7:6 19:58:54.24 [DEBUG] Header Map: accept-language:  en-US,en;q=0.9
+2025:7:6 19:58:54.24 [DEBUG] Header Map: host:  localhost:8080
+2025:7:6 19:58:54.24 [DEBUG] Header Map: connection:  keep-alive
+2025:7:6 19:58:54.24 [DEBUG] Header Map: dnt:  1
+2025:7:6 19:58:54.24 [DEBUG] Header Map: sec-ch-ua-platform:  "Linux"
+2025:7:6 19:58:54.24 [DEBUG] Header Map: sec-fetch-site:  same-origin
+2025:7:6 19:58:54.24 [DEBUG] Header Map: user-agent:  Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36
+2025:7:6 19:58:54.24 [DEBUG] Header Map: sec-ch-ua:  "Not)A;Brand";v="8", "Chromium";v="138", "Google Chrome";v="138"
+2025:7:6 19:58:54.24 [DEBUG] Header Map: sec-ch-ua-mobile:  ?0
+2025:7:6 19:58:54.24 [DEBUG] Header Map: accept-encoding:  gzip, deflate, br, zstd
+2025:7:6 19:58:54.24 [DEBUG] Header Map: accept:  */*
+2025:7:6 19:58:54.24 [DEBUG] Header Map: sec-fetch-mode:  cors
+2025:7:6 19:58:54.24 [DEBUG] Header Map: sec-fetch-dest:  empty
+2025:7:6 19:58:54.24 [DEBUG] Header Map: referer:  http://localhost:8080/
+2025:7:6 19:58:54.24 [DEBUG] 
+2025:7:6 19:58:55.24 [DEBUG] Header Map: accept-language:  en-US,en;q=0.9
+2025:7:6 19:58:55.24 [DEBUG] Header Map: host:  localhost:8080
+2025:7:6 19:58:55.24 [DEBUG] Header Map: connection:  keep-alive
+2025:7:6 19:58:55.24 [DEBUG] Header Map: dnt:  1
+2025:7:6 19:58:55.24 [DEBUG] Header Map: sec-ch-ua-platform:  "Linux"
+2025:7:6 19:58:55.24 [DEBUG] Header Map: sec-fetch-site:  same-origin
+2025:7:6 19:58:55.24 [DEBUG] Header Map: user-agent:  Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36
+2025:7:6 19:58:55.24 [DEBUG] Header Map: sec-ch-ua:  "Not)A;Brand";v="8", "Chromium";v="138", "Google Chrome";v="138"
+2025:7:6 19:58:55.24 [DEBUG] Header Map: sec-ch-ua-mobile:  ?0
+2025:7:6 19:58:55.24 [DEBUG] Header Map: accept-encoding:  gzip, deflate, br, zstd
+2025:7:6 19:58:55.24 [DEBUG] Header Map: accept:  */*
+2025:7:6 19:58:55.24 [DEBUG] Header Map: sec-fetch-mode:  cors
+2025:7:6 19:58:55.24 [DEBUG] Header Map: sec-fetch-dest:  empty
+2025:7:6 19:58:55.24 [DEBUG] Header Map: referer:  http://localhost:8080/
+2025:7:6 19:58:55.24 [DEBUG] 
+2025:7:6 19:58:56.23 [DEBUG] Header Map: accept-language:  en-US,en;q=0.9
+2025:7:6 19:58:56.23 [DEBUG] Header Map: host:  localhost:8080
+2025:7:6 19:58:56.24 [DEBUG] Header Map: connection:  keep-alive
+2025:7:6 19:58:56.24 [DEBUG] Header Map: dnt:  1
+2025:7:6 19:58:56.24 [DEBUG] Header Map: sec-ch-ua-platform:  "Linux"
+2025:7:6 19:58:56.24 [DEBUG] Header Map: sec-fetch-site:  same-origin
+2025:7:6 19:58:56.24 [DEBUG] Header Map: user-agent:  Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36
+2025:7:6 19:58:56.24 [DEBUG] Header Map: sec-ch-ua:  "Not)A;Brand";v="8", "Chromium";v="138", "Google Chrome";v="138"
+2025:7:6 19:58:56.24 [DEBUG] Header Map: sec-ch-ua-mobile:  ?0
+2025:7:6 19:58:56.24 [DEBUG] Header Map: accept-encoding:  gzip, deflate, br, zstd
+2025:7:6 19:58:56.24 [DEBUG] Header Map: accept:  */*
+2025:7:6 19:58:56.24 [DEBUG] Header Map: sec-fetch-mode:  cors
+2025:7:6 19:58:56.24 [DEBUG] Header Map: sec-fetch-dest:  empty
+2025:7:6 19:58:56.24 [DEBUG] Header Map: referer:  http://localhost:8080/
+2025:7:6 19:58:56.24 [DEBUG] 
+2025:7:6 19:58:57.23 [DEBUG] Header Map: accept-language:  en-US,en;q=0.9
+2025:7:6 19:58:57.23 [DEBUG] Header Map: host:  localhost:8080
+2025:7:6 19:58:57.23 [DEBUG] Header Map: connection:  keep-alive
+2025:7:6 19:58:57.23 [DEBUG] Header Map: dnt:  1
+2025:7:6 19:58:57.23 [DEBUG] Header Map: sec-ch-ua-platform:  "Linux"
+2025:7:6 19:58:57.23 [DEBUG] Header Map: sec-fetch-site:  same-origin
+2025:7:6 19:58:57.23 [DEBUG] Header Map: user-agent:  Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36
+2025:7:6 19:58:57.23 [DEBUG] Header Map: sec-ch-ua:  "Not)A;Brand";v="8", "Chromium";v="138", "Google Chrome";v="138"
+2025:7:6 19:58:57.23 [DEBUG] Header Map: sec-ch-ua-mobile:  ?0
+2025:7:6 19:58:57.23 [DEBUG] Header Map: accept-encoding:  gzip, deflate, br, zstd
+2025:7:6 19:58:57.23 [DEBUG] Header Map: accept:  */*
+2025:7:6 19:58:57.23 [DEBUG] Header Map: sec-fetch-mode:  cors
+2025:7:6 19:58:57.23 [DEBUG] Header Map: sec-fetch-dest:  empty
+2025:7:6 19:58:57.23 [DEBUG] Header Map: referer:  http://localhost:8080/
+2025:7:6 19:58:57.23 [DEBUG] 
+2025:7:6 19:58:58.23 [DEBUG] Header Map: accept-language:  en-US,en;q=0.9
+2025:7:6 19:58:58.24 [DEBUG] Header Map: host:  localhost:8080
+2025:7:6 19:58:58.24 [DEBUG] Header Map: connection:  keep-alive
+2025:7:6 19:58:58.24 [DEBUG] Header Map: dnt:  1
+2025:7:6 19:58:58.24 [DEBUG] Header Map: sec-ch-ua-platform:  "Linux"
+2025:7:6 19:58:58.24 [DEBUG] Header Map: sec-fetch-site:  same-origin
+2025:7:6 19:58:58.24 [DEBUG] Header Map: user-agent:  Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36
+2025:7:6 19:58:58.24 [DEBUG] Header Map: sec-ch-ua:  "Not)A;Brand";v="8", "Chromium";v="138", "Google Chrome";v="138"
+2025:7:6 19:58:58.24 [DEBUG] Header Map: sec-ch-ua-mobile:  ?0
+2025:7:6 19:58:58.24 [DEBUG] Header Map: accept-encoding:  gzip, deflate, br, zstd
+2025:7:6 19:58:58.24 [DEBUG] Header Map: accept:  */*
+2025:7:6 19:58:58.24 [DEBUG] Header Map: sec-fetch-mode:  cors
+2025:7:6 19:58:58.24 [DEBUG] Header Map: sec-fetch-dest:  empty
+2025:7:6 19:58:58.24 [DEBUG] Header Map: referer:  http://localhost:8080/
+2025:7:6 19:58:58.24 [DEBUG] 
+2025:7:6 19:58:59.22 [DEBUG] Header Map: accept-language:  en-US,en;q=0.9
+2025:7:6 19:58:59.22 [DEBUG] Header Map: host:  localhost:8080
+2025:7:6 19:58:59.22 [DEBUG] Header Map: connection:  keep-alive
+2025:7:6 19:58:59.22 [DEBUG] Header Map: dnt:  1
+2025:7:6 19:58:59.22 [DEBUG] Header Map: sec-ch-ua-platform:  "Linux"
+2025:7:6 19:58:59.22 [DEBUG] Header Map: sec-fetch-site:  same-origin
+2025:7:6 19:58:59.22 [DEBUG] Header Map: user-agent:  Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36
+2025:7:6 19:58:59.22 [DEBUG] Header Map: sec-ch-ua:  "Not)A;Brand";v="8", "Chromium";v="138", "Google Chrome";v="138"
+2025:7:6 19:58:59.22 [DEBUG] Header Map: sec-ch-ua-mobile:  ?0
+2025:7:6 19:58:59.22 [DEBUG] Header Map: accept-encoding:  gzip, deflate, br, zstd
+2025:7:6 19:58:59.22 [DEBUG] Header Map: accept:  */*
+2025:7:6 19:58:59.22 [DEBUG] Header Map: sec-fetch-mode:  cors
+2025:7:6 19:58:59.22 [DEBUG] Header Map: sec-fetch-dest:  empty
+2025:7:6 19:58:59.22 [DEBUG] Header Map: referer:  http://localhost:8080/
+2025:7:6 19:58:59.22 [DEBUG] 
+2025:7:6 19:59:0.22 [DEBUG] Header Map: accept-language:  en-US,en;q=0.9
+2025:7:6 19:59:0.22 [DEBUG] Header Map: host:  localhost:8080
+2025:7:6 19:59:0.22 [DEBUG] Header Map: connection:  keep-alive
+2025:7:6 19:59:0.22 [DEBUG] Header Map: dnt:  1
+2025:7:6 19:59:0.22 [DEBUG] Header Map: sec-ch-ua-platform:  "Linux"
+2025:7:6 19:59:0.22 [DEBUG] Header Map: sec-fetch-site:  same-origin
+2025:7:6 19:59:0.22 [DEBUG] Header Map: user-agent:  Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36
+2025:7:6 19:59:0.22 [DEBUG] Header Map: sec-ch-ua:  "Not)A;Brand";v="8", "Chromium";v="138", "Google Chrome";v="138"
+2025:7:6 19:59:0.22 [DEBUG] Header Map: sec-ch-ua-mobile:  ?0
+2025:7:6 19:59:0.22 [DEBUG] Header Map: accept-encoding:  gzip, deflate, br, zstd
+2025:7:6 19:59:0.22 [DEBUG] Header Map: accept:  */*
+2025:7:6 19:59:0.22 [DEBUG] Header Map: sec-fetch-mode:  cors
+2025:7:6 19:59:0.22 [DEBUG] Header Map: sec-fetch-dest:  empty
+2025:7:6 19:59:0.22 [DEBUG] Header Map: referer:  http://localhost:8080/
+2025:7:6 19:59:0.22 [DEBUG] 
+2025:7:6 19:59:1.22 [DEBUG] Header Map: accept-language:  en-US,en;q=0.9
+2025:7:6 19:59:1.22 [DEBUG] Header Map: host:  localhost:8080
+2025:7:6 19:59:1.22 [DEBUG] Header Map: connection:  keep-alive
+2025:7:6 19:59:1.22 [DEBUG] Header Map: dnt:  1
+2025:7:6 19:59:1.22 [DEBUG] Header Map: sec-ch-ua-platform:  "Linux"
+2025:7:6 19:59:1.22 [DEBUG] Header Map: sec-fetch-site:  same-origin
+2025:7:6 19:59:1.22 [DEBUG] Header Map: user-agent:  Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36
+2025:7:6 19:59:1.22 [DEBUG] Header Map: sec-ch-ua:  "Not)A;Brand";v="8", "Chromium";v="138", "Google Chrome";v="138"
+2025:7:6 19:59:1.22 [DEBUG] Header Map: sec-ch-ua-mobile:  ?0
+2025:7:6 19:59:1.22 [DEBUG] Header Map: accept-encoding:  gzip, deflate, br, zstd
+2025:7:6 19:59:1.22 [DEBUG] Header Map: accept:  */*
+2025:7:6 19:59:1.22 [DEBUG] Header Map: sec-fetch-mode:  cors
+2025:7:6 19:59:1.22 [DEBUG] Header Map: sec-fetch-dest:  empty
+2025:7:6 19:59:1.22 [DEBUG] Header Map: referer:  http://localhost:8080/
+2025:7:6 19:59:1.22 [DEBUG] 
+2025:7:6 19:59:2.21 [DEBUG] Header Map: accept-language:  en-US,en;q=0.9
+2025:7:6 19:59:2.22 [DEBUG] Header Map: host:  localhost:8080
+2025:7:6 19:59:2.22 [DEBUG] Header Map: connection:  keep-alive
+2025:7:6 19:59:2.22 [DEBUG] Header Map: dnt:  1
+2025:7:6 19:59:2.22 [DEBUG] Header Map: sec-ch-ua-platform:  "Linux"
+2025:7:6 19:59:2.22 [DEBUG] Header Map: sec-fetch-site:  same-origin
+2025:7:6 19:59:2.22 [DEBUG] Header Map: user-agent:  Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36
+2025:7:6 19:59:2.22 [DEBUG] Header Map: sec-ch-ua:  "Not)A;Brand";v="8", "Chromium";v="138", "Google Chrome";v="138"
+2025:7:6 19:59:2.22 [DEBUG] Header Map: sec-ch-ua-mobile:  ?0
+2025:7:6 19:59:2.22 [DEBUG] Header Map: accept-encoding:  gzip, deflate, br, zstd
+2025:7:6 19:59:2.22 [DEBUG] Header Map: accept:  */*
+2025:7:6 19:59:2.22 [DEBUG] Header Map: sec-fetch-mode:  cors
+2025:7:6 19:59:2.22 [DEBUG] Header Map: sec-fetch-dest:  empty
+2025:7:6 19:59:2.22 [DEBUG] Header Map: referer:  http://localhost:8080/
+2025:7:6 19:59:2.22 [DEBUG] 
+2025:7:6 19:59:3.21 [DEBUG] Header Map: accept-language:  en-US,en;q=0.9
+2025:7:6 19:59:3.22 [DEBUG] Header Map: host:  localhost:8080
+2025:7:6 19:59:3.22 [DEBUG] Header Map: connection:  keep-alive
+2025:7:6 19:59:3.22 [DEBUG] Header Map: dnt:  1
+2025:7:6 19:59:3.22 [DEBUG] Header Map: sec-ch-ua-platform:  "Linux"
+2025:7:6 19:59:3.22 [DEBUG] Header Map: sec-fetch-site:  same-origin
+2025:7:6 19:59:3.22 [DEBUG] Header Map: user-agent:  Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36
+2025:7:6 19:59:3.22 [DEBUG] Header Map: sec-ch-ua:  "Not)A;Brand";v="8", "Chromium";v="138", "Google Chrome";v="138"
+2025:7:6 19:59:3.22 [DEBUG] Header Map: sec-ch-ua-mobile:  ?0
+2025:7:6 19:59:3.22 [DEBUG] Header Map: accept-encoding:  gzip, deflate, br, zstd
+2025:7:6 19:59:3.22 [DEBUG] Header Map: accept:  */*
+2025:7:6 19:59:3.22 [DEBUG] Header Map: sec-fetch-mode:  cors
+2025:7:6 19:59:3.22 [DEBUG] Header Map: sec-fetch-dest:  empty
+2025:7:6 19:59:3.22 [DEBUG] Header Map: referer:  http://localhost:8080/
+2025:7:6 19:59:3.22 [DEBUG] 
+2025:7:6 19:59:4.22 [DEBUG] Header Map: accept-language:  en-US,en;q=0.9
+2025:7:6 19:59:4.27 [DEBUG] Header Map: host:  localhost:8080
+2025:7:6 19:59:4.27 [DEBUG] Header Map: connection:  keep-alive
+2025:7:6 19:59:4.27 [DEBUG] Header Map: dnt:  1
+2025:7:6 19:59:4.27 [DEBUG] Header Map: sec-ch-ua-platform:  "Linux"
+2025:7:6 19:59:4.27 [DEBUG] Header Map: sec-fetch-site:  same-origin
+2025:7:6 19:59:4.27 [DEBUG] Header Map: user-agent:  Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36
+2025:7:6 19:59:4.27 [DEBUG] Header Map: sec-ch-ua:  "Not)A;Brand";v="8", "Chromium";v="138", "Google Chrome";v="138"
+2025:7:6 19:59:4.27 [DEBUG] Header Map: sec-ch-ua-mobile:  ?0
+2025:7:6 19:59:4.27 [DEBUG] Header Map: accept-encoding:  gzip, deflate, br, zstd
+2025:7:6 19:59:4.27 [DEBUG] Header Map: accept:  */*
+2025:7:6 19:59:4.27 [DEBUG] Header Map: sec-fetch-mode:  cors
+2025:7:6 19:59:4.27 [DEBUG] Header Map: sec-fetch-dest:  empty
+2025:7:6 19:59:4.27 [DEBUG] Header Map: referer:  http://localhost:8080/
+2025:7:6 19:59:4.28 [DEBUG] 
+2025:7:6 19:59:5.22 [DEBUG] Header Map: accept-language:  en-US,en;q=0.9
+2025:7:6 19:59:5.22 [DEBUG] Header Map: host:  localhost:8080
+2025:7:6 19:59:5.22 [DEBUG] Header Map: connection:  keep-alive
+2025:7:6 19:59:5.22 [DEBUG] Header Map: dnt:  1
+2025:7:6 19:59:5.22 [DEBUG] Header Map: sec-ch-ua-platform:  "Linux"
+2025:7:6 19:59:5.22 [DEBUG] Header Map: sec-fetch-site:  same-origin
+2025:7:6 19:59:5.22 [DEBUG] Header Map: user-agent:  Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36
+2025:7:6 19:59:5.22 [DEBUG] Header Map: sec-ch-ua:  "Not)A;Brand";v="8", "Chromium";v="138", "Google Chrome";v="138"
+2025:7:6 19:59:5.22 [DEBUG] Header Map: sec-ch-ua-mobile:  ?0
+2025:7:6 19:59:5.22 [DEBUG] Header Map: accept-encoding:  gzip, deflate, br, zstd
+2025:7:6 19:59:5.22 [DEBUG] Header Map: accept:  */*
+2025:7:6 19:59:5.22 [DEBUG] Header Map: sec-fetch-mode:  cors
+2025:7:6 19:59:5.22 [DEBUG] Header Map: sec-fetch-dest:  empty
+2025:7:6 19:59:5.22 [DEBUG] Header Map: referer:  http://localhost:8080/
+2025:7:6 19:59:5.22 [DEBUG] 
+2025:7:6 19:59:6.21 [DEBUG] Header Map: accept-language:  en-US,en;q=0.9
+2025:7:6 19:59:6.22 [DEBUG] Header Map: host:  localhost:8080
+2025:7:6 19:59:6.22 [DEBUG] Header Map: connection:  keep-alive
+2025:7:6 19:59:6.22 [DEBUG] Header Map: dnt:  1
+2025:7:6 19:59:6.22 [DEBUG] Header Map: sec-ch-ua-platform:  "Linux"
+2025:7:6 19:59:6.22 [DEBUG] Header Map: sec-fetch-site:  same-origin
+2025:7:6 19:59:6.22 [DEBUG] Header Map: user-agent:  Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36
+2025:7:6 19:59:6.22 [DEBUG] Header Map: sec-ch-ua:  "Not)A;Brand";v="8", "Chromium";v="138", "Google Chrome";v="138"
+2025:7:6 19:59:6.22 [DEBUG] Header Map: sec-ch-ua-mobile:  ?0
+2025:7:6 19:59:6.22 [DEBUG] Header Map: accept-encoding:  gzip, deflate, br, zstd
+2025:7:6 19:59:6.22 [DEBUG] Header Map: accept:  */*
+2025:7:6 19:59:6.22 [DEBUG] Header Map: sec-fetch-mode:  cors
+2025:7:6 19:59:6.22 [DEBUG] Header Map: sec-fetch-dest:  empty
+2025:7:6 19:59:6.22 [DEBUG] Header Map: referer:  http://localhost:8080/
+2025:7:6 19:59:6.22 [DEBUG] 
+2025:7:6 19:59:7.22 [DEBUG] Header Map: accept-language:  en-US,en;q=0.9
+2025:7:6 19:59:7.22 [DEBUG] Header Map: host:  localhost:8080
+2025:7:6 19:59:7.22 [DEBUG] Header Map: connection:  keep-alive
+2025:7:6 19:59:7.22 [DEBUG] Header Map: dnt:  1
+2025:7:6 19:59:7.22 [DEBUG] Header Map: sec-ch-ua-platform:  "Linux"
+2025:7:6 19:59:7.22 [DEBUG] Header Map: sec-fetch-site:  same-origin
+2025:7:6 19:59:7.22 [DEBUG] Header Map: user-agent:  Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36
+2025:7:6 19:59:7.22 [DEBUG] Header Map: sec-ch-ua:  "Not)A;Brand";v="8", "Chromium";v="138", "Google Chrome";v="138"
+2025:7:6 19:59:7.22 [DEBUG] Header Map: sec-ch-ua-mobile:  ?0
+2025:7:6 19:59:7.22 [DEBUG] Header Map: accept-encoding:  gzip, deflate, br, zstd
+2025:7:6 19:59:7.22 [DEBUG] Header Map: accept:  */*
+2025:7:6 19:59:7.22 [DEBUG] Header Map: sec-fetch-mode:  cors
+2025:7:6 19:59:7.22 [DEBUG] Header Map: sec-fetch-dest:  empty
+2025:7:6 19:59:7.22 [DEBUG] Header Map: referer:  http://localhost:8080/
+2025:7:6 19:59:7.22 [DEBUG] 
+2025:7:6 19:59:8.21 [DEBUG] Header Map: accept-language:  en-US,en;q=0.9
+2025:7:6 19:59:8.21 [DEBUG] Header Map: host:  localhost:8080
+2025:7:6 19:59:8.21 [DEBUG] Header Map: connection:  keep-alive
+2025:7:6 19:59:8.21 [DEBUG] Header Map: dnt:  1
+2025:7:6 19:59:8.21 [DEBUG] Header Map: sec-ch-ua-platform:  "Linux"
+2025:7:6 19:59:8.22 [DEBUG] Header Map: sec-fetch-site:  same-origin
+2025:7:6 19:59:8.22 [DEBUG] Header Map: user-agent:  Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36
+2025:7:6 19:59:8.22 [DEBUG] Header Map: sec-ch-ua:  "Not)A;Brand";v="8", "Chromium";v="138", "Google Chrome";v="138"
+2025:7:6 19:59:8.22 [DEBUG] Header Map: sec-ch-ua-mobile:  ?0
+2025:7:6 19:59:8.22 [DEBUG] Header Map: accept-encoding:  gzip, deflate, br, zstd
+2025:7:6 19:59:8.22 [DEBUG] Header Map: accept:  */*
+2025:7:6 19:59:8.22 [DEBUG] Header Map: sec-fetch-mode:  cors
+2025:7:6 19:59:8.22 [DEBUG] Header Map: sec-fetch-dest:  empty
+2025:7:6 19:59:8.22 [DEBUG] Header Map: referer:  http://localhost:8080/
+2025:7:6 19:59:8.22 [DEBUG] 
+2025:7:6 19:59:9.22 [DEBUG] Header Map: accept-language:  en-US,en;q=0.9
+2025:7:6 19:59:9.22 [DEBUG] Header Map: host:  localhost:8080
+2025:7:6 19:59:9.22 [DEBUG] Header Map: connection:  keep-alive
+2025:7:6 19:59:9.22 [DEBUG] Header Map: dnt:  1
+2025:7:6 19:59:9.22 [DEBUG] Header Map: sec-ch-ua-platform:  "Linux"
+2025:7:6 19:59:9.22 [DEBUG] Header Map: sec-fetch-site:  same-origin
+2025:7:6 19:59:9.22 [DEBUG] Header Map: user-agent:  Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36
+2025:7:6 19:59:9.22 [DEBUG] Header Map: sec-ch-ua:  "Not)A;Brand";v="8", "Chromium";v="138", "Google Chrome";v="138"
+2025:7:6 19:59:9.22 [DEBUG] Header Map: sec-ch-ua-mobile:  ?0
+2025:7:6 19:59:9.22 [DEBUG] Header Map: accept-encoding:  gzip, deflate, br, zstd
+2025:7:6 19:59:9.22 [DEBUG] Header Map: accept:  */*
+2025:7:6 19:59:9.22 [DEBUG] Header Map: sec-fetch-mode:  cors
+2025:7:6 19:59:9.22 [DEBUG] Header Map: sec-fetch-dest:  empty
+2025:7:6 19:59:9.22 [DEBUG] Header Map: referer:  http://localhost:8080/
+2025:7:6 19:59:9.22 [DEBUG] 
+2025:7:6 19:59:10.21 [DEBUG] Header Map: accept-language:  en-US,en;q=0.9
+2025:7:6 19:59:10.21 [DEBUG] Header Map: host:  localhost:8080
+2025:7:6 19:59:10.21 [DEBUG] Header Map: connection:  keep-alive
+2025:7:6 19:59:10.21 [DEBUG] Header Map: dnt:  1
+2025:7:6 19:59:10.21 [DEBUG] Header Map: sec-ch-ua-platform:  "Linux"
+2025:7:6 19:59:10.22 [DEBUG] Header Map: sec-fetch-site:  same-origin
+2025:7:6 19:59:10.22 [DEBUG] Header Map: user-agent:  Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36
+2025:7:6 19:59:10.22 [DEBUG] Header Map: sec-ch-ua:  "Not)A;Brand";v="8", "Chromium";v="138", "Google Chrome";v="138"
+2025:7:6 19:59:10.22 [DEBUG] Header Map: sec-ch-ua-mobile:  ?0
+2025:7:6 19:59:10.22 [DEBUG] Header Map: accept-encoding:  gzip, deflate, br, zstd
+2025:7:6 19:59:10.22 [DEBUG] Header Map: accept:  */*
+2025:7:6 19:59:10.22 [DEBUG] Header Map: sec-fetch-mode:  cors
+2025:7:6 19:59:10.22 [DEBUG] Header Map: sec-fetch-dest:  empty
+2025:7:6 19:59:10.22 [DEBUG] Header Map: referer:  http://localhost:8080/
+2025:7:6 19:59:10.22 [DEBUG] 
+2025:7:6 19:59:11.22 [DEBUG] Header Map: accept-language:  en-US,en;q=0.9
+2025:7:6 19:59:11.22 [DEBUG] Header Map: host:  localhost:8080
+2025:7:6 19:59:11.22 [DEBUG] Header Map: connection:  keep-alive
+2025:7:6 19:59:11.22 [DEBUG] Header Map: dnt:  1
+2025:7:6 19:59:11.22 [DEBUG] Header Map: sec-ch-ua-platform:  "Linux"
+2025:7:6 19:59:11.22 [DEBUG] Header Map: sec-fetch-site:  same-origin
+2025:7:6 19:59:11.22 [DEBUG] Header Map: user-agent:  Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36
+2025:7:6 19:59:11.22 [DEBUG] Header Map: sec-ch-ua:  "Not)A;Brand";v="8", "Chromium";v="138", "Google Chrome";v="138"
+2025:7:6 19:59:11.22 [DEBUG] Header Map: sec-ch-ua-mobile:  ?0
+2025:7:6 19:59:11.22 [DEBUG] Header Map: accept-encoding:  gzip, deflate, br, zstd
+2025:7:6 19:59:11.22 [DEBUG] Header Map: accept:  */*
+2025:7:6 19:59:11.22 [DEBUG] Header Map: sec-fetch-mode:  cors
+2025:7:6 19:59:11.22 [DEBUG] Header Map: sec-fetch-dest:  empty
+2025:7:6 19:59:11.22 [DEBUG] Header Map: referer:  http://localhost:8080/
+2025:7:6 19:59:11.22 [DEBUG] 
+2025:7:6 19:59:12.22 [DEBUG] Header Map: accept-language:  en-US,en;q=0.9
+2025:7:6 19:59:12.23 [DEBUG] Header Map: host:  localhost:8080
+2025:7:6 19:59:12.23 [DEBUG] Header Map: connection:  keep-alive
+2025:7:6 19:59:12.23 [DEBUG] Header Map: dnt:  1
+2025:7:6 19:59:12.23 [DEBUG] Header Map: sec-ch-ua-platform:  "Linux"
+2025:7:6 19:59:12.23 [DEBUG] Header Map: sec-fetch-site:  same-origin
+2025:7:6 19:59:12.23 [DEBUG] Header Map: user-agent:  Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36
+2025:7:6 19:59:12.23 [DEBUG] Header Map: sec-ch-ua:  "Not)A;Brand";v="8", "Chromium";v="138", "Google Chrome";v="138"
+2025:7:6 19:59:12.23 [DEBUG] Header Map: sec-ch-ua-mobile:  ?0
+2025:7:6 19:59:12.23 [DEBUG] Header Map: accept-encoding:  gzip, deflate, br, zstd
+2025:7:6 19:59:12.23 [DEBUG] Header Map: accept:  */*
+2025:7:6 19:59:12.23 [DEBUG] Header Map: sec-fetch-mode:  cors
+2025:7:6 19:59:12.23 [DEBUG] Header Map: sec-fetch-dest:  empty
+2025:7:6 19:59:12.23 [DEBUG] Header Map: referer:  http://localhost:8080/
+2025:7:6 19:59:12.23 [DEBUG] 
+2025:7:6 19:59:13.22 [DEBUG] Header Map: accept-language:  en-US,en;q=0.9
+2025:7:6 19:59:13.22 [DEBUG] Header Map: host:  localhost:8080
+2025:7:6 19:59:13.22 [DEBUG] Header Map: connection:  keep-alive
+2025:7:6 19:59:13.22 [DEBUG] Header Map: dnt:  1
+2025:7:6 19:59:13.22 [DEBUG] Header Map: sec-ch-ua-platform:  "Linux"
+2025:7:6 19:59:13.22 [DEBUG] Header Map: sec-fetch-site:  same-origin
+2025:7:6 19:59:13.22 [DEBUG] Header Map: user-agent:  Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36
+2025:7:6 19:59:13.22 [DEBUG] Header Map: sec-ch-ua:  "Not)A;Brand";v="8", "Chromium";v="138", "Google Chrome";v="138"
+2025:7:6 19:59:13.22 [DEBUG] Header Map: sec-ch-ua-mobile:  ?0
+2025:7:6 19:59:13.22 [DEBUG] Header Map: accept-encoding:  gzip, deflate, br, zstd
+2025:7:6 19:59:13.22 [DEBUG] Header Map: accept:  */*
+2025:7:6 19:59:13.22 [DEBUG] Header Map: sec-fetch-mode:  cors
+2025:7:6 19:59:13.22 [DEBUG] Header Map: sec-fetch-dest:  empty
+2025:7:6 19:59:13.22 [DEBUG] Header Map: referer:  http://localhost:8080/
+2025:7:6 19:59:13.22 [DEBUG] 

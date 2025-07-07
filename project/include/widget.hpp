@@ -40,6 +40,7 @@
 #include <arpa/inet.h>
 
 #include "sidebar.hpp"
+#include "program.hpp"
 
 using namespace std;
 
@@ -80,7 +81,7 @@ class Widget : public QWidget{
             sidebar.add_entry(
                 [this](QPainter* painter){
                     string ip_address = sys::get_ip_address();
-                    string datetime = sys::get_date_time_numbers();
+                    string datetime = sys::get_date_time_words();
 
                     painter->setFont(QFont("Arial", 24, QFont::Bold));
                     painter->setPen(Qt::yellow);
@@ -236,6 +237,7 @@ class Widget : public QWidget{
 
         void keyPressEvent(QKeyEvent* event) override {
             if (event->key() == Qt::Key_Escape) {
+                Program::stop_program();
                 qApp->quit();
             }
         }

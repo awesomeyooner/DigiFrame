@@ -30,23 +30,28 @@
 #include "widget.hpp"
 #include "window.hpp"
 #include "util/helpers/logger.hpp"
+#include "program.hpp"
 
 int main(int argc, char* argv[]) {
     // Code to be executed
-    // QApplication app(argc, argv);
 
-    // Window window;
-
-    // window.resize(1600, 800);
-    // window.show();
-
-    // app.exec();
-
-    // window.join();
-
+    // Initialize Logger
     Logger::initialize();
-    std::cerr << Logger::is_file_open() << std::endl;
-    Logger::log("hello");
+
+    // Start the QtGui
+    QApplication app(argc, argv);
+
+    Window window;
+
+    window.resize(1600, 800);
+    window.show();
+
+    app.exec();
+
+    window.join();
+
+    // Stop Logger
+    Logger::close();
 
     return 0;
 }

@@ -10,6 +10,7 @@
 #include "util/mouse.hpp"
 
 #include "server.hpp"
+#include "program.hpp"
 
 class Window : public QMainWindow{
 
@@ -32,7 +33,8 @@ class Window : public QMainWindow{
 
             thread = std::thread(
                 [this](){
-                    while(true){
+                    while(Program::still_alive()){
+        
                         server.update();
                     }
                 }
