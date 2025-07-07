@@ -29,6 +29,7 @@
 
 #include "widget.hpp"
 #include "window.hpp"
+#include "util/helpers/logger.hpp"
 
 int main(int argc, char* argv[]) {
     // Code to be executed
@@ -43,16 +44,9 @@ int main(int argc, char* argv[]) {
 
     // window.join();
 
-    std::ofstream outputFile("../logs/bob.log");
-
-    if(outputFile.is_open()){
-        std::cout << "hello" << std::endl;
-        outputFile << "Hello World!" << std::endl;
-    }
-    else{
-        std::cout << "world" << std::endl;
-        return 1;
-    }
+    Logger::initialize();
+    std::cerr << Logger::is_file_open() << std::endl;
+    Logger::log("hello");
 
     return 0;
 }

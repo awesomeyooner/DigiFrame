@@ -77,7 +77,7 @@ namespace sys{
         return QDateTime::currentDateTime().toString().toStdString();
     }
 
-    static string get_date_time_numbers(){
+    static string get_date_time_numbers(std::string unit_seperator = "-", std::string gap = "___"){
         std::string day = std::to_string(QDateTime::currentDateTime().date().day());
         std::string month = std::to_string(QDateTime::currentDateTime().date().month());
         std::string year = std::to_string(QDateTime::currentDateTime().date().year());
@@ -86,7 +86,18 @@ namespace sys{
         std::string minute = std::to_string(QDateTime::currentDateTime().time().minute());
         std::string second = std::to_string(QDateTime::currentDateTime().time().second());
 
-        return year + "-" + month + "-" + day + "___" + hour + "-" + minute + "-" + second; 
+        return 
+            year + 
+            unit_seperator + 
+            month + 
+            unit_seperator + 
+            day + 
+            gap + 
+            hour + 
+            unit_seperator + 
+            minute + 
+            unit_seperator + 
+            second; 
     }
 
 }; // namespace system

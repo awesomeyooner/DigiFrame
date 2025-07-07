@@ -8,32 +8,45 @@
 class Logger{
     
     public:
+        static std::ofstream log_file;
+
         Logger(){
 
         }
 
-        bool initialize(){
-            std::string datetime = sys::get_date_time_numbers();
-            std::string file_name = "log_" + datetime;
-            log_file.open(file_name);
+        static bool initialize(){
+            std::string datetime = sys::get_date_time_numbers("-", "_");
+            std::string file_name = "log_" + datetime + ".log";
+            log_file.open("../logs/" + file_name);
 
-            return is_file_open();
+            if(is_file_open()){
+                log("INFO", "Program Started!");
+                return true;
+            }
+            else
+                return false;
         }
 
-        void log(std::string text){
-            if(!is_file_open())
+        static void log(std::string header, std::string text){
+            std::string datetime = sys::get_date_time_numbers(":", " ");
+            log(datetime + " [" + header + "] " + text);
+        }
+
+        static void log(std::string text){
+            if(!is_file_open() && !log_file)
                 return;
 
-            
+            log_file << text << std::endl;
         }
 
-        bool is_file_open(){
+        static bool is_file_open(){
             return log_file.is_open();
         }
 
     private:
-        std::ofstream log_file;
-
+       
 }; // class Logger
+
+std::ofstream Logger::log_file;
 
 #endif // LOGGER_HPP
