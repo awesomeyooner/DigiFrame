@@ -56,8 +56,17 @@ class Server{
             tcp::socket socket(context);
             acceptor.accept(socket);
 
+            boost::asio::ip::tcp::no_delay no_delay(true);
+            socket.set_option(no_delay);
+
+            int buff_size = 1024 * 1024;
+            setsockopt(socket.native_handle(), SOL_SOCKET, SO_RCVBUF, &buff_size, sizeof(buff_size));
+            setsockopt(socket.native_handle(), SOL_SOCKET, SO_SNDBUF, &buff_size, sizeof(buff_size));
+
+            socket.set_option(boost::asio::socket_base::receive_buffer_size(65536));
+            socket.set_option(boost::asio::socket_base::send_buffer_size(65536));
+
             //run handle_client asyncronously
-            // handle_client(std::move(socket));
             std::thread(&Server::handle_client, this, std::move(socket)).detach();
         }
 
@@ -68,7 +77,6 @@ class Server{
                 std::istream request_stream(&buf);
                 std::string request_line;
                 std::getline(request_stream, request_line);
-
                 std::istringstream iss(request_line);
                 std::string method, path, protocol;
                 iss >> method >> path >> protocol;
@@ -108,11 +116,11 @@ class Server{
                 }
 
                 // Print everything in the map
-                for(const auto& pair : headers){
-                    Logger::debug("Header Map: " + pair.first + ": " + pair.second);
-                }
+                // for(const auto& pair : headers){
+                //     Logger::debug("Header Map: " + pair.first + ": " + pair.second);
+                // }
 
-                Logger::debug("");
+                // Logger::debug("");
 
                 // std::cerr << "[DEBUG] Unpretty Header: " << header_line << "\n";
                 // std::cerr << "[DEBUG] End of header reading...\n";
@@ -137,9 +145,16 @@ class Server{
                 // Handle POST requests
                 else if(method == "POST"){
 
+                    for(const auto& pair : headers){
+                        Logger::debug("Header Map: " + pair.first + ": " + pair.second);
+                    }
+
+                    Logger::debug("");
+
+                    Logger::debug("Starting POST");
+
                     size_t bytes_already_consumed = static_cast<size_t>(request_stream.tellg()) + 1;
                     size_t bytes_remaining_in_buffer = buf.size() - bytes_already_consumed;
-
                     size_t content_length = std::stoul(headers.at("content-length"));
                     std::vector<char> body(content_length);
 
@@ -151,12 +166,22 @@ class Server{
                     size_t remaining_bytes = content_length - bytes_remaining_in_buffer;
 
                     if(remaining_bytes > 0){
+                        Logger::debug("Starting Boost Read");
                         boost::system::error_code error_code;
+
+                        size_t available = socket.available(error_code);
+                        Logger::debug("Bytes Available: " + std::to_string(available));
+                        Logger::debug("Remaining Bytes: " + std::to_string(remaining_bytes));
+                        Logger::debug("Content Length: " + std::to_string(content_length));
+                        Logger::debug("Bytes in Buffer: " + std::to_string(bytes_remaining_in_buffer));
+
                         size_t bytes_read = boost::asio::read(
                             socket,
                             boost::asio::buffer(body.data() + bytes_remaining_in_buffer, remaining_bytes),
                             error_code
                         );
+
+                        Logger::debug("Ending Boost Read");
                         if (error_code || bytes_read != remaining_bytes) {
                             Logger::error("Failed to read full body: " + (error_code ? error_code.message() : "incomplete read"));
                             send_response(&socket, ResponseType::INTERNAL_ERROR);
@@ -168,6 +193,8 @@ class Server{
 
                     if(path == "/upload"){
                     
+                        Logger::debug("Starting Image read");
+
                         std::string content_type = headers.at("content-type");
 
                         std::string boundary = boost::algorithm::trim_copy(

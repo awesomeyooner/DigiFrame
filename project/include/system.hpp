@@ -81,14 +81,16 @@ namespace sys{
 
         QDateTime datetime = QDateTime::currentDateTime();
 
-        std::string day = std::to_string(datetime.date().day());
-        std::string month = std::to_string(datetime.date().month());
-        std::string year = std::to_string(datetime.date().year());
+        // if the day is single digits, put 0 first
+        std::string day = datetime.date().day() % 10 == datetime.date().day() ? "0" + std::to_string(datetime.date().day()) : std::to_string(datetime.date().day());
 
-        std::string hour = std::to_string(datetime.time().hour());
-        std::string minute = std::to_string(datetime.time().minute());
-        std::string second = std::to_string(datetime.time().second());
-        std::string millis = std::to_string(datetime.time().msec());
+        std::string month = datetime.date().month() % 10 == datetime.date().month() ? "0" + std::to_string(datetime.date().month()) : std::to_string(datetime.date().month());
+        std::string year = datetime.date().year() % 10 == datetime.date().year() ? "0" + std::to_string(datetime.date().year()) : std::to_string(datetime.date().year());
+
+        std::string hour = datetime.time().hour() % 10 == datetime.time().hour() ? "0" + std::to_string(datetime.time().hour()) : std::to_string(datetime.time().hour());
+        std::string minute = datetime.time().minute() % 10 == datetime.time().minute() ? "0" + std::to_string(datetime.time().minute()) : std::to_string(datetime.time().minute());
+        std::string second = datetime.time().second() % 10 == datetime.time().second() ? "0" + std::to_string(datetime.time().second()) : std::to_string(datetime.time().second());
+        std::string millis = datetime.time().msec() % 10 == datetime.time().msec() ? "0" + std::to_string(datetime.time().msec()) : std::to_string(datetime.time().msec());
 
         if(with_millis)
             second += "." + millis;

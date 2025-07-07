@@ -143,7 +143,7 @@ class Widget : public QWidget{
         void load_image(string path){
     
             if(!main_image.load(QString::fromStdString(path))){
-                qFatal("FAILED!");
+                Logger::error("Image failed to load!");
             }
 
             image_path = path;
