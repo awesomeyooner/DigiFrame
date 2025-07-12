@@ -1,0 +1,11 @@
+prefix=/home/dev/Documents/GitHub/DigiFrame/python/env
+exec_prefix=/home/dev/Documents/GitHub/DigiFrame/python/env
+libdir=/home/dev/Documents/GitHub/DigiFrame/python/env/lib
+includedir=/home/dev/Documents/GitHub/DigiFrame/python/env/include
+
+Name: uuid
+Description: Universally unique id library
+Version: 2.32.1
+Requires:
+Cflags: -I${includedir}/uuid
+Libs: -L${libdir} -luuid

@@ -1,0 +1,7 @@
+prefix=/home/dev/Documents/GitHub/DigiFrame/python/env
+includedir=${prefix}/include
+
+Name: XwaylandProto
+Description: Xwayland extension headers
+Version: 1.0
+Cflags: -I${includedir}
