@@ -1,8 +1,12 @@
 import sys
 import random
+import os
+import numpy as np
 from PySide6.QtCore import *
 from PySide6.QtWidgets import *
 from PySide6.QtGui import *
+
+from util import util
 
 class Gui(QWidget):
     def __init__(self):
@@ -11,11 +15,14 @@ class Gui(QWidget):
         self.image = QImage('./images/default.png')
 
         self.timer = QTimer(self)
-        self.timer.timeout.connect(self.update)
+        self.timer.timeout.connect(self.timerCallback)
         self.timer.start(100)
 
-    def paintEvent(self, event):
+    def timerCallback(self):
+        self.update()
+        self.getMostRecentImage()
 
+    def paintEvent(self, event):
         self.drawImage()
 
         return super().paintEvent(event)
@@ -27,6 +34,22 @@ class Gui(QWidget):
             sys.exit()
         
         return super().keyPressEvent(event)
+    
+    def getMostRecentImage(self):
+        with os.scandir("./images") as entries:
+
+            unsorted = np.array([])
+            sorted = np.array([])
+
+            for entry in entries:
+                if entry.is_file():
+                    unsorted = np.append(unsorted, entry.name)
+
+            sorted = util.sort_alphabetically_za(unsorted)
+            
+            most_recent = sorted[1] # 0 is default image
+
+            self.image.load("./images/" + most_recent)
     
     def drawImage(self):
         painter = QPainter(self)

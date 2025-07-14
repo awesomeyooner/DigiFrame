@@ -16,11 +16,8 @@ def run_gui():
 
 if __name__ == '__main__':
 
-    array = np.array(["b", "c", "a", "d", "f", "e"])
+    flask_thread = multiprocessing.Process(target=run_app)
+    flask_thread.daemon = True
+    flask_thread.start()
 
-    sorted = util.sort_alphabetically_az(array)
-    # flask_thread = multiprocessing.Process(target=run_app)
-    # flask_thread.daemon = True
-    # flask_thread.start()
-
-    # run_gui()
+    run_gui()
