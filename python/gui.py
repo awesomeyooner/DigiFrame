@@ -54,7 +54,7 @@ class Gui(QWidget):
     def drawImage(self):
         painter = QPainter(self)
 
-        painter.setRenderHint(QPainter.RenderHint.SmoothPixmapTransform)
+        painter.setRenderHint(QPainter.RenderHint.LosslessImageRendering)
 
         scaled = self.image.size().scaled(
             self.size(),
