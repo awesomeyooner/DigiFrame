@@ -24,10 +24,16 @@ input[type="file"]::file-selector-button {
     border-color: black;
     border: 100px;
 }
+
+.main-image{
+    width: 50vh;
+    height: auto
+}
+/* 
 img{
     width: 50%;
     height: auto;
-}
+} */
 
 .color-box {
     width: 40px;

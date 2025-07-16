@@ -1,5 +1,4 @@
-#!/home/dev/Documents/GitHub/DigiFrame/python/env/bin/python
-
+#!/home/dev/Documents/GitHub/DigiFrame/python/env/bin/python3.11
 # -*- coding: utf-8 -*-
 import re
 import sys
