@@ -85,8 +85,12 @@ async function sendImage(){
     
     // Get the selected file
     const selectedFile = document.getElementById("fileSelector").files[0];
-        const fileName = selectedFile.name;
-        const fileType = selectedFile.type;
+
+    if(selectedFile == null)
+        return false;
+
+    const fileName = selectedFile.name;
+    const fileType = selectedFile.type;
 
     const formData = new FormData();
 
