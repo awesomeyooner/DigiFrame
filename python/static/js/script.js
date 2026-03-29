@@ -1,3 +1,29 @@
+const container = document.getElementById('canvas-container');
+const canvas = document.getElementById('myCanvas');
+const context = canvas.getContext('2d');
+
+function resizeCanvas()
+{
+    canvas.width = container.clientWidth;
+    canvas.height = container.clientHeight;
+    drawCanvas();
+}
+
+function drawCanvas()
+{
+    context.clearRect(0, 0, canvas.width, canvas.height);
+    context.fillStyle = "blue";
+    context.fillRect(0, 0, canvas.width, canvas.height);
+}
+
+const resizeObserver = new ResizeObserver(() => {
+  requestAnimationFrame(resizeCanvas);
+});
+resizeObserver.observe(container);
+
+resizeCanvas();
+
+
 // Display Preview Image
 document.getElementById("fileSelector").addEventListener('change', async (event) => {
     
