@@ -25,12 +25,20 @@
 #include <netinet/in.h> 
 #include <string.h> 
 #include <arpa/inet.h>
+#include <fstream>
 
 #include "widget.hpp"
 #include "window.hpp"
+#include "util/helpers/logger.hpp"
+#include "program.hpp"
 
 int main(int argc, char* argv[]) {
     // Code to be executed
+
+    // Initialize Logger
+    Logger::initialize();
+
+    // Start the QtGui
     QApplication app(argc, argv);
 
     Window window;
@@ -41,6 +49,9 @@ int main(int argc, char* argv[]) {
     app.exec();
 
     window.join();
+
+    // Stop Logger
+    Logger::close();
 
     return 0;
 }

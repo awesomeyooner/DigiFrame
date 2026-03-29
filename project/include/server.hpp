@@ -28,6 +28,7 @@
 #include <sstream>
 
 #include "util/utility.hpp"
+#include "util/helpers/logger.hpp"
 
 using namespace boost::asio;
 using namespace boost::asio::ip;
@@ -55,24 +56,18 @@ class Server{
             tcp::socket socket(context);
             acceptor.accept(socket);
 
-            //run handle_client asyncronously
-            handle_client(std::move(socket));
-            // std::thread(&Server::handle_client, this, std::move(socket)).detach();
-        }
+            boost::asio::ip::tcp::no_delay no_delay(true);
+            socket.set_option(no_delay);
 
-        void debug_buffer(boost::asio::streambuf& buf) {
-            auto bufs = buf.data();
-            std::string data(boost::asio::buffers_begin(bufs), boost::asio::buffers_end(bufs));
-            std::cerr << "==== BUFFER CONTENTS ====\n";
-            std::cerr << "Size: " << data.size() << " bytes\n";
-            std::cerr << "Content: ";
-            for (char c : data) {
-                if (c == '\r') std::cerr << "\\r";
-                else if (c == '\n') std::cerr << "\\n";
-                else if (std::isprint(c)) std::cerr << c;
-                else std::cerr << '?';
-            }
-            std::cerr << "\n==== END BUFFER ====\n";
+            int buff_size = 1024 * 1024;
+            setsockopt(socket.native_handle(), SOL_SOCKET, SO_RCVBUF, &buff_size, sizeof(buff_size));
+            setsockopt(socket.native_handle(), SOL_SOCKET, SO_SNDBUF, &buff_size, sizeof(buff_size));
+
+            socket.set_option(boost::asio::socket_base::receive_buffer_size(65536));
+            socket.set_option(boost::asio::socket_base::send_buffer_size(65536));
+
+            //run handle_client asyncronously
+            std::thread(&Server::handle_client, this, std::move(socket)).detach();
         }
 
         void handle_client(tcp::socket socket){
@@ -82,12 +77,9 @@ class Server{
                 std::istream request_stream(&buf);
                 std::string request_line;
                 std::getline(request_stream, request_line);
-
                 std::istringstream iss(request_line);
                 std::string method, path, protocol;
                 iss >> method >> path >> protocol;
-
-                // std::cerr << "[DEBUG] Starting header reading...\n";
 
                 // Read the Header
                 std::string header_buffer;
@@ -124,11 +116,11 @@ class Server{
                 }
 
                 // Print everything in the map
-                for(const auto& pair : headers){
-                    std::cerr << "[DEBUG] Header Map: " << pair.first << ": " << pair.second << "\n";
-                }
+                // for(const auto& pair : headers){
+                //     Logger::debug("Header Map: " + pair.first + ": " + pair.second);
+                // }
 
-                std::cerr << "\n";
+                // Logger::debug("");
 
                 // std::cerr << "[DEBUG] Unpretty Header: " << header_line << "\n";
                 // std::cerr << "[DEBUG] End of header reading...\n";
@@ -153,9 +145,16 @@ class Server{
                 // Handle POST requests
                 else if(method == "POST"){
 
+                    for(const auto& pair : headers){
+                        Logger::debug("Header Map: " + pair.first + ": " + pair.second);
+                    }
+
+                    Logger::debug("");
+
+                    Logger::debug("Starting POST");
+
                     size_t bytes_already_consumed = static_cast<size_t>(request_stream.tellg()) + 1;
                     size_t bytes_remaining_in_buffer = buf.size() - bytes_already_consumed;
-
                     size_t content_length = std::stoul(headers.at("content-length"));
                     std::vector<char> body(content_length);
 
@@ -167,16 +166,24 @@ class Server{
                     size_t remaining_bytes = content_length - bytes_remaining_in_buffer;
 
                     if(remaining_bytes > 0){
+                        Logger::debug("Starting Boost Read");
                         boost::system::error_code error_code;
+
+                        size_t available = socket.available(error_code);
+                        Logger::debug("Bytes Available: " + std::to_string(available));
+                        Logger::debug("Remaining Bytes: " + std::to_string(remaining_bytes));
+                        Logger::debug("Content Length: " + std::to_string(content_length));
+                        Logger::debug("Bytes in Buffer: " + std::to_string(bytes_remaining_in_buffer));
+
                         size_t bytes_read = boost::asio::read(
                             socket,
                             boost::asio::buffer(body.data() + bytes_remaining_in_buffer, remaining_bytes),
                             error_code
                         );
+
+                        Logger::debug("Ending Boost Read");
                         if (error_code || bytes_read != remaining_bytes) {
-                            std::cerr << "Failed to read full body: "
-                                    << (error_code ? error_code.message() : "incomplete read") 
-                                    << "\n";
+                            Logger::error("Failed to read full body: " + (error_code ? error_code.message() : "incomplete read"));
                             send_response(&socket, ResponseType::INTERNAL_ERROR);
                             return;
                         }
@@ -186,6 +193,8 @@ class Server{
 
                     if(path == "/upload"){
                     
+                        Logger::debug("Starting Image read");
+
                         std::string content_type = headers.at("content-type");
 
                         std::string boundary = boost::algorithm::trim_copy(
@@ -203,7 +212,7 @@ class Server{
 
                         if(header_end == std::string::npos){
                             send_response(&socket, ResponseType::INTERNAL_ERROR);
-                            std::cerr << "[ERROR] header end error" << "\n";
+                            Logger::error("header end error");
                             return;
                         }
 
@@ -213,7 +222,7 @@ class Server{
 
                         if(image_end == std::string::npos){
                             send_response(&socket, ResponseType::INTERNAL_ERROR);
-                            std::cerr << "[ERROR] image end error" << "\n";
+                            Logger::error("image end error");
                             return;
                         }
 
@@ -223,12 +232,12 @@ class Server{
 
                         std::string image_data = body_string.substr(image_start, image_end - image_start);
                         
-                        std::string image_name = "image_" + SystemManager::get_date_time_numbers() + ".png";
+                        std::string image_name = "image_" + sys::get_date_time_numbers() + ".png";
                         std::ofstream file("../assets/images/" + image_name, std::ios::binary);
                         file.write(&body[image_start], image_end - image_start);
 
                         send_response(&socket, ResponseType::OK);
-                        util::log("DEBUG", "", "Image Downloaded");
+                        Logger::info("Image Downloaded");
 
                         Widget::check_images();
                         
@@ -240,8 +249,7 @@ class Server{
                 
             }
             catch(std::exception& e){
-                qDebug() << e.what();
-                std::cerr << "Exception: " << e.what() << std::endl;
+                Logger::error(e.what());
             }
         }
 

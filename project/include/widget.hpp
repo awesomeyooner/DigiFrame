@@ -24,7 +24,7 @@
 #include "util/mouse.hpp"
 
 #include <content_manager.hpp>
-#include <system_manager.hpp>
+#include <system.hpp>
 
 #include "util/helpers/qthelper.hpp"
 #include "util/utility.hpp"
@@ -40,6 +40,7 @@
 #include <arpa/inet.h>
 
 #include "sidebar.hpp"
+#include "program.hpp"
 
 using namespace std;
 
@@ -79,8 +80,8 @@ class Widget : public QWidget{
         void initialize(){
             sidebar.add_entry(
                 [this](QPainter* painter){
-                    string ip_address = SystemManager::get_ip_address();
-                    string datetime = SystemManager::get_date_time_numbers();
+                    string ip_address = sys::get_ip_address();
+                    string datetime = sys::get_date_time_words();
 
                     painter->setFont(QFont("Arial", 24, QFont::Bold));
                     painter->setPen(Qt::yellow);
@@ -142,7 +143,7 @@ class Widget : public QWidget{
         void load_image(string path){
     
             if(!main_image.load(QString::fromStdString(path))){
-                qFatal("FAILED!");
+                Logger::error("Image failed to load!");
             }
 
             image_path = path;
@@ -236,6 +237,7 @@ class Widget : public QWidget{
 
         void keyPressEvent(QKeyEvent* event) override {
             if (event->key() == Qt::Key_Escape) {
+                Program::stop_program();
                 qApp->quit();
             }
         }

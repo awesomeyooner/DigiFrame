@@ -1,2 +1,8 @@
 # Ignore build folder
+/project/build/**
+/project/build/
 /**/build/
+**/build/
+
+/**/env/
+/**/__pycache__/

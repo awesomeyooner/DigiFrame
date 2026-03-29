@@ -1,0 +1,185 @@
+2025:07:07 01:17:54.374 [INFO] Program Started!
+2025:07:07 01:18:20.441 [DEBUG] Header Map: content-length:  2710358
+2025:07:07 01:18:20.441 [DEBUG] Header Map: user-agent:  Mozilla/5.0 (iPhone; CPU iPhone OS 18_5_0 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) CriOS/138.0.7204.56 Mobile/15E148 Safari/604.1
+2025:07:07 01:18:20.441 [DEBUG] Header Map: accept:  */*
+2025:07:07 01:18:20.442 [DEBUG] Header Map: accept-encoding:  gzip, deflate
+2025:07:07 01:18:20.442 [DEBUG] Header Map: accept-language:  en-US,en;q=0.9
+2025:07:07 01:18:20.442 [DEBUG] Header Map: origin:  http://192.168.1.59:8080
+2025:07:07 01:18:20.442 [DEBUG] Header Map: referer:  http://192.168.1.59:8080/
+2025:07:07 01:18:20.442 [DEBUG] Header Map: content-type:  multipart/form-data; boundary=----WebKitFormBoundaryKOKPc0NX8UfYgGvW
+2025:07:07 01:18:20.442 [DEBUG] Header Map: connection:  keep-alive
+2025:07:07 01:18:20.442 [DEBUG] Header Map: host:  192.168.1.59:8080
+2025:07:07 01:18:20.442 [DEBUG] 
+2025:07:07 01:18:20.442 [DEBUG] Starting POST
+2025:07:07 01:18:20.443 [DEBUG] Starting Boost Read
+2025:07:07 01:18:20.443 [DEBUG] Bytes Available: 127
+2025:07:07 01:18:31.04 [DEBUG] Header Map: content-length:  2710358
+2025:07:07 01:18:31.04 [DEBUG] Header Map: user-agent:  Mozilla/5.0 (iPhone; CPU iPhone OS 18_5_0 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) CriOS/138.0.7204.56 Mobile/15E148 Safari/604.1
+2025:07:07 01:18:31.04 [DEBUG] Header Map: accept:  */*
+2025:07:07 01:18:31.04 [DEBUG] Header Map: accept-encoding:  gzip, deflate
+2025:07:07 01:18:31.04 [DEBUG] Header Map: accept-language:  en-US,en;q=0.9
+2025:07:07 01:18:31.05 [DEBUG] Header Map: origin:  http://192.168.1.59:8080
+2025:07:07 01:18:31.05 [DEBUG] Header Map: referer:  http://192.168.1.59:8080/
+2025:07:07 01:18:31.05 [DEBUG] Header Map: content-type:  multipart/form-data; boundary=----WebKitFormBoundaryw4ce0HBt22UWGLrH
+2025:07:07 01:18:31.05 [DEBUG] Header Map: connection:  keep-alive
+2025:07:07 01:18:31.05 [DEBUG] Header Map: host:  192.168.1.59:8080
+2025:07:07 01:18:31.05 [DEBUG] 
+2025:07:07 01:18:31.05 [DEBUG] Starting POST
+2025:07:07 01:18:31.06 [DEBUG] Starting Boost Read
+2025:07:07 01:18:31.06 [DEBUG] Bytes Available: 13159
+2025:07:07 01:18:40.951 [DEBUG] Header Map: content-length:  2710358
+2025:07:07 01:18:40.951 [DEBUG] Header Map: user-agent:  Mozilla/5.0 (iPhone; CPU iPhone OS 18_5_0 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) CriOS/138.0.7204.56 Mobile/15E148 Safari/604.1
+2025:07:07 01:18:40.951 [DEBUG] Header Map: accept:  */*
+2025:07:07 01:18:40.951 [DEBUG] Header Map: accept-encoding:  gzip, deflate
+2025:07:07 01:18:40.951 [DEBUG] Header Map: accept-language:  en-US,en;q=0.9
+2025:07:07 01:18:40.951 [DEBUG] Header Map: origin:  http://192.168.1.59:8080
+2025:07:07 01:18:40.951 [DEBUG] Header Map: referer:  http://192.168.1.59:8080/
+2025:07:07 01:18:40.951 [DEBUG] Header Map: content-type:  multipart/form-data; boundary=----WebKitFormBoundary770JtGelHZg82pFu
+2025:07:07 01:18:40.951 [DEBUG] Header Map: connection:  keep-alive
+2025:07:07 01:18:40.951 [DEBUG] Header Map: host:  192.168.1.59:8080
+2025:07:07 01:18:40.951 [DEBUG] 
+2025:07:07 01:18:40.951 [DEBUG] Starting POST
+2025:07:07 01:18:40.953 [DEBUG] Starting Boost Read
+2025:07:07 01:18:40.953 [DEBUG] Bytes Available: 127
+2025:07:07 01:18:42.528 [DEBUG] Header Map: content-length:  2710358
+2025:07:07 01:18:42.528 [DEBUG] Header Map: user-agent:  Mozilla/5.0 (iPhone; CPU iPhone OS 18_5_0 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) CriOS/138.0.7204.56 Mobile/15E148 Safari/604.1
+2025:07:07 01:18:42.528 [DEBUG] Header Map: accept:  */*
+2025:07:07 01:18:42.528 [DEBUG] Header Map: accept-encoding:  gzip, deflate
+2025:07:07 01:18:42.528 [DEBUG] Header Map: accept-language:  en-US,en;q=0.9
+2025:07:07 01:18:42.528 [DEBUG] Header Map: origin:  http://192.168.1.59:8080
+2025:07:07 01:18:42.528 [DEBUG] Header Map: referer:  http://192.168.1.59:8080/
+2025:07:07 01:18:42.528 [DEBUG] Header Map: content-type:  multipart/form-data; boundary=----WebKitFormBoundary9dTbABlCZBUHXAAw
+2025:07:07 01:18:42.528 [DEBUG] Header Map: connection:  keep-alive
+2025:07:07 01:18:42.528 [DEBUG] Header Map: host:  192.168.1.59:8080
+2025:07:07 01:18:42.528 [DEBUG] 
+2025:07:07 01:18:42.528 [DEBUG] Starting POST
+2025:07:07 01:18:42.530 [DEBUG] Starting Boost Read
+2025:07:07 01:18:42.530 [DEBUG] Bytes Available: 13159
+2025:07:07 01:18:50.16 [DEBUG] Ending Boost Read
+2025:07:07 01:18:50.16 [ERROR] Failed to read full body: End of file
+2025:07:07 01:18:50.17 [DEBUG] Ending Boost Read
+2025:07:07 01:18:50.17 [DEBUG] Ending Boost Read
+2025:07:07 01:18:50.17 [DEBUG] Ending Boost Read
+2025:07:07 01:18:50.17 [ERROR] Failed to read full body: End of file
+2025:07:07 01:18:50.17 [ERROR] Failed to read full body: End of file
+2025:07:07 01:18:50.19 [DEBUG] Ending Boost Read
+2025:07:07 01:18:50.19 [ERROR] Failed to read full body: End of file
+2025:07:07 01:18:55.252 [DEBUG] Header Map: accept-encoding:  gzip, deflate
+2025:07:07 01:18:55.252 [DEBUG] Header Map: accept-language:  en-US,en;q=0.9
+2025:07:07 01:18:55.252 [DEBUG] Header Map: origin:  http://192.168.1.59:8080
+2025:07:07 01:18:55.252 [DEBUG] Header Map: accept:  */*
+2025:07:07 01:18:55.252 [DEBUG] Header Map: referer:  http://192.168.1.59:8080/
+2025:07:07 01:18:55.253 [DEBUG] Header Map: content-type:  multipart/form-data; boundary=----WebKitFormBoundaryz80x12vhV05SMtqf
+2025:07:07 01:18:55.253 [DEBUG] Header Map: user-agent:  Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36
+2025:07:07 01:18:55.253 [DEBUG] Header Map: content-length:  29665
+2025:07:07 01:18:55.253 [DEBUG] Header Map: dnt:  1
+2025:07:07 01:18:55.253 [DEBUG] Header Map: connection:  keep-alive
+2025:07:07 01:18:55.253 [DEBUG] Header Map: host:  192.168.1.59:8080
+2025:07:07 01:18:55.253 [DEBUG] 
+2025:07:07 01:18:55.253 [DEBUG] Starting POST
+2025:07:07 01:18:55.253 [DEBUG] Starting Boost Read
+2025:07:07 01:18:55.253 [DEBUG] Bytes Available: 0
+2025:07:07 01:18:55.265 [DEBUG] Ending Boost Read
+2025:07:07 01:18:55.266 [DEBUG] Starting Image read
+2025:07:07 01:18:55.266 [INFO] Image Downloaded
+2025:07:07 01:19:00.797 [DEBUG] Header Map: accept-encoding:  gzip, deflate
+2025:07:07 01:19:00.797 [DEBUG] Header Map: accept-language:  en-US,en;q=0.9
+2025:07:07 01:19:00.797 [DEBUG] Header Map: origin:  http://192.168.1.59:8080
+2025:07:07 01:19:00.797 [DEBUG] Header Map: accept:  */*
+2025:07:07 01:19:00.797 [DEBUG] Header Map: referer:  http://192.168.1.59:8080/
+2025:07:07 01:19:00.797 [DEBUG] Header Map: content-type:  multipart/form-data; boundary=----WebKitFormBoundarydCc6aRLJrWa0HX0j
+2025:07:07 01:19:00.797 [DEBUG] Header Map: user-agent:  Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36
+2025:07:07 01:19:00.797 [DEBUG] Header Map: content-length:  3464
+2025:07:07 01:19:00.797 [DEBUG] Header Map: dnt:  1
+2025:07:07 01:19:00.797 [DEBUG] Header Map: connection:  keep-alive
+2025:07:07 01:19:00.797 [DEBUG] Header Map: host:  192.168.1.59:8080
+2025:07:07 01:19:00.797 [DEBUG] 
+2025:07:07 01:19:00.797 [DEBUG] Starting POST
+2025:07:07 01:19:00.797 [DEBUG] Starting Boost Read
+2025:07:07 01:19:00.797 [DEBUG] Bytes Available: 0
+2025:07:07 01:19:00.799 [DEBUG] Ending Boost Read
+2025:07:07 01:19:00.799 [DEBUG] Starting Image read
+2025:07:07 01:19:00.799 [INFO] Image Downloaded
+2025:07:07 01:19:06.293 [DEBUG] Header Map: accept-encoding:  gzip, deflate
+2025:07:07 01:19:06.293 [DEBUG] Header Map: accept-language:  en-US,en;q=0.9
+2025:07:07 01:19:06.293 [DEBUG] Header Map: origin:  http://192.168.1.59:8080
+2025:07:07 01:19:06.293 [DEBUG] Header Map: accept:  */*
+2025:07:07 01:19:06.293 [DEBUG] Header Map: referer:  http://192.168.1.59:8080/
+2025:07:07 01:19:06.293 [DEBUG] Header Map: content-type:  multipart/form-data; boundary=----WebKitFormBoundary4HKT98xB8IZYiM5X
+2025:07:07 01:19:06.294 [DEBUG] Header Map: user-agent:  Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36
+2025:07:07 01:19:06.294 [DEBUG] Header Map: content-length:  215559
+2025:07:07 01:19:06.294 [DEBUG] Header Map: dnt:  1
+2025:07:07 01:19:06.294 [DEBUG] Header Map: connection:  keep-alive
+2025:07:07 01:19:06.294 [DEBUG] Header Map: host:  192.168.1.59:8080
+2025:07:07 01:19:06.294 [DEBUG] 
+2025:07:07 01:19:06.294 [DEBUG] Starting POST
+2025:07:07 01:19:06.294 [DEBUG] Starting Boost Read
+2025:07:07 01:19:06.294 [DEBUG] Bytes Available: 12973
+2025:07:07 01:19:18.354 [DEBUG] Header Map: accept-encoding:  gzip, deflate
+2025:07:07 01:19:18.354 [DEBUG] Header Map: accept-language:  en-US,en;q=0.9
+2025:07:07 01:19:18.354 [DEBUG] Header Map: origin:  http://192.168.1.59:8080
+2025:07:07 01:19:18.354 [DEBUG] Header Map: accept:  */*
+2025:07:07 01:19:18.354 [DEBUG] Header Map: referer:  http://192.168.1.59:8080/
+2025:07:07 01:19:18.354 [DEBUG] Header Map: content-type:  multipart/form-data; boundary=----WebKitFormBoundaryW2dWCxxqfJqOsAnD
+2025:07:07 01:19:18.354 [DEBUG] Header Map: user-agent:  Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36
+2025:07:07 01:19:18.354 [DEBUG] Header Map: content-length:  215559
+2025:07:07 01:19:18.354 [DEBUG] Header Map: dnt:  1
+2025:07:07 01:19:18.355 [DEBUG] Header Map: connection:  keep-alive
+2025:07:07 01:19:18.355 [DEBUG] Header Map: host:  192.168.1.59:8080
+2025:07:07 01:19:18.355 [DEBUG] 
+2025:07:07 01:19:18.355 [DEBUG] Starting POST
+2025:07:07 01:19:18.355 [DEBUG] Starting Boost Read
+2025:07:07 01:19:18.355 [DEBUG] Bytes Available: 0
+2025:07:07 01:19:18.424 [DEBUG] Ending Boost Read
+2025:07:07 01:19:18.426 [DEBUG] Starting Image read
+2025:07:07 01:19:18.426 [INFO] Image Downloaded
+2025:07:07 01:19:20.542 [DEBUG] Header Map: accept-encoding:  gzip, deflate
+2025:07:07 01:19:20.542 [DEBUG] Header Map: accept-language:  en-US,en;q=0.9
+2025:07:07 01:19:20.542 [DEBUG] Header Map: origin:  http://192.168.1.59:8080
+2025:07:07 01:19:20.542 [DEBUG] Header Map: accept:  */*
+2025:07:07 01:19:20.542 [DEBUG] Header Map: referer:  http://192.168.1.59:8080/
+2025:07:07 01:19:20.542 [DEBUG] Header Map: content-type:  multipart/form-data; boundary=----WebKitFormBoundary1Hi1Na9HUPnlJ1Bn
+2025:07:07 01:19:20.542 [DEBUG] Header Map: user-agent:  Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36
+2025:07:07 01:19:20.542 [DEBUG] Header Map: content-length:  215559
+2025:07:07 01:19:20.542 [DEBUG] Header Map: dnt:  1
+2025:07:07 01:19:20.542 [DEBUG] Header Map: connection:  keep-alive
+2025:07:07 01:19:20.542 [DEBUG] Header Map: host:  192.168.1.59:8080
+2025:07:07 01:19:20.542 [DEBUG] 
+2025:07:07 01:19:20.543 [DEBUG] Starting POST
+2025:07:07 01:19:20.543 [DEBUG] Starting Boost Read
+2025:07:07 01:19:20.543 [DEBUG] Bytes Available: 0
+2025:07:07 01:19:20.587 [DEBUG] Ending Boost Read
+2025:07:07 01:19:20.589 [DEBUG] Starting Image read
+2025:07:07 01:19:20.589 [INFO] Image Downloaded
+2025:07:07 01:19:27.550 [DEBUG] Header Map: accept-encoding:  gzip, deflate
+2025:07:07 01:19:27.550 [DEBUG] Header Map: accept-language:  en-US,en;q=0.9
+2025:07:07 01:19:27.550 [DEBUG] Header Map: origin:  http://192.168.1.59:8080
+2025:07:07 01:19:27.550 [DEBUG] Header Map: accept:  */*
+2025:07:07 01:19:27.550 [DEBUG] Header Map: referer:  http://192.168.1.59:8080/
+2025:07:07 01:19:27.550 [DEBUG] Header Map: content-type:  multipart/form-data; boundary=----WebKitFormBoundaryq9USN1FXM29FvyAY
+2025:07:07 01:19:27.550 [DEBUG] Header Map: user-agent:  Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36
+2025:07:07 01:19:27.550 [DEBUG] Header Map: content-length:  75760
+2025:07:07 01:19:27.550 [DEBUG] Header Map: dnt:  1
+2025:07:07 01:19:27.550 [DEBUG] Header Map: connection:  keep-alive
+2025:07:07 01:19:27.550 [DEBUG] Header Map: host:  192.168.1.59:8080
+2025:07:07 01:19:27.550 [DEBUG] 
+2025:07:07 01:19:27.550 [DEBUG] Starting POST
+2025:07:07 01:19:27.550 [DEBUG] Starting Boost Read
+2025:07:07 01:19:27.550 [DEBUG] Bytes Available: 0
+2025:07:07 01:19:27.570 [DEBUG] Ending Boost Read
+2025:07:07 01:19:27.571 [DEBUG] Starting Image read
+2025:07:07 01:19:27.571 [INFO] Image Downloaded
+2025:07:07 01:21:49.684 [DEBUG] Header Map: content-length:  3383273
+2025:07:07 01:21:49.684 [DEBUG] Header Map: user-agent:  Mozilla/5.0 (iPhone; CPU iPhone OS 18_5_0 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) CriOS/138.0.7204.56 Mobile/15E148 Safari/604.1
+2025:07:07 01:21:49.684 [DEBUG] Header Map: accept:  */*
+2025:07:07 01:21:49.684 [DEBUG] Header Map: accept-encoding:  gzip, deflate
+2025:07:07 01:21:49.684 [DEBUG] Header Map: accept-language:  en-US,en;q=0.9
+2025:07:07 01:21:49.684 [DEBUG] Header Map: origin:  http://192.168.1.59:8080
+2025:07:07 01:21:49.684 [DEBUG] Header Map: referer:  http://192.168.1.59:8080/
+2025:07:07 01:21:49.684 [DEBUG] Header Map: content-type:  multipart/form-data; boundary=----WebKitFormBoundaryktiR9KDueH4nYgC3
+2025:07:07 01:21:49.684 [DEBUG] Header Map: connection:  keep-alive
+2025:07:07 01:21:49.684 [DEBUG] Header Map: host:  192.168.1.59:8080
+2025:07:07 01:21:49.684 [DEBUG] 
+2025:07:07 01:21:49.684 [DEBUG] Starting POST
+2025:07:07 01:21:49.686 [DEBUG] Starting Boost Read
+2025:07:07 01:21:49.686 [DEBUG] Bytes Available: 127
