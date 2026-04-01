@@ -14,7 +14,7 @@ html, body
 }
 
 /* Make the canvas fit the entire screen */
-#canvas-container
+#main-container
 {
     position: absolute;
     top: 0;

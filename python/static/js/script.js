@@ -1,28 +1,12 @@
-const container = document.getElementById('canvas-container');
-const canvas = document.getElementById('myCanvas');
-const context = canvas.getContext('2d');
+// const container = document.getElementById('main-container');
 
-function resizeCanvas()
-{
-    canvas.width = container.clientWidth;
-    canvas.height = container.clientHeight;
-    drawCanvas();
-}
+// Initialize the Mouse object
+Mouse.init();
 
-function drawCanvas()
-{
-    context.clearRect(0, 0, canvas.width, canvas.height);
-    context.fillStyle = "blue";
-    context.fillRect(0, 0, canvas.width, canvas.height);
-}
+// Initialize the Canvas
+CanvasManager.init();
 
-const resizeObserver = new ResizeObserver(() => {
-  requestAnimationFrame(resizeCanvas);
-});
-resizeObserver.observe(container);
-
-resizeCanvas();
-
+Mouse.configureBinding(() => console.log("Hello World!"), MouseState.ON_PRESS);
 
 // Display Preview Image
 document.getElementById("fileSelector").addEventListener('change', async (event) => {
