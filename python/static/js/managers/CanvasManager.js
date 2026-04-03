@@ -29,21 +29,17 @@ class CanvasManager
     {
         canvas.width = container.clientWidth;
         canvas.height = container.clientHeight;
+        
         CanvasManager.drawCanvas();
+        FileManager.drawButton();
+        PreviewManager.drawPreview();
     }
 
     static drawCanvas()
     {
         clearCanvas();
-        context.fillStyle = "blue";
+        context.fillStyle = "white";
         context.fillRect(0, 0, canvas.width, canvas.height);
-
-        context.fillStyle = "red";
-        Shapes.rectangleCenter(0, 0, 100, 100);
-
-        Shapes.circleCenter(0, 0, 200);
-        context.fillStyle = "purple";
-        context.fill();
     }
 
 } // class CanvasManager

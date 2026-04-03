@@ -10,3 +10,14 @@ function clearCanvas()
     context.clearRect(0, 0, canvas.width, canvas.height);
 
 } // end of "clearCanvas()"
+
+
+function getWidth()
+{
+    return canvas.width;
+}
+
+function getHeight()
+{
+    return canvas.height
+}

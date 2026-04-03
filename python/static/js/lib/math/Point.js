@@ -110,6 +110,22 @@ class Point{
         return this.#y;
     }
 
+    
+    /**
+     * Gets the center of a box with the top-left corner offset applied based on size
+     * @param {number} size The side length of your box 
+     * @returns {Point} The center cartesian coordinates of the box 
+     */
+    getCenterOffset(width, height = width)
+    {
+        var offset = new Point(
+            -width / 2, // Move half to left
+            height / 2 // Move half up
+        );
+
+        return this.getPoint().plus(offset);
+    }
+
     /**
      * Gets the distance between this point and the given point
      * @param {Point} otherPoint The other point to get the distance to 
@@ -183,6 +199,4 @@ class Point{
 
         return false;
     }
-
-
 }

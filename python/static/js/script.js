@@ -6,26 +6,13 @@ Mouse.init();
 // Initialize the Canvas
 CanvasManager.init();
 
+// Initialize the file sender
+FileManager.init();
+
+// Initialize the image preview
+PreviewManager.init();
+
 Mouse.configureBinding(() => console.log("Hello World!"), MouseState.ON_PRESS);
-
-// Display Preview Image
-document.getElementById("fileSelector").addEventListener('change', async (event) => {
-    
-    setColorBox("colorboxDownloadStatus", "red");
-
-    const selectedFile = document.getElementById("fileSelector").files[0];
-        const fileName = selectedFile.name;
-        const fileType = selectedFile.type;
-
-    setLabel("labelImage", fileName);
-    
-    const reader = new FileReader();
-    reader.onload = function(event){
-        document.getElementById("image").src = event.target.result;
-        document.getElementById("image").style.display = 'block';
-    };
-    reader.readAsDataURL(selectedFile);
-});
 
 // Send Image over HTTP
 document.getElementById("buttonSubmit").addEventListener('click', async (event) => {
