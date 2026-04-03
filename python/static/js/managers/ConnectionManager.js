@@ -23,6 +23,11 @@ class ConnectionManager
             }
         );
 
+        if(response.ok)
+            console.log("Image sent successfully!");
+        else
+            console.log("Image failed to send!");
+
         return response.ok
     }
 

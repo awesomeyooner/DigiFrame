@@ -33,7 +33,7 @@ class Mouse{
                     Utility.nativeToCartesianY(y)
                 );
 
-                console.log("moved");
+                // console.log("moved");
             }
         );
 
@@ -46,7 +46,7 @@ class Mouse{
 
                 Mouse.update(true);
 
-                console.log("down");
+                // console.log("down");
             }
         );
 
@@ -59,7 +59,7 @@ class Mouse{
 
                 Mouse.update(false);
 
-                console.log("up");
+                // console.log("up");
             }
         );
     }

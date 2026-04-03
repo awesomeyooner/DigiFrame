@@ -19,37 +19,14 @@
                 Your browser does not suppport the canvas element
             </canvas>
         
+            <form>
+                <label for="messageInput">Message (Optional)</label>
+                <input type="text" id="messageInput" name="messageInput">
 
-            <div class="feature">
-                <form>
-                    <label for="messageInput">Message (Optional)</label>
-                    <input type="text" id="messageInput" name="messageInput">
+                <input type="file" id="fileSelector" name="fileSelector" accept=".jpeg, .jpg, .png" aria-label="Close menu">
 
-                    </br>
-                    <label for="imageUpload">Upload an image (JPEG or PNG):</label>
-                    </br>
-                    <input type="file" id="fileSelector" name="fileSelector" accept=".jpeg, .jpg, .png" aria-label="Close menu">
-
-                    <button type="button" id="buttonSubmit" name="buttonSubmit" class="button-send"></button>
-                </form>
-            </div>
-
-            <div class="feature">
-                <div class="status">
-                    <label id="labelDownloadStatus">Download Status: </label> 
-                    <div id="colorboxDownloadStatus" class="color-box" style="background-color: blue"></div>
-                </div>
-
-                <div class="status">
-                    <label id="labelMessageStatus">Message Status: </label> 
-                    <div id="colorboxMessageStatus" class="color-box" style="background-color: blue"></div>
-                </div>
-
-                <div class="status">
-                    <label id="labelConnectionStatus">Connection Status: </label> 
-                    <div id="colorboxConnectionStatus" class="color-box" style="background-color: blue"></div>
-                </div>
-            </div>
+                <button type="button" id="buttonSubmit" name="buttonSubmit" class="button-send"></button>
+            </form>
 
         </div>
     </body>

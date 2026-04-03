@@ -12,41 +12,31 @@ FileManager.init();
 // Initialize the image preview
 PreviewManager.init();
 
-Mouse.configureBinding(() => console.log("Hello World!"), MouseState.ON_PRESS);
+// Mouse.configureBinding(() => console.log("Hello World!"), MouseState.ON_PRESS);
+
+const button = document.getElementById("buttonSubmit");
 
 // Send Image over HTTP
-document.getElementById("buttonSubmit").addEventListener('click', async (event) => {
+button.addEventListener('click', async (event) => {
 
-    await sendImage();
-    await sendMessage();
+    await ConnectionManager.sendImage();
+    // await sendMessage();
 });
 
-document.getElementById("buttonSubmit").addEventListener('mousedown', async (event) => {
-    var style = "";
-
-    style += "background: url('/static/images/send_blue.png');";
-    style += "background-size: cover;";
-    style += "width: 500px;";
-    style += "height: 500px;";
-    style += "border-radius: 50px;";
-    style += "border-color: black;";
-    style += "border: 100px;";
-
-    document.getElementById("buttonSubmit").style = style;
+button.addEventListener('pointerdown', async (event) => {
+    button.style.width = getWidth() * 0.25 + "px";
+    button.style.height = getWidth() * 0.25 + "px";
+    // button.style.background = "url('/static/images/send_blue.png')";
 });
 
-document.getElementById("buttonSubmit").addEventListener('mouseup', async (event) => {
-    var style = "";
+// button.style.width = getWidth() * 0.25;
+// button.style.height = getHeight() * 0.25;
+// button.style.background = "url('/static/images/send_blue.png')";
 
-    style += "background: url('/static/images/send_black.png');";
-    style += "background-size: cover;";
-    style += "width: 500px;";
-    style += "height: 500px;";
-    style += "border-radius: 50px;";
-    style += "border-color: black;";
-    style += "border: 100px;";
-
-    document.getElementById("buttonSubmit").style = style;
+button.addEventListener('pointerup', async (event) => {
+    button.style.width = getWidth() * 0.25 + "px";
+    button.style.height = getWidth() * 0.25 + "px";
+    // button.style.background = "url('/static/images/send_black.png')";
 });
 
 async function sendMessage(){
@@ -76,57 +66,17 @@ async function sendMessage(){
     return response.ok;
 }
 
-async function sendImage(){
-    // Turn status box yellow to indicate pending
-    document.getElementById("colorboxDownloadStatus").style = "background-color: yellow";
-    
-    // Get the selected file
-    const selectedFile = document.getElementById("fileSelector").files[0];
-
-    if(selectedFile == null)
-        return false;
-
-    const fileName = selectedFile.name;
-    const fileType = selectedFile.type;
-
-    const formData = new FormData();
-
-    formData.append("file", selectedFile);
-
-    // Send over HTTP
-    const response = await fetch('/upload', {
-        method: "POST",
-        body: formData
-    });
-
-    // If OK, make status green
-    if(response.ok)
-        document.getElementById("colorboxDownloadStatus").style = "background-color: green";
-    // If not OK, make status red
-    else
-        document.getElementById("colorboxDownloadStatus").style = "background-color: red";
-
-    return response.ok
-}
-
 async function update(){
     const response = await fetch('/alive', {
         method: "GET",
     });
 
-    if(response.ok){
-        document.getElementById("colorboxConnectionStatus").style = "background-color: green";
-    }
+    if(response.ok)
+        context.fillStyle = "green";
     else
-        document.getElementById("colorboxConnectionStatus").style = "background-color: red";
-}
+        context.fillStyle = "green";
 
-function setLabel(id, text){
-    document.getElementById(id).innerHTML = text;
-}
-
-function setColorBox(id, color){
-    document.getElementById(id).style = "background-color: " + color;
+    Shapes.rectangleCenter(0, 0, 50, 50);
 }
 
 // Update every second
