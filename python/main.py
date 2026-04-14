@@ -5,7 +5,7 @@ import numpy as np
 
 from util import util
 import server
-import gui
+# import gui
 
 # The host IP Address
 HOST = '0.0.0.0'
@@ -16,9 +16,9 @@ PORT = 8000
 def run_app():
     server.app.run(host=HOST, port=PORT, use_reloader=False)
 
-def run_gui():
-    gui.show()
-    gui.exec()
+# def run_gui():
+#    gui.show()
+#    gui.exec()
 
 def main():
 
@@ -27,11 +27,12 @@ def main():
     print("Click on the image and press ESC to quit")
     print("==============================")
 
-    flask_thread = multiprocessing.Process(target=run_app)
-    flask_thread.daemon = True
-    flask_thread.start()
+    run_app()
+    # flask_thread = multiprocessing.Process(target=run_app)
+    # flask_thread.daemon = True
+    # flask_thread.start()
 
-    run_gui()
+ #   run_gui()
 
 if __name__ == '__main__':
     main()
