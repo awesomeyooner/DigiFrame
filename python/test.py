@@ -3,7 +3,7 @@ from PIL import Image
 
 display = auto()
 
-image = Image.open("images/oj.png")
+image = Image.open("images/us.png")
 
 def main():
 	print(display.colour)
