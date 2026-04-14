@@ -2,6 +2,9 @@ from flask import *
 from datetime import datetime
 import os
 
+from util import string_formatter
+import util.file_helper as file_helper
+
 OK = 200
 BAD_REQUEST = 400
 NOT_FOUND = 404
@@ -9,21 +12,33 @@ INTERNAL_ERROR = 500
 
 app = Flask(__name__)
 
+# Serve the webpage
 @app.route('/')
 def main():
     return render_template("index.html")
 
+# Handles when clients upload a picture
+# Saves the image to the /image folder
 @app.route('/upload', methods=['POST'])
 def upload():
+
+    # Just in case check if this is POST
     if request.method == 'POST':
+
+        # Get the files in this POST
         files = request.files.getlist("file")
 
+        # For every file in the files sent...
         for file in files:
-            filename = get_filename_without_extension(file.filename)
-            datetime = get_datetime(with_micros=False)
-            extension = ".png"
 
-            file.save(os.path.join("images", datetime + " - " + filename + extension))
+            # Get the filename and FORCE ".png" extension
+            filename = file_helper.change_file_extension(file.filename, ".png")
+
+            # Get the formatted datetime
+            datetime = string_formatter.get_datetime()
+
+            # Save the image to the images folder formatted
+            file.save(os.path.join("images", datetime + " - " + filename))
 
         return make_response("", OK)
     else:
@@ -46,38 +61,3 @@ def handle_alive():
         return make_response("", OK)
     else:
         return make_response("", BAD_REQUEST)
-
-def get_datetime(unit_seperator="-", gap="_", with_micros=True):
-    current = datetime.now()
-
-    year = str(current.year)
-    month = str(current.month) if current.month % 10 != current.month else "0" + str(current.month) 
-    day = str(current.day) if current.day % 10 != current.day else "0" + str(current.day)
-    hour = str(current.hour) if current.hour % 10 != current.hour else "0" + str(current.hour)
-
-    minute = str(current.minute) if current.minute % 10 != current.minute else "0" + str(current.minute)
-    second = str(current.second) if current.second % 10 != current.second else "0" + str(current.second)
-    microsecond = str(current.microsecond)
-
-    date = year + unit_seperator + month + unit_seperator + day
-    time = hour + unit_seperator + minute + unit_seperator + second + ("." + microsecond if with_micros else "")
-
-    return date + gap + time
-
-def get_filename_without_extension(filename: str):
-    dot_pos = filename.find(".")
-
-    if dot_pos == -1:
-        return None
-    
-    return filename[:dot_pos]
-
-def get_file_extension(filename: str):
-    dot_pos = filename.find(".")
-
-    if dot_pos == -1:
-        return None
-    
-    extension = filename[dot_pos:]
-
-    return extension
