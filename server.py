@@ -1,9 +1,16 @@
 from flask import *
 from datetime import datetime
 import os
+import io
+
+from PIL import Image
 
 from util import string_formatter
 import util.file_helper as file_helper
+
+from PySide6.QtCore import QMetaObject, Qt
+
+import gui_manager as gui
 
 OK = 200
 BAD_REQUEST = 400
@@ -20,7 +27,7 @@ def main():
 # Handles when clients upload a picture
 # Saves the image to the /image folder
 @app.route('/upload', methods=['POST'])
-def upload():
+def on_upload():
 
     # Just in case check if this is POST
     if request.method == 'POST':
@@ -39,6 +46,9 @@ def upload():
 
             # Save the image to the images folder formatted
             file.save(os.path.join("images", datetime + " - " + filename))
+
+            # Convert to PIL Image
+            image_file = Image.open(file)
 
         return make_response("", OK)
     else:

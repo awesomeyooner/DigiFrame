@@ -46,15 +46,6 @@ def force_dimensions(src: Image.Image, width: int, height: int, bg_color: str ="
 
     resized = src.resize((target_width, target_height))
 
-    print(src.width)
-    print(src.height)
-
-    print(width_diff)
-    print(height_diff)
-
-    print(target_width)
-    print(target_height)
-
     return add_background(resized, width, height, bg_color)
 
 
