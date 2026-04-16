@@ -44,9 +44,9 @@ class PreviewManager
             // Then the scale is the one that's farthest away from max
             else if(widthDiff < 0 && heightDiff < 0)
             {
-                if(Math.abs(widthDiff) > Math.abs(heightDiff))
+                if(Math.abs(widthDiff) < Math.abs(heightDiff))
                     scale = Math.abs(this.#maxWidth / srcWidth);
-                else if(Math.abs(widthDiff) < Math.abs(heightDiff))
+                else if(Math.abs(widthDiff) > Math.abs(heightDiff))
                     scale = Math.abs(this.#maxHeight / srcHeight);
             }
 
