@@ -21,3 +21,18 @@ function getHeight()
 {
     return canvas.height
 }
+
+function getLargestDimension()
+{
+    return Math.max(canvas.width, canvas.height);
+}
+
+function getSmallestDimension()
+{
+    return Math.min(canvas.width, canvas.height);
+}
+
+function isSquare()
+{
+    return canvas.width == canvas.height;
+}

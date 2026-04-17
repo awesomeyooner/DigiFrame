@@ -7,7 +7,18 @@ const container = document.getElementById('main-container');
 
 class CanvasManager
 {
-    constructor(){}
+
+    static drawables = new Array();
+
+    constructor()
+    {
+        this.drawables = new Array();
+    }
+
+    static addDrawable(drawable)
+    {
+        this.drawables.push(drawable);
+    }
 
     /**
      * Initialize ResizeObserver event callback
@@ -31,8 +42,11 @@ class CanvasManager
         canvas.height = container.clientHeight;
         
         CanvasManager.drawCanvas();
+        CanvasManager.drawDrawables();
+
         FileManager.drawButton();
         PreviewManager.drawPreview();
+        
     }
 
     static drawCanvas()
@@ -40,6 +54,14 @@ class CanvasManager
         clearCanvas();
         context.fillStyle = "white";
         context.fillRect(0, 0, canvas.width, canvas.height);
+    }
+
+    static drawDrawables()
+    {
+        for(var drawable of this.drawables)
+        {
+            drawable.draw();
+        }
     }
 
 } // class CanvasManager

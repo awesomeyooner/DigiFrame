@@ -10,6 +10,7 @@ class DisplayType(Enum):
 
 DEFAULT_DISPLAY_TYPE = DisplayType.QT
 
+
 class DisplayAPI:
 
     def __init__(self, disp_type: DisplayType = DEFAULT_DISPLAY_TYPE):
@@ -26,7 +27,7 @@ class DisplayAPI:
 
                 import util.gui.gui as gui
 
-                gui.show()
+                gui.show(800, 480)
                 gui.exec()
 
             case DisplayType.INKY:

@@ -14,30 +14,13 @@ PreviewManager.init();
 
 // Mouse.configureBinding(() => console.log("Hello World!"), MouseState.ON_PRESS);
 
-const button = document.getElementById("buttonSubmit");
+const sendButton = new DynamicButton("buttonSubmit", 0, -0.25, 0.25, 0.2, 
+    async (event) => {
+        await ConnectionManager.sendImage();
+    }
+);
 
-// Send Image over HTTP
-button.addEventListener('click', async (event) => {
-
-    await ConnectionManager.sendImage();
-    // await sendMessage();
-});
-
-button.addEventListener('pointerdown', async (event) => {
-    button.style.width = getWidth() * 0.25 + "px";
-    button.style.height = getWidth() * 0.25 + "px";
-    // button.style.background = "url('/static/images/send_blue.png')";
-});
-
-// button.style.width = getWidth() * 0.25;
-// button.style.height = getHeight() * 0.25;
-// button.style.background = "url('/static/images/send_blue.png')";
-
-button.addEventListener('pointerup', async (event) => {
-    button.style.width = getWidth() * 0.25 + "px";
-    button.style.height = getWidth() * 0.25 + "px";
-    // button.style.background = "url('/static/images/send_black.png')";
-});
+CanvasManager.addDrawable(sendButton);
 
 async function sendMessage(){
     // Get the message
