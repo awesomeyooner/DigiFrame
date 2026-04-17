@@ -52,7 +52,7 @@ def main():
         case DisplayType.QT:
 
             # Start flask as a seperate thread
-            flask_thread = multiprocessing.Process(target=run_app)
+            flask_thread = threading.Thread(target=run_app)
             flask_thread.daemon = True
             flask_thread.start()
 
