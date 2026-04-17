@@ -4,13 +4,18 @@ import multiprocessing
 import numpy as np
 
 import server
+
 import display_api
+from display_api import DisplayType
 
 # The host IP Address
 HOST = '0.0.0.0'
 
 # The port to run the app on
 PORT = 8000
+
+
+display_api.DISPLAY_TYPE = DisplayType.QT
 
 
 def run_app():
@@ -21,21 +26,37 @@ def main():
 
     print("==============================")
     print("Starting up App...")
-    print("Click on the image and press ESC to quit")
     print("==============================")
-
-    # run_app()
-
-    # flask_thread = multiprocessing.Process(target=run_app)
-    # flask_thread.daemon = True
-    # flask_thread.start()
-
-    flask_thread = threading.Thread(target=run_app)
-    flask_thread.daemon = True
-    flask_thread.start()
-
-    display_api.init()
     
+    # Control initilization depending on display type
+    match display_api.DISPLAY_TYPE:
+
+        # If we're using QT,
+        # Then we must use a seperate thread for Flask
+        case DisplayType.QT:
+
+            # Start flask as a seperate thread
+            flask_thread = multiprocessing.Process(target=run_app)
+            flask_thread.daemon = True
+            flask_thread.start()
+
+            # Run the GUI as the main thread
+            display_api.init()
+
+        # If we're using an inky display
+        # Then just init as usual but start the app last
+        # since it's blocking
+        case DisplayType.INKY:
+
+            # Init the inky display
+            display_api.init()
+
+            # Run the Flask App
+            run_app()
+
+        case _:
+            print("Invalid Display Type")
+
 
 if __name__ == '__main__':
     main()

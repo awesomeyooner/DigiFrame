@@ -8,10 +8,10 @@ class DisplayType(Enum):
     INKY = auto()
 
 
-DEFAULT_DISPLAY_TYPE = DisplayType.QT
+DISPLAY_TYPE = DisplayType.QT
 
 
-def init(disp_type: DisplayType = DEFAULT_DISPLAY_TYPE):
+def init(disp_type: DisplayType = DISPLAY_TYPE):
     
     match disp_type:
 
@@ -30,7 +30,7 @@ def init(disp_type: DisplayType = DEFAULT_DISPLAY_TYPE):
             print("Invalid Display Type")
 
 
-def update_image(image: Image.Image, disp_type: DisplayType = DEFAULT_DISPLAY_TYPE):
+def update_image(image: Image.Image, disp_type: DisplayType = DISPLAY_TYPE):
     
     match disp_type:
 
