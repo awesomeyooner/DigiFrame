@@ -54,7 +54,7 @@ def on_upload():
             # Immediately load into memory
             image_file.load()
 
-            display_api.update_image(DisplayType.QT, image_file)
+            display_api.update_image(image_file)
 
         return make_response("", OK)
     else:

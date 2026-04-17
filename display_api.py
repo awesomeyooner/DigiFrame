@@ -8,8 +8,29 @@ class DisplayType(Enum):
     INKY = auto()
 
 
+DEFAULT_DISPLAY_TYPE = DisplayType.QT
 
-def update_image(disp_type: DisplayType, image: Image.Image):
+
+def init(disp_type: DisplayType = DEFAULT_DISPLAY_TYPE):
+    
+    match disp_type:
+
+        case DisplayType.QT:
+
+            import gui
+
+            gui.show()
+            gui.exec()
+
+        case DisplayType.INKY:
+
+            import canvas
+
+        case _:
+            print("Invalid Display Type")
+
+
+def update_image(image: Image.Image, disp_type: DisplayType = DEFAULT_DISPLAY_TYPE):
     
     match disp_type:
 

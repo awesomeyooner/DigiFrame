@@ -4,7 +4,7 @@ import multiprocessing
 import numpy as np
 
 import server
-import gui
+import display_api
 
 # The host IP Address
 HOST = '0.0.0.0'
@@ -12,13 +12,10 @@ HOST = '0.0.0.0'
 # The port to run the app on
 PORT = 8000
 
+
 def run_app():
     server.app.run(host=HOST, port=PORT, use_reloader=False)
 
-def run_gui():
-#    gui.show(800, 480)
-    gui.show()
-    gui.exec()
 
 def main():
 
@@ -37,7 +34,7 @@ def main():
     flask_thread.daemon = True
     flask_thread.start()
 
-    run_gui()
+    display_api.init()
 
 if __name__ == '__main__':
     main()
