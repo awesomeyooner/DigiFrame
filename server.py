@@ -8,11 +8,8 @@ from PIL import Image
 from util import string_formatter
 import util.file_helper as file_helper
 
-from PySide6.QtCore import QMetaObject, Qt
-
-import gui
-
-from bridge import *
+from display_api import DisplayType
+import display_api
 
 OK = 200
 BAD_REQUEST = 400
@@ -57,13 +54,7 @@ def on_upload():
             # Immediately load into memory
             image_file.load()
 
-            # Set the new image to the GUI
-            gui.widget.setImage(image_file)
-
-            # gui.widget.setImageFromName(file_path)
-
-            # Call the GUI update function to show the new image
-            bridge.call_update.emit()
+            display_api.update_image(DisplayType.QT, image_file)
 
         return make_response("", OK)
     else:

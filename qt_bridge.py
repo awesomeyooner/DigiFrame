@@ -4,7 +4,7 @@ from flask import Flask
 import threading
 
 
-class Bridge(QObject):
+class QtBridge(QObject):
     call_update = Signal()
 
-bridge = Bridge()
+bridge = QtBridge()

@@ -13,7 +13,7 @@ from PIL.ImageQt import ImageQt
 
 import image_manager
 
-from bridge import *
+from qt_bridge import *
 
 
 class GUIManager(QWidget):
