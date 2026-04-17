@@ -8,51 +8,59 @@ class DisplayType(Enum):
     INKY = auto()
 
 
-DISPLAY_TYPE = DisplayType.QT
+DEFAULT_DISPLAY_TYPE = DisplayType.QT
+
+class DisplayAPI:
+
+    def __init__(self, disp_type: DisplayType = DEFAULT_DISPLAY_TYPE):
+        self.display_type = disp_type
 
 
-def init(disp_type: DisplayType = DISPLAY_TYPE):
-    
-    match disp_type:
+    def setup(self):
 
-        case DisplayType.QT:
+        match self.display_type:
 
-            import gui
+            case DisplayType.QT:
 
-            gui.show()
-            gui.exec()
+                import gui
 
-        case DisplayType.INKY:
+                gui.show()
+                gui.exec()
 
-            import canvas
+            case DisplayType.INKY:
 
-        case _:
-            print("Invalid Display Type")
+                import canvas
+
+            case _:
+                print("Invalid Display Type")
 
 
-def update_image(image: Image.Image, disp_type: DisplayType = DISPLAY_TYPE):
-    
-    match disp_type:
+    def update_image(self, image: Image.Image):
+        
+        match self.display_type:
 
-        case DisplayType.QT:
+            case DisplayType.QT:
 
-            import gui
-            import qt_bridge
+                import gui
+                import qt_bridge
 
-            # Set the new image to the GUI
-            gui.widget.setImage(image)
+                # Set the new image to the GUI
+                gui.widget.setImage(image)
 
-            # gui.widget.setImageFromName(file_path)
+                # gui.widget.setImageFromName(file_path)
 
-            # Call the GUI update function to show the new image
-            qt_bridge.bridge.call_update.emit()
+                # Call the GUI update function to show the new image
+                qt_bridge.bridge.call_update.emit()
 
-        case DisplayType.INKY:
+            case DisplayType.INKY:
 
-            import canvas
+                import canvas
 
-            canvas.inky.set_image(image)
-            canvas.inky.display_image()
+                canvas.inky.set_image(image)
+                canvas.inky.display_image()
 
-        case _:
-            print("Invalid Display Type")
+            case _:
+                print("Invalid Display Type")
+
+
+display = DisplayAPI(DisplayType.INKY)

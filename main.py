@@ -15,9 +15,6 @@ HOST = '0.0.0.0'
 PORT = 8000
 
 
-display_api.DISPLAY_TYPE = DisplayType.QT
-
-
 def run_app():
     server.app.run(host=HOST, port=PORT, use_reloader=False)
 
@@ -29,7 +26,7 @@ def main():
     print("==============================")
     
     # Control initilization depending on display type
-    match display_api.DISPLAY_TYPE:
+    match display_api.display.display_type:
 
         # If we're using QT,
         # Then we must use a seperate thread for Flask
@@ -41,7 +38,7 @@ def main():
             flask_thread.start()
 
             # Run the GUI as the main thread
-            display_api.init()
+            display_api.display.setup()
 
         # If we're using an inky display
         # Then just init as usual but start the app last
@@ -49,7 +46,7 @@ def main():
         case DisplayType.INKY:
 
             # Init the inky display
-            display_api.init()
+            display_api.display.setup()
 
             # Run the Flask App
             run_app()
