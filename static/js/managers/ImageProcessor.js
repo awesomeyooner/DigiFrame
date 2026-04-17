@@ -53,110 +53,61 @@ class ImageProcessor
 
     static rotateCW(N = 1)
     {
+        // N represents 90 degree turns
         this.#angle += N * 90;
+
+        // Constrict angle to 360
         this.#angle %= 360;
 
-        console.log(this.#angle);
         var radians = this.#angle * (Math.PI / 180);
         
+        // If we are just flipping top <-> bottom
         var isFlipping = this.#angle % 180 == 0;
 
-        // if(isFlipping)
-        // {
-        //     // Flip dimensions
-        //     this.#canvas.setAttribute('width', this.#image.height);
-        //     this.#canvas.setAttribute('height', this.#image.width);
-        // }
-        // else
-        // {
-        //     // Swap Dimensions
-        //     this.#canvas.setAttribute('width', this.#image.width);
-        //     this.#canvas.setAttribute('height', this.#image.height);
-        // }
-
-        // // Refresh the canvas
-        // this.drawCanvas();
-
-        // If you're simply flipping the image, then no need to swap dimensions
-        if(!isFlipping)
+        if(isFlipping)
         {
-            // Flip dimensions
-            this.#canvas.setAttribute('width', this.#image.height);
-            this.#canvas.setAttribute('height', this.#image.width);
-
-            this.drawCanvas();
-
-            if(this.#angle == 90)
-            {
-                this.#context.translate(
-                    this.#image.height,
-                    0
-                );
-            }
-            else if(this.#angle == 270)
-            {
-                this.#context.translate(
-                    0,
-                    this.#image.width
-                );
-            }
-
-            this.#context.rotate(radians);
-
-            this.drawCanvas();
-
-            this.#context.drawImage(
-                this.#image,
-                0,
-                0,
-                this.#image.width,
-                this.#image.height
-            );
-
+            // Keep normal Dimensions
+            this.#canvas.setAttribute('width', this.#image.width);
+            this.#canvas.setAttribute('height', this.#image.height);
         }
         else
         {
-            this.#canvas.setAttribute('width', this.#image.width);
-            this.#canvas.setAttribute('height', this.#image.height);
-
-            this.drawCanvas();
-
-            if(this.#angle == 180)
-            {
-                this.#context.translate(
-                    this.#canvas.width,
-                    this.#canvas.height
-                );
-
-                this.#context.rotate(radians);
-
-                this.#context.drawImage(
-                    this.#image,
-                    0,
-                    0,
-                    this.#image.width,
-                    this.#image.height
-                );
-
-                // this.#context.drawImage(
-                //     this.#image,
-                //     this.#image.width,
-                //     this.#image.height,
-                //     this.#image.width,
-                //     this.#image.height
-                // );
-            }
-            else
-            {
-                this.#context.drawImage(
-                    this.#image,
-                    0,
-                    0,
-                    this.#image.width,
-                    this.#image.height
-                );
-            }
+            // Swap dimensions
+            this.#canvas.setAttribute('width', this.#image.height);
+            this.#canvas.setAttribute('height', this.#image.width);
         }
+
+        if(this.#angle == 90)
+        {
+            this.#context.translate(
+                this.#image.height,
+                0
+            );
+        }
+        else if(this.#angle == 180)
+        {
+            this.#context.translate(
+                this.#canvas.width,
+                this.#canvas.height
+            );
+        }
+        else if(this.#angle == 270)
+        {
+            this.#context.translate(
+                0,
+                this.#image.width
+            );
+        }
+
+        // Apply the rotation
+        this.#context.rotate(radians);
+
+        // Draw the image
+        this.drawImage();
     
+        this.#canvas.toBlob((blob) => {
+            console.log(blob);
+            ConnectionManager.sendFile(blob);
+        }, 'image/png');
     }
 }
