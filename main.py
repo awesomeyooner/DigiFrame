@@ -5,7 +5,7 @@ import numpy as np
 import yaml
 import sys
 
-import util.server as server
+import server as server
 
 from util.helpers import yaml_helper
 
