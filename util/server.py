@@ -5,11 +5,11 @@ import io
 
 from PIL import Image
 
-from util import string_formatter
-import util.file_helper as file_helper
+from util.helpers import string_formatter
+from util.helpers import file_helper
 
-from display_api import DisplayType
-import display_api
+from util.display_api import DisplayType
+import util.display_api as display_api
 
 OK = 200
 BAD_REQUEST = 400

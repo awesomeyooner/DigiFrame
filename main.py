@@ -3,10 +3,10 @@ import threading
 import multiprocessing
 import numpy as np
 
-import server
+import util.server as server
 
-import display_api
-from display_api import DisplayType
+import util.display_api as display_api
+from util.display_api import DisplayType
 
 # The host IP Address
 HOST = '0.0.0.0'

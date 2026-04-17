@@ -1,6 +1,6 @@
 from inky.auto import auto
 from PIL import Image
-import image_manager
+import util.helpers.image_helper as image_helper
 
 
 DEFAULT_IMAGE: str = "./images/default.png"
@@ -37,7 +37,7 @@ class CanvasManager:
     def set_image(self, image: Image.Image):
 
         # Resize the image if necessary
-        self.image = image_manager.force_dimensions(image, self.width, self.height, self.background_color)
+        self.image = image_helper.force_dimensions(image, self.width, self.height, self.background_color)
 
 
     def display_image(self):

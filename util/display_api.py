@@ -22,14 +22,14 @@ class DisplayAPI:
 
             case DisplayType.QT:
 
-                import gui
+                import util.gui.gui as gui
 
                 gui.show()
                 gui.exec()
 
             case DisplayType.INKY:
 
-                import canvas
+                import util.canvas.canvas as canvas
 
             case _:
                 print("Invalid Display Type")
@@ -41,8 +41,8 @@ class DisplayAPI:
 
             case DisplayType.QT:
 
-                import gui
-                import qt_bridge
+                import util.gui.gui as gui
+                import util.gui.qt_bridge as qt_bridge
 
                 # Set the new image to the GUI
                 gui.widget.setImage(image)
@@ -54,7 +54,7 @@ class DisplayAPI:
 
             case DisplayType.INKY:
 
-                import canvas
+                import util.canvas.canvas as canvas
 
                 canvas.inky.set_image(image)
                 canvas.inky.display_image()
@@ -63,4 +63,4 @@ class DisplayAPI:
                 print("Invalid Display Type")
 
 
-display = DisplayAPI(DisplayType.INKY)
+display = DisplayAPI(DisplayType.QT)

@@ -1,4 +1,4 @@
-from gui_manager import *
+from util.gui.gui_manager import *
 
 
 app = QApplication([])

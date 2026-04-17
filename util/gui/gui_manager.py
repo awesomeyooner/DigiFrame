@@ -11,9 +11,9 @@ from PIL.Image import open
 from PIL.Image import Image
 from PIL.ImageQt import ImageQt
 
-import image_manager
+import util.helpers.image_helper as image_helper
 
-from qt_bridge import *
+from util.gui.qt_bridge import *
 
 
 class GUIManager(QWidget):
@@ -80,7 +80,7 @@ class GUIManager(QWidget):
         painter.setRenderHint(QPainter.RenderHint.LosslessImageRendering)
 
         # Resize the image to fit the GUI
-        resized = image_manager.force_dimensions(image, self.width(), self.height())
+        resized = image_helper.force_dimensions(image, self.width(), self.height())
 
         # Convert PIL to QImage
         qimage = QImage(ImageQt(resized))

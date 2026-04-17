@@ -1,6 +1,6 @@
 import numpy as np
 import os
-from util import sorting_helper
+from util.helpers import sorting_helper
 
 def get_files(folder: str) -> list[str]:
 

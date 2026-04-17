@@ -1,6 +1,6 @@
 from PIL import Image, ImageDraw
 
-from util import file_helper
+from util.helpers import file_helper
 
 IMAGE_FOLDER = "./images"
 
