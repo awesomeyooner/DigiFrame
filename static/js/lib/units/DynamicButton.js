@@ -1,8 +1,8 @@
 class DynamicButton extends Button
 {
-    constructor(elementId, xScale, yScale, defaultScale, clickedScale, onClick)
+    constructor(elementId, xScale, yScale, defaultScale, clickedScale, onClick = null, onChange = null)
     {
-        super(elementId, 0, 0, 0, 0, onClick);
+        super(elementId, 0, 0, 0, 0, onClick, onChange);
 
         this.xScale = xScale;
         this.yScale = yScale;

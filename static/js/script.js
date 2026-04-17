@@ -14,7 +14,7 @@ PreviewManager.init();
 
 // Mouse.configureBinding(() => console.log("Hello World!"), MouseState.ON_PRESS);
 
-const sendButton = new DynamicButton("buttonSubmit", 0, -0.25, 0.25, 0.2, 
+const sendButton = new DynamicButton("buttonSubmit", 0, -0.25, 0.25, 0.225, 
     async (event) => {
         await ConnectionManager.sendImage();
     }

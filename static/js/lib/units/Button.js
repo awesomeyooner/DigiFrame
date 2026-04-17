@@ -1,7 +1,7 @@
 class Button extends Drawable
 {
 
-    constructor(elementId, x, y, defaultSize, clickedSize, onClick)
+    constructor(elementId, x, y, defaultSize, clickedSize, onClick = null, onChange = null)
     {
         super(x, y);
 
@@ -34,7 +34,11 @@ class Button extends Drawable
             }
         );
 
-        this.button.addEventListener("click", onClick);
+        if(onClick)
+            this.button.addEventListener("click", onClick);
+
+        if(onChange)
+            this.button.addEventListener("change", onChange);
 
     } // end of constructor(string, int, int, int, int)
 

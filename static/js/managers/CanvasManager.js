@@ -44,7 +44,6 @@ class CanvasManager
         CanvasManager.drawCanvas();
         CanvasManager.drawDrawables();
 
-        FileManager.drawButton();
         PreviewManager.drawPreview();
         
     }
