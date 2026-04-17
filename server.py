@@ -10,7 +10,9 @@ import util.file_helper as file_helper
 
 from PySide6.QtCore import QMetaObject, Qt
 
-import gui_manager as gui
+import gui
+
+from bridge import *
 
 OK = 200
 BAD_REQUEST = 400
@@ -44,11 +46,19 @@ def on_upload():
             # Get the formatted datetime
             datetime = string_formatter.get_datetime()
 
+            file_path = os.path.join("images", datetime + " - " + filename)
+
             # Save the image to the images folder formatted
-            file.save(os.path.join("images", datetime + " - " + filename))
+            file.save(file_path)
 
             # Convert to PIL Image
-            image_file = Image.open(file)
+            # image_file = Image.open(file)
+
+            # gui.widget.setImage(image_file)
+
+            gui.widget.setImageFromName(file_path)
+
+            bridge.call_update.emit()
 
         return make_response("", OK)
     else:

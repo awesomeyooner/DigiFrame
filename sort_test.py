@@ -19,7 +19,7 @@ def main():
 	print(most_recent)
 	image = Image.open("./images/" + most_recent)
 
-	image_manager.force_dimensions(image, 800, 480, "white").show()
+	image_manager.force_dimensions(image, 1920, 1080, "white").show()
 
 if __name__ == "__main__":
 	main()

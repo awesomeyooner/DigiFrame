@@ -18,37 +18,18 @@ class PreviewManager
 
         this.#image.onload = () =>
         {
+            // The source image dimensions
             const srcWidth = this.#image.naturalWidth;
             const srcHeight = this.#image.naturalHeight;
             
-            var widthDiff = this.#maxWidth - srcWidth;
-            var heightDiff = this.#maxHeight - srcHeight;
+            // The ratio to scale the source in order to match the max dimensions
+            var widthRatio = this.#maxWidth / srcWidth;
+            var heightRatio = this.#maxHeight / srcHeight;
 
-            var scale = 1;
-
-            // If the image is smaller in both dimensions that max
-            if(widthDiff > 0 && heightDiff > 0)
-            {
-                if(widthDiff < heightDiff)
-                    scale = Math.abs(this.#maxWidth / srcWidth);
-                else if(widthDiff > heightDiff)
-                    scale = Math.abs(this.#maxHeight / srcHeight);
-            }
-            // If the width is larger than the max but not height
-            else if(widthDiff < 0 && heightDiff > 0)
-                scale = Math.abs(this.#maxWidth / srcWidth);
-            // If the height is larger than max but not width
-            else if(widthDiff > 0 && heightDiff < 0)
-                scale = Math.abs(this.#maxHeight / srcHeight);
-            // If BOTH dimensions are larger than max
-            // Then the scale is the one that's farthest away from max
-            else if(widthDiff < 0 && heightDiff < 0)
-            {
-                if(Math.abs(widthDiff) < Math.abs(heightDiff))
-                    scale = Math.abs(this.#maxWidth / srcWidth);
-                else if(Math.abs(widthDiff) > Math.abs(heightDiff))
-                    scale = Math.abs(this.#maxHeight / srcHeight);
-            }
+            // The overall scale is the smallest ratio
+            // Because if we choose the bigger one then that means one of the
+            // Dimensions will be OVER scaled
+            var scale = Math.min(widthRatio, heightRatio);
 
             var targetWidth = scale * srcWidth;
             var targetHeight = scale * srcHeight;

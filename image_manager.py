@@ -15,37 +15,24 @@ def get_most_recent_image(folder: str=IMAGE_FOLDER):
 
 
 def force_dimensions(src: Image.Image, width: int, height: int, bg_color: str ="black") -> Image.Image:
-    width_diff = width - src.width
-    height_diff = height - src.height
 
-    scale = 1
+    # The ratio to scale the source in order to match the max dimensions
+    width_ratio = width / src.width
+    height_ratio = height / src.height
 
-    if(width_diff > 0 and height_diff > 0):
-        
-        if(width_diff < height_diff):
-            scale = width / src.width
-        elif(height_diff < width_diff):
-            scale = height / src.height
-        else:
-            if(width > height):
-                scale = width / src.width
-            elif(height > width):
-                scale = height / src.height
-    elif(width_diff < 0 and height_diff > 0):
-        scale = width / src.width
-    elif(width_diff > 0 and height_diff < 0):
-        scale = height / src.height
-    elif(width_diff < 0 and height_diff < 0):
-        if(abs(width_diff) < abs(height_diff)):
-            scale = width / src.width
-        elif(abs(width_diff) > abs(height_diff)):
-            scale = height / src.height
+    # The overall scale is the smallest ratio
+    # Because if we choose the bigger one then that means one of the
+    # Dimensions will be OVER scaled
+    scale = min(width_ratio, height_ratio)
 
+    # The target dimensions while maintaining aspect ratio
     target_width = round(scale * src.width)
     target_height = round(scale * src.height)
 
+    # Resize the image
     resized = src.resize((target_width, target_height))
 
+    # Add the background to keep the image at the specified dimensions while keeping aspect ratio
     return add_background(resized, width, height, bg_color)
 
 

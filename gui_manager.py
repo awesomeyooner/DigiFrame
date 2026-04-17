@@ -13,59 +13,92 @@ from PIL.ImageQt import ImageQt
 
 import image_manager
 
+from bridge import *
+
 
 class GUIManager(QWidget):
 
     def __init__(self):
+
+        # Assign the image to the default image
         self.image = open("./images/default.png")
 
+        # Connect the external update call to the signal
+        # to allow for external calls to the update function (non-GUI)
+        bridge.call_update.connect(self.externalUpdate)
+
+        # Initialize parent
         super().__init__()
 
+    @Slot()
+    def externalUpdate(self):
+        self.update()
+
+    # Draw GUI elements
     def paintEvent(self, event):
 
-        print("hello world")
-        # if(self.image != None):
-        self.drawImage(self.image)
+        # Redundant check to only draw the image if it's non null
+        if(self.image != None):
+            self.drawImage(self.image)
 
+        # Call parent paint
         return super().paintEvent(event)
 
-    def keyPressEvent(self, event):
+    # Key Press callback
+    def keyPressEvent(self, event: QKeyEvent):
+
+        # The key pressed
         key = event.key()
 
+        # If ESC Key
+        # Then Exit program
         if(key == Qt.Key.Key_Escape):
             sys.exit()
         
+        # Call parent callback
         return super().keyPressEvent(event)
     
+    # Set the internal image member
     def setImage(self, image: Image):
         self.image = image
 
+    def setImageFromName(self, filename: str):
+        self.image = open(filename)
+
+    # Draw the image onto the GUI
     def drawImage(self, image: Image):
 
+        # If the image is null
+        # Then early return
         if(image == None):
             return
 
+        # Create painter instance
         painter = QPainter(self)
 
+        # Lossless paintint
         painter.setRenderHint(QPainter.RenderHint.LosslessImageRendering)
 
-        center_x = (self.width() - image.width) / 2
-        center_y = (self.height() - image.height) / 2
-
+        # Resize the image to fit the GUI
         resized = image_manager.force_dimensions(image, self.width(), self.height())
 
+        # Convert PIL to QImage
         qimage = QImage(ImageQt(resized))
 
-        image_rect = QRect(center_x, center_y, image.height, image.width)
+        # Overlay Rectangle, same size as GUI / Image
+        image_rect = QRect(0, 0, self.width(), self.height())
+
+        print("\nResized")
+        print(resized.width)
+        print(resized.height)
+
+        print("\nQImage")
+        print(qimage.width())
+        print(qimage.height())
+
+        # print()
+
+        # Actually draw the image onto the GUI
         painter.drawImage(image_rect, qimage)
-
-
-app = QApplication([])
-widget = GUIManager()
-
-def show():
-    widget.showFullScreen()
-
-def exec():
-    app.exec()
-
+        
+        painter.end()
