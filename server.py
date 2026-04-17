@@ -52,12 +52,17 @@ def on_upload():
             file.save(file_path)
 
             # Convert to PIL Image
-            # image_file = Image.open(file)
+            image_file = Image.open(file)
 
-            # gui.widget.setImage(image_file)
+            # Immediately load into memory
+            image_file.load()
 
-            gui.widget.setImageFromName(file_path)
+            # Set the new image to the GUI
+            gui.widget.setImage(image_file)
 
+            # gui.widget.setImageFromName(file_path)
+
+            # Call the GUI update function to show the new image
             bridge.call_update.emit()
 
         return make_response("", OK)

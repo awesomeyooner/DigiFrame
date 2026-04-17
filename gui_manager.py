@@ -88,17 +88,8 @@ class GUIManager(QWidget):
         # Overlay Rectangle, same size as GUI / Image
         image_rect = QRect(0, 0, self.width(), self.height())
 
-        print("\nResized")
-        print(resized.width)
-        print(resized.height)
-
-        print("\nQImage")
-        print(qimage.width())
-        print(qimage.height())
-
-        # print()
-
         # Actually draw the image onto the GUI
         painter.drawImage(image_rect, qimage)
         
+        # Give up the painter resource
         painter.end()
