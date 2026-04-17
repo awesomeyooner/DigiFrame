@@ -32,8 +32,10 @@ def force_dimensions(src: Image.Image, width: int, height: int, bg_color: str ="
     # Resize the image
     resized = src.resize((target_width, target_height))
 
+    backgrounded = add_background(resized, width, height, bg_color)
+
     # Add the background to keep the image at the specified dimensions while keeping aspect ratio
-    return add_background(resized, width, height, bg_color)
+    return backgrounded
 
 
 def add_background(src: Image.Image, width, height, color="black"):
