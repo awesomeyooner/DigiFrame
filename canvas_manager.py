@@ -28,19 +28,22 @@ class CanvasManager:
         # If it's none
         # Then use the system default image
         if(default_image == None):
-            self.image = Image.open(DEFAULT_IMAGE)
+            self.set_image(Image.open(DEFAULT_IMAGE))
         # If not
         # Then set the default image to the parameter
         else:
-            self.image = Image.open(default_image)
+            self.set_image(Image.open(default_image))
+
+    def set_image(self, image: Image.Image):
+
+        # Resize the image if necessary
+        self.image = image_manager.force_dimensions(image, self.width, self.height, self.background_color)
+
 
     def display_image(self):
 
-        # Resize the image if necessary
-        resized = image_manager.force_dimensions(self.image, self.width, self.height, self.background_color)
-
         # Set the display image
-        self.display.set_image(resized)
+        self.display.set_image(self.image)
 
         # Actually show it
         self.display.show()

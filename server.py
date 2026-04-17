@@ -18,6 +18,7 @@ INTERNAL_ERROR = 500
 
 app = Flask(__name__)
 
+
 # Serve the webpage
 @app.route('/')
 def main():

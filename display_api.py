@@ -51,7 +51,8 @@ def update_image(image: Image.Image, disp_type: DisplayType = DEFAULT_DISPLAY_TY
 
             import canvas
 
-            canvas.inky.display_image(image)
+            canvas.inky.set_image(image)
+            canvas.inky.display_image()
 
         case _:
             print("Invalid Display Type")

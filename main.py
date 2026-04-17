@@ -35,6 +35,7 @@ def main():
     flask_thread.start()
 
     display_api.init()
+    
 
 if __name__ == '__main__':
     main()
