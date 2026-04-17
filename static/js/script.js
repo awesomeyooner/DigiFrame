@@ -2,6 +2,9 @@
 
 // Initialize the Mouse object
 Mouse.init();
+Keyboard.initialize(window);
+
+Keyboard.configureBinding("q", () => ImageProcessor.rotateCW(1), BindType.WHILE_PRESSED);
 
 // Initialize the Canvas
 CanvasManager.init();
@@ -11,6 +14,8 @@ FileManager.init();
 
 // Initialize the image preview
 PreviewManager.init();
+
+ImageProcessor.init();
 
 // Mouse.configureBinding(() => console.log("Hello World!"), MouseState.ON_PRESS);
 
@@ -50,6 +55,9 @@ async function sendMessage(){
 }
 
 async function update(){
+
+    Keyboard.update();
+
     const response = await fetch('/alive', {
         method: "GET",
     });

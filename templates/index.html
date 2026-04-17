@@ -15,9 +15,17 @@
     <body>
 
         <div id="main-container">
+
+            <canvas id="imageProcessingCanvas" style="z-index: 2;">
+                Your browser does not suppport the canvas element
+            </canvas>
             <canvas id="myCanvas" style="z-index: 1;">
                 Your browser does not suppport the canvas element
             </canvas>
+
+            <!-- <canvas id="imageProcessingCanvas" style="z-index: 2;">
+                Your browser does not suppport the canvas element
+            </canvas> -->
         
             <form>
                 <label for="messageInput">Message (Optional)</label>
@@ -44,12 +52,13 @@
     <script src="/static/js/lib/units/DynamicButton.js"></script>
 
     <script src="/static/js/lib/Mouse.js"></script>
+    <script src="/static/js/lib/Keyboard.js"></script>
 
     <script src="/static/js/managers/FileManager.js"></script>
     <script src="/static/js/managers/PreviewManager.js"></script>
     <script src="/static/js/managers/CanvasManager.js"></script>
     <script src="/static/js/managers/ConnectionManager.js"></script>
-    
+    <script src="/static/js/managers/ImageProcessor.js"></script>
 
     <script src="/static/js/script.js"></script>
 

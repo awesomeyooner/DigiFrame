@@ -24,6 +24,7 @@ class FileManager
 
             reader.onload = function(event){
                 PreviewManager.setImageSrc(event.target.result);
+                ImageProcessor.setImageSrc(event.target.result);
             };
 
             reader.readAsDataURL(selectedFile);
