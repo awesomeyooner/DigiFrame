@@ -78,7 +78,7 @@ class ImageProcessor
         // this.drawCanvas();
 
         // If you're simply flipping the image, then no need to swap dimensions
-        if(isFlipping)
+        if(!isFlipping)
         {
             // Flip dimensions
             this.#canvas.setAttribute('width', this.#image.height);
