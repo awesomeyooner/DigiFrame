@@ -19,7 +19,7 @@ ImageProcessor.init();
 
 // Mouse.configureBinding(() => console.log("Hello World!"), MouseState.ON_PRESS);
 
-const sendButton = new DynamicButton("buttonSubmit", 0, -0.25, 0.25, 0.225, 
+const sendButton = new DynamicButton("buttonSubmit", 0, -0.25, 0.30, 0.285, 
     async (event) => {
         await ConnectionManager.sendImage();
     }

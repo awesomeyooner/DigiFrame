@@ -15,6 +15,17 @@ class ImageProcessor
         }
     }
 
+    static async getOrientation(file)
+    {
+        return new Promise(
+            (resolve) => {
+                EXIF.getData(file, function(){
+                    const orientation = EXIF.getTag(this, "Orientation");
+                    resolve(orientation);
+                });
+            });
+    }
+
     static updateCanvas()
     {
         this.#canvas.setAttribute('width', this.#image.width);

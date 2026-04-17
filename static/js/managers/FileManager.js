@@ -28,8 +28,12 @@ class FileManager
             };
 
             reader.readAsDataURL(selectedFile);
+
+            var or = await ImageProcessor.getOrientation(selectedFile);
+
+            console.log(or);
         }
-    )
+    );
 
     constructor(){}
 
