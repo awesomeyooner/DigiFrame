@@ -2,18 +2,37 @@ import asyncio
 import threading
 import multiprocessing
 import numpy as np
+import yaml
+import sys
 
 import util.server as server
+
+from util.helpers import yaml_helper
 
 import util.display_api as display_api
 from util.display_api import DisplayType
 
 # The host IP Address
-HOST = '0.0.0.0'
+DEFAULT_HOST = '0.0.0.0'
 
 # The port to run the app on
-PORT = 8000
+DEFAULT_PORT = 8000
 
+with open('settings.yaml', 'r') as file:
+    data = yaml.safe_load(file)
+
+    HOST = yaml_helper.get(data, 'host', DEFAULT_HOST)
+    PORT = yaml_helper.get(data, 'port', DEFAULT_PORT)
+
+    try:
+        DISPLAY_TYPE = DisplayType(data['display'])
+        display_api.display.set_display_type(DISPLAY_TYPE)
+    except ValueError:
+        print("Invalid Display Type in YAML, Exitting...")
+        sys.exit()
+    except KeyError:
+        print("Unable to parse YAML, Exiting...")
+        sys.exit()
 
 def run_app():
     server.app.run(host=HOST, port=PORT, use_reloader=False)

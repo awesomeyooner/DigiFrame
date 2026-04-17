@@ -4,8 +4,8 @@ from PIL import Image
 
 
 class DisplayType(Enum):
-    QT = auto()
-    INKY = auto()
+    QT = "qt"
+    INKY = "inky"
 
 
 DEFAULT_DISPLAY_TYPE = DisplayType.QT
@@ -15,6 +15,8 @@ class DisplayAPI:
     def __init__(self, disp_type: DisplayType = DEFAULT_DISPLAY_TYPE):
         self.display_type = disp_type
 
+    def set_display_type(self, disp_type: DisplayType):
+        self.display_type = disp_type
 
     def setup(self):
 
@@ -63,4 +65,4 @@ class DisplayAPI:
                 print("Invalid Display Type")
 
 
-display = DisplayAPI(DisplayType.QT)
+display = DisplayAPI()
