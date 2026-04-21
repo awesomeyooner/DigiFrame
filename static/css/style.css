@@ -75,3 +75,25 @@ input[type="file"]::file-selector-button
     /* border-color: black; */
     /* border: 100px; */
 }
+
+.button-submit{
+    width: 500px;
+    height: 500px;
+
+    position: absolute;
+
+    color:transparent;
+
+    top: 0px;
+    left: 0px;
+
+    background: url("/static/images/rotate_icon.png");
+    background-size: cover; 
+    background-repeat: no-repeat; 
+    background-position: center;
+    transition: all 0.3s ease;
+
+    /* border-radius: 50%; */
+    /* border-color: black; */
+    border: 0;
+}

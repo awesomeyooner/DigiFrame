@@ -27,6 +27,14 @@ const sendButton = new DynamicButton("buttonSubmit", 0, -0.25, 0.30, 0.285,
 
 CanvasManager.addDrawable(sendButton);
 
+const rotateButton = new DynamicButton("buttonRotate", -0.25, -0.25, 0.25, 0.225, 
+    async (event) => {
+        await ConnectionManager.sendImage();
+    }
+);
+
+CanvasManager.addDrawable(rotateButton);
+
 async function sendMessage(){
     // Get the message
     const msg = document.getElementById("messageInput").value;
