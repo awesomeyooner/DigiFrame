@@ -36,6 +36,18 @@ class Point{
     }
 
     /**
+     * Gets the point coordinates as native coordinates
+     * @returns A new point whose x and y values are in native coordinates already
+     */
+    asNative()
+    {
+        return new Point(
+            this.getNativeX(),
+            this.getNativeY()
+        );
+    }
+
+    /**
      * Copies the values of one point to this point
      * @param {Point} newPoint New Point to copy over 
      */
@@ -182,6 +194,27 @@ class Point{
         var deltaY = this.#y - otherPoint.getCartesianY()
 
         return new Point(deltaX, deltaY);
+    }
+
+    /**
+     * Apply the rotation matrix to this point in radians
+     * @param {Number} radians `double` The angle in radians
+     * @returns {Point} The resultant transform
+     */
+    rotate(radians)
+    {
+        // P' = R * P
+
+        var cos = Math.cos(radians);
+        var sin = Math.sin(radians);
+
+        var x = this.#x;
+        var y = this.#y;
+
+        var x_prime = (cos * x) + (-sin * y);
+        var y_prime = (sin * x) + (cos * y);
+
+        return new Point(x_prime, y_prime);
     }
 
     /**
