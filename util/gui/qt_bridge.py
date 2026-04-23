@@ -1,0 +1,10 @@
+from PySide6.QtCore import QObject, Signal, Slot
+from PySide6.QtWidgets import QApplication, QWidget
+from flask import Flask
+import threading
+
+
+class QtBridge(QObject):
+    call_update = Signal()
+
+bridge = QtBridge()
