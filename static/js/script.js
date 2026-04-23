@@ -4,8 +4,6 @@
 Mouse.init();
 Keyboard.initialize(window);
 
-Keyboard.configureBinding("q", () => ImageProcessor.rotateCW(1), BindType.WHILE_PRESSED);
-
 // Initialize the Canvas
 CanvasManager.init();
 
@@ -15,6 +13,7 @@ FileManager.init();
 // Initialize the image preview
 PreviewManager.init();
 
+// Initialize the Image Processing handler
 ImageProcessor.init();
 
 // Mouse.configureBinding(() => console.log("Hello World!"), MouseState.ON_PRESS);
@@ -37,9 +36,12 @@ CanvasManager.addDrawable(sendButton);
 
 const rotateButton = new DynamicButton("buttonRotate", -0.25, -0.25, 0.25, 0.225, 
     async (event) => {
+
+        // Rotate the displayed image and redraw the canvas to reflect rotation
         PreviewManager.incrementRotationCW(90);
         CanvasManager.resizeCanvas();
 
+        // Rotate the backend image and reprocess the image for sending
         ImageProcessor.incrementRotationCW(90);
         ImageProcessor.drawImage();
     }
