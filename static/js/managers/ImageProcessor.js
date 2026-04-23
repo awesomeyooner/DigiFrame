@@ -7,13 +7,13 @@ class ImageProcessor
 
     static #center = new Point(0, 0);
 
-    static #angle = 0;
+    static #degreesCW = 0;
 
     static init()
     {
         this.#image.onload = () => 
         {
-            this.updateCanvas();
+            this.drawImage();
         }
     }
 
@@ -28,12 +28,17 @@ class ImageProcessor
             });
     }
 
-    static updateCanvas()
+    static setImageSrc(newSrc)
+    {
+        this.#image.src = newSrc;
+    }
+
+    static clearCanvas()
     {
         // If we are just flipping top <-> bottom
-        var isFlipping = ImageManipulator.isFlipping(this.#angle);
+        var isFlipping = ImageManipulator.isFlipping(this.#degreesCW);
 
-        if(isFlipping)
+        if(!isFlipping)
         {
             // Keep normal Dimensions
             this.#canvas.setAttribute('width', this.#image.width);
@@ -45,17 +50,7 @@ class ImageProcessor
             this.#canvas.setAttribute('width', this.#image.height);
             this.#canvas.setAttribute('height', this.#image.width);
         }
-
-        this.drawImage();
-    }
-
-    static setImageSrc(newSrc)
-    {
-        this.#image.src = newSrc;
-    }
-
-    static drawCanvas()
-    {
+        
         this.#context.restore();
 
         this.#context.clearRect(0, 0, this.#canvas.width, this.#canvas.height);
@@ -64,72 +59,42 @@ class ImageProcessor
         this.#context.fillRect(0, 0, this.#canvas.width, this.#canvas.height);
     }
 
-    static drawImage()
+    static setRotationCW(degrees)
     {
-        this.drawCanvas();
-
-        this.#context.drawImage(
-            this.#image,
-            0,
-            0,
-            this.#image.width,
-            this.#image.height
-        );
+        // Set the new degrees but constrain to [0, 360)
+        this.#degreesCW = degrees % 360;
     }
 
-    static rotateCW(N = 1)
+    static incrementRotationCW(degrees)
     {
-        // N represents 90 degree turns
-        this.#angle += N * 90;
+        this.setRotationCW(this.#degreesCW + degrees);
+    }
 
-        // Constrict angle to 360
-        this.#angle %= 360;
+    static drawImage()
+    {
+        this.clearCanvas();
 
-        var radians = this.#angle * (Math.PI / 180);
-        
-        // If we are just flipping top <-> bottom
-        var isFlipping = this.#angle % 180 == 0;
+        var isFlipping = ImageManipulator.isFlipping(this.#degreesCW);
+
+        var targetWidth = this.#image.width;
+        var targetHeight = this.#image.height;
 
         if(isFlipping)
         {
-            // Keep normal Dimensions
-            this.#canvas.setAttribute('width', this.#image.width);
-            this.#canvas.setAttribute('height', this.#image.height);
-        }
-        else
-        {
-            // Swap dimensions
-            this.#canvas.setAttribute('width', this.#image.height);
-            this.#canvas.setAttribute('height', this.#image.width);
+            targetWidth = this.#image.height;
+            targetHeight = this.#image.width;
         }
 
-        if(this.#angle == 90)
-        {
-            this.#context.translate(
-                this.#image.height,
-                0
-            );
-        }
-        else if(this.#angle == 180)
-        {
-            this.#context.translate(
-                this.#canvas.width,
-                this.#canvas.height
-            );
-        }
-        else if(this.#angle == 270)
-        {
-            this.#context.translate(
-                0,
-                this.#image.width
-            );
-        }
-
-        // Apply the rotation
-        this.#context.rotate(radians);
-
-        // Draw the image
-        this.drawImage();
+        ImageManipulator.rotateCW(
+            this.#image,
+            this.#context,
+            this.#center,
+            this.#degreesCW,
+            targetWidth,
+            targetHeight,
+            this.#canvas.width,
+            this.#canvas.height
+        );
     
         this.#canvas.toBlob((blob) => {
             console.log(blob);

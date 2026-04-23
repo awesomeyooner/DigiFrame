@@ -38,8 +38,10 @@ CanvasManager.addDrawable(sendButton);
 const rotateButton = new DynamicButton("buttonRotate", -0.25, -0.25, 0.25, 0.225, 
     async (event) => {
         PreviewManager.incrementRotationCW(90);
-        ImageProcessor.rotateCW(1)
         CanvasManager.resizeCanvas();
+
+        ImageProcessor.incrementRotationCW(90);
+        ImageProcessor.drawImage();
     }
 );
 

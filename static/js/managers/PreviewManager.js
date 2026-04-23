@@ -13,8 +13,6 @@ class PreviewManager
 
     static #degreesCW = 0;
 
-    static #isFlipped = false;
-
     constructor(){}
 
     static init()
@@ -48,13 +46,8 @@ class PreviewManager
 
     static setRotationCW(degrees)
     {
-        this.#degreesCW = degrees;
-
-        this.#degreesCW %= 360;
-
-        // If number of 9 degree rotations is odd
-        // Then it is flipped since degrees would either be 90 or 270
-        this.#isFlipped = (this.#degreesCW / 90) % 2 == 1;
+        // Set the degrees and constrain to [0, 360)
+        this.#degreesCW = degrees % 360;
     }
 
     static incrementRotationCW(degrees)
@@ -72,40 +65,32 @@ class PreviewManager
         this.#maxWidth = getWidth() * 0.5;
         this.#maxHeight = getHeight() * 0.5;
             
-        if(!this.#isFlipped)
+        // The source image dimensions
+
+        var srcWidth = this.#image.naturalWidth;
+        var srcHeight = this.#image.naturalHeight;
+
+        // Switch the source dimensions since we expect to have the image's width to be its height
+        // since its flipped and same for height -> width
+        if(!ImageManipulator.isFlipping(this.#degreesCW))
         {
-
-            // The source image dimensions
-            const srcWidth = this.#image.naturalWidth;
-            const srcHeight = this.#image.naturalHeight;
-
-            var [targetWidth, targetHeight] = ImageManipulator.fitImageIntoDimensions(
-                this.#maxWidth,
-                this.#maxHeight,
-                srcWidth,
-                srcHeight
-            );
-
-            this.setSize(targetWidth, targetHeight);
+            srcWidth = this.#image.naturalWidth;
+            srcHeight = this.#image.naturalHeight;
         }
         else
         {
-
-            // The source image dimensions
-            const srcWidth = this.#image.naturalWidth;
-            const srcHeight = this.#image.naturalHeight;
-
-            // Switch the source dimensions since we expect to have the image's width to be its height
-            // since its flipped and same for height -> width
-            var [targetWidth, targetHeight] = ImageManipulator.fitImageIntoDimensions(
-                this.#maxWidth,
-                this.#maxHeight,
-                srcHeight,
-                srcWidth
-            );
-
-            this.setSize(targetWidth, targetHeight);
+            srcWidth = this.#image.naturalHeight;
+            srcHeight = this.#image.naturalWidth; 
         }
+
+        var [targetWidth, targetHeight] = ImageManipulator.fitImageIntoDimensions(
+            this.#maxWidth,
+            this.#maxHeight,
+            srcWidth,
+            srcHeight
+        );
+
+        this.setSize(targetWidth, targetHeight);
     }
 
     static drawPreview()

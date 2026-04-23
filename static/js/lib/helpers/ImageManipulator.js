@@ -8,7 +8,7 @@ class ImageManipulator
         return (degrees / 90) % 2 == 1;
     }
 
-    static rotateCW(image, context, center, degrees, width, height)
+    static rotateCW(image, context, center, degrees, width, height, canvasWidth = canvas.width, canvasHeight = canvas.height)
     {
         var compensatedCenter = center.getCenterOffset(width, height);
 
@@ -49,7 +49,7 @@ class ImageManipulator
         // Resultant point after rotation matrix (must convert to native first)
         // It's negative since Canvas API rotates CW for positive but I like SI and SI uses
         // CCW as positive
-        var rotatedPoint = compensatedCenter.asNative().rotate(-radians);
+        var rotatedPoint = compensatedCenter.asNative(canvasWidth, canvasHeight).rotate(-radians);
 
         // Draw the image with the compensated values
         
