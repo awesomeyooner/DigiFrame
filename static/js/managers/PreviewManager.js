@@ -11,6 +11,10 @@ class PreviewManager
     static #imageWidth = 0;
     static #imageHeight = 0;
 
+    static #degreesCW = 0;
+
+    static #isFlipped = false;
+
     constructor(){}
 
     static init()
@@ -42,6 +46,22 @@ class PreviewManager
         this.#position.setPoint(newPosition);
     }
 
+    static setRotationCW(degrees)
+    {
+        this.#degreesCW = degrees;
+
+        this.#degreesCW %= 360;
+
+        // If number of 9 degree rotations is odd
+        // Then it is flipped since degrees would either be 90 or 270
+        this.#isFlipped = (this.#degreesCW / 90) % 2 == 1;
+    }
+
+    static incrementRotationCW(degrees)
+    {
+        this.setRotationCW(this.#degreesCW + degrees);
+    }
+
     static getCenter()
     {
         return this.#position.getCenterOffset(this.#imageWidth, this.#imageHeight);
@@ -51,19 +71,39 @@ class PreviewManager
     {
         this.#maxWidth = getWidth() * 0.5;
         this.#maxHeight = getHeight() * 0.5;
+            
+        if(!this.#isFlipped)
+        {
 
-        // The source image dimensions
-        const srcWidth = this.#image.naturalWidth;
-        const srcHeight = this.#image.naturalHeight;
+            // The source image dimensions
+            const srcWidth = this.#image.naturalWidth;
+            const srcHeight = this.#image.naturalHeight;
 
-        var [targetWidth, targetHeight] = ImageManipulator.fitImageIntoDimensions(
-            this.#maxWidth,
-            this.#maxHeight,
-            srcWidth,
-            srcHeight
-        );
+            var [targetWidth, targetHeight] = ImageManipulator.fitImageIntoDimensions(
+                this.#maxWidth,
+                this.#maxHeight,
+                srcWidth,
+                srcHeight
+            );
 
-        this.setSize(targetWidth, targetHeight);
+            this.setSize(targetWidth, targetHeight);
+        }
+        else
+        {
+
+            // The source image dimensions
+            const srcWidth = this.#image.naturalWidth;
+            const srcHeight = this.#image.naturalHeight;
+
+            var [targetWidth, targetHeight] = ImageManipulator.fitImageIntoDimensions(
+                this.#maxWidth,
+                this.#maxHeight,
+                srcWidth,
+                srcHeight
+            );
+
+            this.setSize(targetWidth, targetHeight);
+        }
     }
 
     static drawPreview()
@@ -101,7 +141,7 @@ class PreviewManager
             this.#image,
             context,
             this.#position,
-            270,
+            this.#degreesCW,
             this.#imageWidth,
             this.#imageHeight
         );

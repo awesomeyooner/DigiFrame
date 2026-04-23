@@ -3,6 +3,8 @@ class ImageManipulator
 
     static rotateCW(image, context, center, degrees, width, height)
     {
+        var isFlipped = (degrees / 90) % 2 == 1;
+
         var compensatedCenter = center.getCenterOffset(width, height);
 
         // Normalize to [0, 360)
@@ -11,12 +13,14 @@ class ImageManipulator
         // Convert to radians
         var radians = normalizedDegrees * Math.PI / 180;
 
+        var dimensionDiff = width - height;
+
         // Only need to apply translations for angles NOT 0
         if(normalizedDegrees == 90)
         {
             context.translate(
-                height,
-                0
+                height + (dimensionDiff / 2),
+                -dimensionDiff / 2
             );
         }
         else if(normalizedDegrees == 180)
@@ -29,8 +33,8 @@ class ImageManipulator
         else if(normalizedDegrees == 270)
         {
             context.translate(
-                0,
-                width
+                (dimensionDiff / 2),
+                width - (dimensionDiff / 2) 
             );
         }
 
