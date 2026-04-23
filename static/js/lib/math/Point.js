@@ -94,16 +94,16 @@ class Point{
      * Gets the X coordinate native to the p5 library
      * @returns The X coordinate of the point with origin being the top left corner
      */
-    getNativeX(){
-        return Utility.cartesianToNativeX(this.#x);
+    getNativeX(width = canvas.width){
+        return Utility.cartesianToNativeX(this.#x, width);
     }
 
     /**
      * Gets the Y coordinate native to the p5 library
      * @returns The Y coordinate of the point with origin being the top left corner
      */
-    getNativeY(){
-        return Utility.cartesianToNativeY(this.#y);
+    getNativeY(height = canvas.height){
+        return Utility.cartesianToNativeY(this.#y, height);
     }
 
     /**
