@@ -3,8 +3,6 @@ class ImageManipulator
 
     static rotateCW(image, context, center, degrees, width, height)
     {
-        var isFlipped = (degrees / 90) % 2 == 1;
-
         var compensatedCenter = center.getCenterOffset(width, height);
 
         // Normalize to [0, 360)
@@ -19,8 +17,8 @@ class ImageManipulator
         if(normalizedDegrees == 90)
         {
             context.translate(
-                height + (dimensionDiff / 2),
-                -dimensionDiff / 2
+                height + dimensionDiff,
+                0
             );
         }
         else if(normalizedDegrees == 180)
@@ -33,8 +31,8 @@ class ImageManipulator
         else if(normalizedDegrees == 270)
         {
             context.translate(
-                (dimensionDiff / 2),
-                width - (dimensionDiff / 2) 
+                0,
+                width - dimensionDiff
             );
         }
 
@@ -47,12 +45,26 @@ class ImageManipulator
         var rotatedPoint = compensatedCenter.asNative().rotate(-radians);
 
         // Draw the image with the compensated values
+        
+        var drawnWidth = width;
+        var drawnHeight = height;
+
+        var isFlipped = (degrees / 90) % 2 == 1;
+
+        // If the image is flipped
+        // Then flip the drawing dimensions
+        if(isFlipped)
+        {
+            drawnWidth = height;
+            drawnHeight = width;
+        }
+
         context.drawImage(
             image,
             rotatedPoint.getCartesianX(),
             rotatedPoint.getCartesianY(),
-            width,
-            height
+            drawnWidth,
+            drawnHeight
         ); 
 
         // Reset the transforms so that later calls aren't affected

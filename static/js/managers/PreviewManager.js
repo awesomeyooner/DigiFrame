@@ -95,11 +95,13 @@ class PreviewManager
             const srcWidth = this.#image.naturalWidth;
             const srcHeight = this.#image.naturalHeight;
 
+            // Switch the source dimensions since we expect to have the image's width to be its height
+            // since its flipped and same for height -> width
             var [targetWidth, targetHeight] = ImageManipulator.fitImageIntoDimensions(
                 this.#maxWidth,
                 this.#maxHeight,
-                srcWidth,
-                srcHeight
+                srcHeight,
+                srcWidth
             );
 
             this.setSize(targetWidth, targetHeight);
