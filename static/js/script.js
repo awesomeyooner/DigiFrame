@@ -21,7 +21,15 @@ ImageProcessor.init();
 
 const sendButton = new DynamicButton("buttonSubmit", 0, -0.25, 0.30, 0.285, 
     async (event) => {
-        await ConnectionManager.sendImage();
+
+        console.log("Preparing to send file...");
+
+        var isOK = await ConnectionManager.sendFile();
+
+        if(isOK)
+            console.log("File send successfully!");
+        else
+            console.log("File failed to send!");
     }
 );
 
@@ -30,6 +38,7 @@ CanvasManager.addDrawable(sendButton);
 const rotateButton = new DynamicButton("buttonRotate", -0.25, -0.25, 0.25, 0.225, 
     async (event) => {
         PreviewManager.incrementRotationCW(90);
+        ImageProcessor.rotateCW(1)
         CanvasManager.resizeCanvas();
     }
 );

@@ -1,6 +1,13 @@
 class ImageManipulator
 {
 
+    static isFlipping(degrees)
+    {
+        // If degrees is an odd multiple of 90
+        // Then it is flipping
+        return (degrees / 90) % 2 == 1;
+    }
+
     static rotateCW(image, context, center, degrees, width, height)
     {
         var compensatedCenter = center.getCenterOffset(width, height);
@@ -49,7 +56,7 @@ class ImageManipulator
         var drawnWidth = width;
         var drawnHeight = height;
 
-        var isFlipped = (degrees / 90) % 2 == 1;
+        var isFlipped = this.isFlipping(degrees);
 
         // If the image is flipped
         // Then flip the drawing dimensions

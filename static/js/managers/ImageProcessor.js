@@ -5,6 +5,8 @@ class ImageProcessor
 
     static #image = new Image();
 
+    static #center = new Point(0, 0);
+
     static #angle = 0;
 
     static init()
@@ -28,8 +30,21 @@ class ImageProcessor
 
     static updateCanvas()
     {
-        this.#canvas.setAttribute('width', this.#image.width);
-        this.#canvas.setAttribute('height', this.#image.height);
+        // If we are just flipping top <-> bottom
+        var isFlipping = ImageManipulator.isFlipping(this.#angle);
+
+        if(isFlipping)
+        {
+            // Keep normal Dimensions
+            this.#canvas.setAttribute('width', this.#image.width);
+            this.#canvas.setAttribute('height', this.#image.height);
+        }
+        else
+        {
+            // Swap dimensions
+            this.#canvas.setAttribute('width', this.#image.height);
+            this.#canvas.setAttribute('height', this.#image.width);
+        }
 
         this.drawImage();
     }
@@ -118,7 +133,7 @@ class ImageProcessor
     
         this.#canvas.toBlob((blob) => {
             console.log(blob);
-            ConnectionManager.sendFile(blob);
+            ConnectionManager.setFile(blob);
         }, 'image/png');
     }
 }

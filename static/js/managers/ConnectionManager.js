@@ -1,39 +1,17 @@
 class ConnectionManager
 {
+
+    static #file = null;
+
     constructor(){}
 
-    static async sendImage()
+    static setFile(file)
     {
-        const file = FileManager.getFile();
-
-        if(file == null)
-            return false;
-
-        var fileName = file.name;
-        var fileType = file.type;
-
-        var formData = new FormData();
-
-        formData.append("file", file);
-
-        const response = await fetch('/upload',
-            {
-                method: "POST",
-                body: formData
-            }
-        );
-
-        if(response.ok)
-            console.log("Image sent successfully!");
-        else
-            console.log("Image failed to send!");
-
-        return response.ok
+        this.#file = file;
     }
 
-    static async sendFile(file)
+    static async sendFile(file = this.#file)
     {
-
         if(file == null)
             return false;
 
@@ -51,12 +29,7 @@ class ConnectionManager
             }
         );
 
-        if(response.ok)
-            console.log("Image sent successfully!");
-        else
-            console.log("Image failed to send!");
-
-        return response.ok
+        return response.ok;
     }
 
 } // class ConnectionManager

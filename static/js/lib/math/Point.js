@@ -39,11 +39,11 @@ class Point{
      * Gets the point coordinates as native coordinates
      * @returns A new point whose x and y values are in native coordinates already
      */
-    asNative()
+    asNative(width = canvas.width, height = canvas.height)
     {
         return new Point(
-            this.getNativeX(),
-            this.getNativeY()
+            this.getNativeX(width),
+            this.getNativeY(height)
         );
     }
 
