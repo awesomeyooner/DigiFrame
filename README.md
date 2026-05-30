@@ -58,29 +58,26 @@ Here is a pic of the image rotation
 
 ## Setup
 
-### Installing Dependencies (apt)
+### Installing Dependencies
 
 ```bash
+# Install APT Packages
 $ sudo chmod +x setup/install.sh
 $ sudo ./setup/install.sh
-```
 
-### Setting up venv
-
-```bash
-# In repository root folder
+# Setup venv
 $ python -m venv venv
-
-# Source venv
 $ source venv/bin/activate
+
+# Install PIP Packages
+$ pip install -r setup/requirements.txt
 ```
 
-### Installing Prerequisites
-
-Please install the necessary Python packages!
+### Enabling SPI and I2C
 
 ```bash
-$ pip install -r setup/requirements.txt
+$ sudo chmod +x setup/enable_interfaces.sh
+$ sudo ./setup/enable_interfaces.sh
 ```
 
 ## Usage
