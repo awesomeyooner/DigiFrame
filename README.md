@@ -58,14 +58,21 @@ Here is a pic of the image rotation
 
 ## Setup
 
+### Installing Dependencies (apt)
+
+```bash
+$ sudo chmod +x setup/install.sh
+$ sudo ./setup/install.sh
+```
+
 ### Setting up venv
 
 ```bash
 # In repository root folder
-python -m venv venv
+$ python -m venv venv
 
 # Source venv
-source venv/bin/activate
+$ source venv/bin/activate
 ```
 
 ### Installing Prerequisites
@@ -73,7 +80,7 @@ source venv/bin/activate
 Please install the necessary Python packages!
 
 ```bash
-pip install -r requirements.txt
+$ pip install -r setup/requirements.txt
 ```
 
 ## Usage
