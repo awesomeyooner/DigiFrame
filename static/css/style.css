@@ -73,10 +73,36 @@ input[type="file"]::file-selector-button
 
     border-radius: 50%;
     /* border-color: black; */
-    /* border: 100px; */
+    border: 0px;
+
+    /* animation: spin 4s linear infinite; */
 }
 
-.button-submit{
+.button-loading{
+    width: 500px;
+    height: 500px;
+
+    position: absolute;
+
+    color:transparent;
+
+    top: 0px;
+    left: 0px;
+
+    background: url("/static/images/loading1.png");
+    background-size: cover; 
+    background-repeat: no-repeat; 
+    background-position: center;
+    transition: all 0.3s ease;
+
+    border-radius: 50%;
+    /* border-color: black; */
+    border: 0px;
+
+    animation: spin 4s linear infinite;
+}
+
+.button-rotate{
     width: 500px;
     height: 500px;
 
@@ -96,4 +122,10 @@ input[type="file"]::file-selector-button
     /* border-radius: 50%; */
     /* border-color: black; */
     border: 0;
+}
+
+/* Rotation keyframe */
+@keyframes spin {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
 }

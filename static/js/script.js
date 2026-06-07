@@ -23,12 +23,26 @@ const sendButton = new DynamicButton("buttonSubmit", 0, -0.25, 0.30, 0.285,
 
         console.log("Preparing to send file...");
 
+        sendButton.button.style.backgroundImage = "url('/static/images/loading1.png')";
+        sendButton.button.style.animation = "spin 4s linear infinite";
+
         var isOK = await ConnectionManager.sendFile();
 
+        sendButton.button.className = "button-send";
+
         if(isOK)
+        {
+            sendButton.button.style.backgroundImage = "url('/static/images/check.png')";
+            sendButton.button.style.animation = "";
+
             console.log("File send successfully!");
+        }
         else
+        {
+            sendButton.button.style.backgroundImage = "url('/static/images/cross.png')";
+            sendButton.button.style.animation = "";
             console.log("File failed to send!");
+        }
     }
 );
 

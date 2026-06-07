@@ -63,9 +63,8 @@ class DisplayAPI:
                 canvas.inky.display_image()
 
             case DisplayType.NONE:
-                
-                print("DisplayType was NONE, running server only...")
-
+                pass
+            
             case _:
                 print("Invalid Display Type")
 

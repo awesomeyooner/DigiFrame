@@ -29,9 +29,9 @@ class FileManager
 
             reader.readAsDataURL(selectedFile);
 
-            var or = await ImageProcessor.getOrientation(selectedFile);
+            var orientation = await ImageProcessor.getOrientation(selectedFile);
 
-            console.log(or);
+            console.log("EXIF Orientation: " + orientation);
         }
     );
 
