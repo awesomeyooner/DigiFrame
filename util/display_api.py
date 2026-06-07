@@ -4,12 +4,12 @@ from PIL import Image
 
 
 class DisplayType(Enum):
-    QT = "qt"
-    INKY = "inky"
+    NONE = "none"   # Only run the server (used for debugging)
+    QT = "qt"       # Use the QT Image Viewer
+    INKY = "inky"   # Use the Inky Impression
 
 
-DEFAULT_DISPLAY_TYPE = DisplayType.QT
-
+DEFAULT_DISPLAY_TYPE = DisplayType.NONE
 
 class DisplayAPI:
 
@@ -61,6 +61,10 @@ class DisplayAPI:
 
                 canvas.inky.set_image(image)
                 canvas.inky.display_image()
+
+            case DisplayType.NONE:
+                
+                print("DisplayType was NONE, running server only...")
 
             case _:
                 print("Invalid Display Type")

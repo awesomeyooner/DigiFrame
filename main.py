@@ -70,8 +70,17 @@ def main():
             # Run the Flask App
             run_app()
 
+        case DisplayType.NONE:
+
+            # Only run the Flask App
+            run_app()
+
         case _:
             print("Invalid Display Type")
+
+    print("==============================")
+    print("Shutting down app...")
+    print("==============================")
 
 
 if __name__ == '__main__':

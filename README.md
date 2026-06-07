@@ -85,10 +85,11 @@ $ sudo ./setup/enable_interfaces.sh
 All settings are configured in `settings.yaml`. Here is every option!
 
 ```yaml
-display: "qt"
+display: "none"
 # Possible Options:
 # "qt" - For using QT as the display
 # "inky" - For the Inky Display
+# "none" - For only running the server with no display
 
 host: "0.0.0.0"
 port: 8000
