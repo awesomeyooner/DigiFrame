@@ -13,6 +13,8 @@ class PreviewManager
 
     static #degreesCW = 0;
 
+    static #bezelColor = "red";
+
     constructor(){}
 
     static init()
@@ -48,6 +50,11 @@ class PreviewManager
     {
         // Set the degrees and constrain to [0, 360)
         this.#degreesCW = degrees % 360;
+    }
+
+    static setBezelColor(color)
+    {
+        this.#bezelColor = color;
     }
 
     static incrementRotationCW(degrees)
@@ -103,13 +110,15 @@ class PreviewManager
 
         var edgePadding = Math.max(this.#maxWidth, this.#maxHeight) * 0.05;
 
-        context.fillStyle = "brown";
+        // Outer Bezel
+        context.fillStyle = this.#bezelColor;
         Shapes.rectangleCenterFromPoint(
             this.#position,
             this.#maxWidth + edgePadding,
             this.#maxHeight + edgePadding
         );
 
+        // Void / unfilled areas
         context.fillStyle = "gray";
         Shapes.rectangleCenterFromPoint(
             this.#position,
@@ -117,6 +126,7 @@ class PreviewManager
             this.#maxHeight
         );
 
+        // Background of image
         context.fillStyle = "black";
         Shapes.rectangleCenterFromPoint(
             this.#position,

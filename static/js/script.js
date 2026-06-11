@@ -59,14 +59,18 @@ async function update(){
         });
 
         if(response.ok)
-            context.fillStyle = "green";
+            PreviewManager.setBezelColor("green");
+            // CanvasManager.resizeCanvas();
+            // context.fillStyle = "green";
     }
     catch(error)
     {
-        context.fillStyle = "red";
+        PreviewManager.setBezelColor("red");
+        // CanvasManager.resizeCanvas();
+        // context.fillStyle = "red";
     }        
 
-    Shapes.rectangleCenter(getWidth() * 0.40, getHeight() * 0.25, getSmallestDimension() * 0.1, getSmallestDimension() * 0.1);
+    // Shapes.rectangleCenter(getWidth() * 0.40, getHeight() * 0.25, getSmallestDimension() * 0.1, getSmallestDimension() * 0.1);
 }
 
 // Update every second
