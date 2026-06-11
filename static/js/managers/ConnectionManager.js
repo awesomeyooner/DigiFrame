@@ -22,12 +22,25 @@ class ConnectionManager
 
         formData.append("file", file);
 
-        const response = await fetch('/upload',
-            {
-                method: "POST",
-                body: formData
-            }
-        );
+        try
+        {
+            const response = await fetch('/upload',
+                {
+                    method: "POST",
+                    body: formData
+                }
+            );
+
+            return response.ok;
+        }
+        catch(error)
+        {
+            console.log("Error occured when sending file: ");
+            console.log(error);
+
+            // False means NOT OK
+            return false;
+        }
 
         return response.ok;
     }
