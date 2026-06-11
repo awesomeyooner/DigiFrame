@@ -37,6 +37,13 @@ class SendButton
         return this.dynamicButton.button;
     }
 
+    static setDefault()
+    {
+        // It's okay to leave backgroundImage empty since the button will rely on the CSS class
+        this.#getButton().style.backgroundImage = "";
+        this.#getButton().style.animation = "";
+    }
+
     static setLoading()
     {
         this.#getButton().style.backgroundImage = "url('/static/images/loading1.png')";

@@ -32,6 +32,10 @@ class FileManager
             var orientation = await ImageProcessor.getOrientation(selectedFile);
 
             console.log("EXIF Orientation: " + orientation);
+
+            // Reset the button back to the default image
+            // in case it was in the FAILED or OK state
+            SendButton.setDefault();
         }
     );
 
