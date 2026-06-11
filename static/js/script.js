@@ -19,20 +19,7 @@ ImageProcessor.init();
 // Mouse.configureBinding(() => console.log("Hello World!"), MouseState.ON_PRESS);
 SendButton.init();
 
-const rotateButton = new DynamicButton("buttonRotate", -0.25, -0.25, 0.25, 0.225, 
-    async (event) => {
-
-        // Rotate the displayed image and redraw the canvas to reflect rotation
-        PreviewManager.incrementRotationCW(90);
-        CanvasManager.resizeCanvas();
-
-        // Rotate the backend image and reprocess the image for sending
-        ImageProcessor.incrementRotationCW(90);
-        ImageProcessor.drawImage();
-    }
-);
-
-CanvasManager.addDrawable(rotateButton);
+RotateButton.init();
 
 async function sendMessage(){
     // Get the message
