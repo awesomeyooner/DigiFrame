@@ -28,7 +28,7 @@ class RotateButton
     {
         // Rotate the displayed image and redraw the canvas to reflect rotation
         PreviewManager.incrementRotationCW(90);
-        CanvasManager.resizeCanvas();
+        CanvasManager.refreshCanvas();
 
         // Rotate the backend image and reprocess the image for sending
         ImageProcessor.incrementRotationCW(90);

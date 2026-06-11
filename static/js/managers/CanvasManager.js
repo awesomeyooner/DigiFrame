@@ -26,17 +26,17 @@ class CanvasManager
     static init()
     {
         const resizeObserver = new ResizeObserver(() => {
-            requestAnimationFrame(CanvasManager.resizeCanvas);
+            requestAnimationFrame(CanvasManager.refreshCanvas);
         });
         resizeObserver.observe(container);
-        CanvasManager.resizeCanvas();
+        CanvasManager.refreshCanvas();
     }
 
 
     /**
      * Resizes the canvas to the container and redraws the canvas
      */
-    static resizeCanvas()
+    static refreshCanvas()
     {
         canvas.width = container.clientWidth;
         canvas.height = container.clientHeight;

@@ -60,13 +60,13 @@ async function update(){
 
         if(response.ok)
             PreviewManager.setBezelColor("green");
-            // CanvasManager.resizeCanvas();
+            CanvasManager.refreshCanvas();
             // context.fillStyle = "green";
     }
     catch(error)
     {
         PreviewManager.setBezelColor("red");
-        // CanvasManager.resizeCanvas();
+        CanvasManager.refreshCanvas();
         // context.fillStyle = "red";
     }        
 
