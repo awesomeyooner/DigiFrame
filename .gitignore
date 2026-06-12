@@ -1,10 +1,8 @@
-# Ignore build folder
-/project/build/**
-/project/build/
-/**/build/
-**/build/
 
+# Ignore Venv and Conda env 
 /**/env/
+/**/venv/
 /**/__pycache__/
 
+# Ignore all images that are downloaded during use
 /images/**
