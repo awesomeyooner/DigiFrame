@@ -45,6 +45,7 @@ Here is a pic of the image rotation
 .
 ├── docs # README stuff 
 ├── images # Where the images are kept in the server
+├── setup # Setup scripts
 ├── static # Javascript and CSS files for the webpage
 ├── templates # Where the main `index.html` file is located
 ├── test # Python test programs (for debugging)
@@ -61,16 +62,8 @@ Here is a pic of the image rotation
 ### Installing Dependencies
 
 ```bash
-# Install APT Packages
 $ sudo chmod +x setup/install.sh
 $ sudo ./setup/install.sh
-
-# Setup venv
-$ python -m venv venv
-$ source venv/bin/activate
-
-# Install PIP Packages
-$ pip install -r setup/requirements.txt
 ```
 
 ### Enabling SPI and I2C

@@ -13,12 +13,12 @@ echo "Done!"
 
 echo "Creating Python Virtual Environment..."
 
-python -m venv ../venv
+python -m venv env
 
 echo "Done!"
 
 echo "Installing PIP packages..."
 
-../venv/bin/pip install -r setup/requirements.txt
+env/bin/pip install -r setup/requirements.txt
 
-
+echo "Done!"
