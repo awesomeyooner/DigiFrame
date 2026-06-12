@@ -1,0 +1,12 @@
+[Unit]
+Description=DigiFrame Main Application
+After=network.target
+
+[Service]
+User=aaron
+WorkingDirectory=/home/aaron/DigiFrame
+ExecStart=/home/aaron/DigiFrame/env/bin/python /home/aaron/DigiFrame/main.py
+Restart=always
+
+[Install]
+WantedBy=multi-user.target

@@ -8,8 +8,6 @@ class DynamicButton extends Button
         this.yScale = yScale;
         this.defaultScale = defaultScale;
         this.clickedScale = clickedScale;
-        
-        
 
         this.updateProperties();
     }

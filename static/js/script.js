@@ -17,37 +17,9 @@ PreviewManager.init();
 ImageProcessor.init();
 
 // Mouse.configureBinding(() => console.log("Hello World!"), MouseState.ON_PRESS);
+SendButton.init();
 
-const sendButton = new DynamicButton("buttonSubmit", 0, -0.25, 0.30, 0.285, 
-    async (event) => {
-
-        console.log("Preparing to send file...");
-
-        var isOK = await ConnectionManager.sendFile();
-
-        if(isOK)
-            console.log("File send successfully!");
-        else
-            console.log("File failed to send!");
-    }
-);
-
-CanvasManager.addDrawable(sendButton);
-
-const rotateButton = new DynamicButton("buttonRotate", -0.25, -0.25, 0.25, 0.225, 
-    async (event) => {
-
-        // Rotate the displayed image and redraw the canvas to reflect rotation
-        PreviewManager.incrementRotationCW(90);
-        CanvasManager.resizeCanvas();
-
-        // Rotate the backend image and reprocess the image for sending
-        ImageProcessor.incrementRotationCW(90);
-        ImageProcessor.drawImage();
-    }
-);
-
-CanvasManager.addDrawable(rotateButton);
+RotateButton.init();
 
 async function sendMessage(){
     // Get the message
@@ -80,16 +52,25 @@ async function update(){
 
     Keyboard.update();
 
-    const response = await fetch('/alive', {
-        method: "GET",
-    });
+    try
+    {
+        const response = await fetch('/alive', {
+            method: "GET",
+        });
 
-    if(response.ok)
-        context.fillStyle = "green";
-    else
-        context.fillStyle = "green";
+        if(response.ok)
+            PreviewManager.setBezelColor("green");
+            CanvasManager.refreshCanvas();
+            // context.fillStyle = "green";
+    }
+    catch(error)
+    {
+        PreviewManager.setBezelColor("red");
+        CanvasManager.refreshCanvas();
+        // context.fillStyle = "red";
+    }        
 
-    Shapes.rectangleCenter(0, 0, 50, 50);
+    // Shapes.rectangleCenter(getWidth() * 0.40, getHeight() * 0.25, getSmallestDimension() * 0.1, getSmallestDimension() * 0.1);
 }
 
 // Update every second

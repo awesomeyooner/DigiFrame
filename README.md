@@ -45,6 +45,7 @@ Here is a pic of the image rotation
 .
 ├── docs # README stuff 
 ├── images # Where the images are kept in the server
+├── setup # Setup scripts
 ├── static # Javascript and CSS files for the webpage
 ├── templates # Where the main `index.html` file is located
 ├── test # Python test programs (for debugging)
@@ -58,22 +59,18 @@ Here is a pic of the image rotation
 
 ## Setup
 
-### Setting up venv
+### Installing Dependencies
 
 ```bash
-# In repository root folder
-python -m venv venv
-
-# Source venv
-source venv/bin/activate
+$ sudo chmod +x setup/install.sh
+$ sudo ./setup/install.sh
 ```
 
-### Installing Prerequisites
-
-Please install the necessary Python packages!
+### Enabling SPI and I2C
 
 ```bash
-pip install -r requirements.txt
+$ sudo chmod +x setup/enable_interfaces.sh
+$ sudo ./setup/enable_interfaces.sh
 ```
 
 ## Usage
@@ -81,10 +78,11 @@ pip install -r requirements.txt
 All settings are configured in `settings.yaml`. Here is every option!
 
 ```yaml
-display: "qt"
+display: "none"
 # Possible Options:
 # "qt" - For using QT as the display
 # "inky" - For the Inky Display
+# "none" - For only running the server with no display
 
 host: "0.0.0.0"
 port: 8000
