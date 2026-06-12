@@ -1,5 +1,6 @@
 #!/bin/bash
 
+# Install APT packages
 echo "Installing APT packages..."
 
 sudo apt install -y git \
@@ -11,12 +12,14 @@ sudo apt install -y git \
 
 echo "Done!"
 
-echo "Creating Python Virtual Environment..."
+# Create Python Venv
+echo "Creating Python Virtual Environment at $(pwd)/env"
 
 python -m venv env
 
 echo "Done!"
 
+# Install PIP packages
 echo "Installing PIP packages..."
 
 env/bin/pip install -r setup/requirements.txt
