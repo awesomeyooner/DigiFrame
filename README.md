@@ -73,6 +73,31 @@ $ sudo chmod +x setup/enable_interfaces.sh
 $ sudo ./setup/enable_interfaces.sh
 ```
 
+### Adding .service File
+
+```bash
+$ sudo chmod +x setup/add_service.sh
+$ sudo ./setup/add_service.sh
+```
+
+### Enabling Hotspot
+
+```bash
+$ sudo chmod +x setup/hotspot.sh
+$ sudo ./setup/hotspot.sh
+```
+
+### All-in-One Setup
+
+If you want to do everything all at once, run the following
+
+> **NOTE** This will reboot your Pi! It will also create it's own hotspot.
+
+```bash
+$ sudo chmod +x setup/all_in_one.sh
+$ sudo ./setup/all_in_one.sh
+```
+
 ## Usage
 
 All settings are configured in `settings.yaml`. Here is every option!
