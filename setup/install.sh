@@ -11,3 +11,14 @@ sudo apt install -y git \
 
 echo "Done!"
 
+echo "Creating Python Virtual Environment..."
+
+python -m venv ../venv
+
+echo "Done!"
+
+echo "Installing PIP packages..."
+
+../venv/bin/pip install -r setup/requirements.txt
+
+
