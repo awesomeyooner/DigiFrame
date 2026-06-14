@@ -31,30 +31,29 @@ The middle button is to send the image to the server
 
 The right button is to select an image from your gallery
 
-(Ignore the green box...)
+The green border indicates that connection to the server is alive
 
-![web_normal](docs/images/web_normal.png)
+![WebPage-Good](docs/images/WebPage-Good.png)
 
 Here is a pic of the image rotation
 
-![web_rotated](docs/images/web_rotated.png)
+![WebPage-Rotate](docs/images/WebPage-Rotate.png)
 
 ## Folder Directory
 
 ```bash
 .
-├── docs # README stuff 
+├── docs # README Resources
 ├── images # Where the images are kept in the server
-├── setup # Setup scripts
-├── static # Javascript and CSS files for the webpage
-├── templates # Where the main `index.html` file is located
-├── test # Python test programs (for debugging)
-├── util # Python helper code
-├── main.py # The main python script
-├── server.py # The server code (runs from main, it's in root dir cuz of Flask reasons)
-├── requirements.txt # pip requirements
-└── settings.yaml # Settings file to change backend options (Inky vs Qt)
-
+├── main.py # Main Script
+├── server.py # Code for Flask App (runs from main.py)
+├── settings.yaml # YAML settings for changing options on-the-fly
+├── setup # Scripts for installing and setting up everything
+├── static # Javascript, CSS, and images
+├── templates # HTML file
+├── util # Helper Python files
+├── test # Test scripts for things like running the inky bare
+└── README.md # This file!
 ```
 
 ## Setup
@@ -71,6 +70,31 @@ $ sudo ./setup/install.sh
 ```bash
 $ sudo chmod +x setup/enable_interfaces.sh
 $ sudo ./setup/enable_interfaces.sh
+```
+
+### Adding .service File
+
+```bash
+$ sudo chmod +x setup/add_service.sh
+$ sudo ./setup/add_service.sh
+```
+
+### Enabling Hotspot
+
+```bash
+$ sudo chmod +x setup/hotspot.sh
+$ sudo ./setup/hotspot.sh
+```
+
+### All-in-One Setup
+
+If you want to do everything all at once, run the following
+
+> **NOTE** This will reboot your Pi! It will also create it's own hotspot.
+
+```bash
+$ sudo chmod +x setup/all_in_one.sh
+$ sudo ./setup/all_in_one.sh
 ```
 
 ## Usage

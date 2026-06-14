@@ -1,5 +1,6 @@
 #!/bin/bash
 
+NMCLI_PROFILE_NAME=Hotspot
 HOTSPOT_NAME=DigiFrame
 PASSWORD=April182025
 
@@ -9,4 +10,4 @@ IFNAME=wlan0
 sudo nmcli device wifi hotspot ssid "${HOTSPOT_NAME}" password "${PASSWORD}" ifname "${IFNAME}" 
 
 # Configure autoconnect settings
-sudo nmcli connection modify "${HOTSPOT_NAME}" connection.autoconnect yes connection.autoconnect-priority 100
+sudo nmcli connection modify "${NMCLI_PROFILE_NAME}" connection.autoconnect yes connection.autoconnect-priority 100
